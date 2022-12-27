@@ -36,7 +36,7 @@ export default function Attributions() {
             "Mei Yue WONG",
             "Sze Chun Vanessa LEE",
             "Diya AGRAWAL"].map(name => (
-              <dd className="text-2xl">{name}</dd>
+              <dd className="text-2xl" key={name}>{name}</dd>
             ))
           }
         </dl>
@@ -77,10 +77,12 @@ export default function Attributions() {
               "Enqi Michelle LAI",
               "Pik Sum CHIU",
               "Sze Ho Daniel LOO",
-              "Wei Kuang Gabriel SOO Rainbow Yi Hung LAM Yanna Yatnga HUI",
+              "Wei Kuang Gabriel SOO",
+              "Rainbow Yi Hung LAM",
+              "Yanna Yatnga HUI",
               "Yoonsuh OH",
               "Hiu Ching Denise CHAN"
-            ].map(name => <dd className="text-2xl">{name}</dd>)
+            ].map(name => <dd key={name} className="text-2xl">{name}</dd>)
           }
         </dl>
         <dl>
@@ -105,7 +107,7 @@ export default function Attributions() {
               "Jockey Club “age at home” Gerontech Education and Rental Service",
               "Elderly Resources Centre",
               "Kowloon Sam Yuk Secondary School",
-            ].map(name => <dd className="text-2xl">{name}</dd>)
+            ].map(name => <dd key={name} className="text-2xl">{name}</dd>)
           }
         </dl>
         <dl>
@@ -115,7 +117,7 @@ export default function Attributions() {
             "Equal Opportunities Foundation",
             "Lau Chor Tak Foundation Limited",
             "Seal of Love Charitable Foundation University Grants Committee",
-          ].map(name => <dd className="text-2xl">{name}</dd>)}
+          ].map(name => <dd key={name} className="text-2xl">{name}</dd>)}
         </dl>
         <dl>
           <dt className="font-bold text-4xl mb-6">Faculty Advisors</dt>
@@ -123,29 +125,33 @@ export default function Attributions() {
             [
               "Prof. Vincent Y F LI",
               "Prof. Y.S. Marshal LIU",
-              "Prof. Davis Boyd BOOKHART Prof. Alex LAM",
+              "Prof. Davis Boyd BOOKHART",
+              "Prof. Alex LAM",
               "Prof. Siu Woo CHEUNG",
               "Prof. May-yi SHAW",
               "Prof. Sujata VISARIA",
               "Prof. Carrie LING",
               "Prof. Luisa MOK",
-              "Prof. Anirban MUKHOPADHYAY Prof. Richard Hau Yue SO",
+              "Prof. Anirban MUKHOPADHYAY",
+              "Prof. Richard Hau Yue SO",
               "Prof. Desmond TSOI",
               "Prof. Levent YOBAS",
               "Prof. Terrence Fu YEE",
-              "Prof. Paul Whitfield FORSTER Prof. Ajay JONEJA",
+              "Prof. Paul Whitfield FORSTER",
+              "Prof. Ajay JONEJA",
               "Prof. Neville K S LEE",
               "Prof. Roger S K CHENG",
               "Prof. Lilong CAI",
               "Prof. Shing-Chi CHEUNG",
               "Prof. Yi-Kuen LEE",
-              "Prof. Suk Wai Winnie LEUNG Prof. Danny SC NG",
+              "Prof. Suk Wai Winnie LEUNG",
+              "Prof. Danny SC NG",
               "Prof. Shenghui SONG",
               "Prof. Pedro SANDER",
               "Dr. Silver CHAN",
               "Mr. Derek LAM",
               "Mr. Donny Koon Ming SIU Mr. Tat Chi Francis LO",
-            ].map(name => <dd className="text-2xl">{name}</dd>)
+            ].map(name => <dd key={name} className="text-2xl">{name}</dd>)
           }
         </dl>
         <dl>
@@ -330,7 +336,7 @@ export default function Attributions() {
               'LAM Yun Tin',
               'NG Tik Sang',
               'WONG Chak Long'
-            ].map(name => <dd className="text-2xl">{name}</dd>)
+            ].map(name => <dd key={name} className="text-2xl">{name}</dd>)
           }
         </dl>
       </section>
