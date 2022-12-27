@@ -1,4 +1,4 @@
-docker-build:
+publish:
   # Use the official docker image.
   image: docker:latest
   stage: build
