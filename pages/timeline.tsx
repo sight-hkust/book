@@ -13,8 +13,8 @@ export default function Timeline() {
           <ul className='flex flex-col h-full justify-around'>
             {
               ['2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', 'NOW'].map(year => (
-                <li className='w-4 h-4 -ml-[7px] bg-[#c5cac7] rounded-full'>
-                  <span className='text-[#c5cac7] font-bold -ml-12 -mt-6'>{year}</span>
+                <li key={year} className='w-4 h-4 -ml-[7px] bg-[#c5cac7] rounded-full'>
+                  <span className='text-[#c5cac7] font-bold -ml-12'>{year}</span>
                 </li>
               ))
             }
