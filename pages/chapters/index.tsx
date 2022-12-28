@@ -8,24 +8,24 @@ export default function Chapters() {
     <Layout
       prevPageHref="/"
       nextPageHref="/preface"
-      className="bg-[#fffef7] w-full h-full text-[#142a44] pt-24">
+      className="bg-[#fffef7] w-full h-full text-[#142a44] pt-16 sm:pt-24">
       <Head>
         <title>Chapters</title>
       </Head>
-      <div className="w-4/5 mx-auto">
-        <h1 className="uppercase font-bold text-4xl">index</h1>
+      <div className="w-5/6 sm:w-4/5 mx-auto">
+        <h1 className="uppercase font-bold text-2xl sm:text-4xl">index</h1>
       </div>
-      <div id="index" className="text-[#142a44] sm:text-2xl flex w-4/5 justify-evenly mx-auto">
+      <div id="index" className="text-[#142a44] sm:text-2xl flex w-5/6 sm:w-4/5 justify-evenly mx-auto">
         <ul>
           <li className="my-16">
             <Link href="/preface" className="flex items-center">
-              <div className="bg-[#142a44] sm:w-8 sm:h-8 w-6 h-6 rounded-full mr-5"></div>
+              <div className="bg-[#142a44] sm:w-8 sm:h-8 w-4 h-4 rounded-full mr-3 sm:mr-5"></div>
               <span>Preface</span>
             </Link>
           </li>
           <li className="my-16">
             <Link className="flex items-center" href="/timeline">
-              <div className="bg-[#142a44] sm:w-8 sm:h-8 w-6 h-6 rounded-full mr-5"></div>
+              <div className="bg-[#142a44] sm:w-8 sm:h-8 w-4 h-4 rounded-full mr-3 sm:mr-5"></div>
               <span>Timeline</span>
             </Link>
           </li>
@@ -33,13 +33,13 @@ export default function Chapters() {
         <ul className="mt-8">
           <li className="my-16">
             <Link className="flex items-center" href="#">
-              <div className="bg-[#142a44] sm:w-8 sm:h-8 w-6 h-6 rounded-full mr-5"></div>
+              <div className="bg-[#142a44] sm:w-8 sm:h-8 w-4 h-4 rounded-full mr-3 sm:mr-5"></div>
               <span>Motto</span>
             </Link>
           </li>
           <li className="my-16">
             <Link className="flex items-center" href="#">
-              <div className="bg-[#142a44] sm:w-8 sm:h-8 w-6 h-6 rounded-full mr-5"></div>
+              <div className="bg-[#142a44] sm:w-8 sm:h-8 w-4 h-4 rounded-full mr-3 sm:mr-5"></div>
               <span>The<br/>Footprint</span>
             </Link>
           </li>
@@ -47,16 +47,16 @@ export default function Chapters() {
         <ul className="mt-12">
           <li className="my-16">
             <Link className="flex items-center" href="#">
-              <div className="bg-[#142a44] sm:w-8 sm:h-8 w-6 h-6 rounded-full mr-5"></div>
+              <div className="bg-[#142a44] sm:w-8 sm:h-8 w-4 h-4 rounded-full mr-3 sm:mr-5"></div>
               <span>Design Thinking</span>
             </Link>
           </li>
         </ul>
       </div>
-      <div className="mt-24 w-4/5 mx-auto flex flex-row-reverse">
-        <h1 className="font-bold text-4xl">Our Projects</h1>
+      <div className="mt-16 sm:mt-24 w-5/6 sm:w-4/5 mx-auto flex flex-row-reverse">
+        <h1 className="font-bold text-2xl sm:text-4xl">Our Projects</h1>
       </div>
-      <div id="chapters" className="text-[#142a44] sm:text-2xl text-lg flex w-4/5 justify-evenly mx-auto">
+      <div id="chapters" className="text-[#142a44] sm:text-2xl text-base flex w-5/6 sm:w-4/5 justify-evenly mx-auto">
         <ul>
           {
             [
@@ -99,7 +99,7 @@ export default function Chapters() {
             ].map(item => (
               <li key={item.title} className="my-16">
                 <Link className="flex items-center" href={item.href}>
-                  <div className="bg-[#142a44] sm:w-8 sm:h-8 w-6 h-6 rounded-full mr-5"></div>
+                  <div className="bg-[#142a44] sm:w-8 sm:h-8 w-4 h-4 rounded-full mr-3 sm:mr-5"></div>
                   <span className="whitespace-pre-line">{item.title}</span>
                 </Link>
               </li>
@@ -144,7 +144,7 @@ export default function Chapters() {
             ].map(item => (
               <li key={item.title} className="my-16">
                 <Link className="flex items-center" href={item.href}>
-                  <div className="bg-[#142a44] sm:w-8 sm:h-8 w-6 h-6 rounded-full mr-5"></div>
+                  <div className="bg-[#142a44] sm:w-8 sm:h-8 w-4 h-4 rounded-full mr-3 sm:mr-5"></div>
                   <span className="whitespace-pre-line">{item.title}</span>
                 </Link>
               </li>
@@ -156,7 +156,7 @@ export default function Chapters() {
             [
               {
                 title: 'Diabetic\nRetina\nDetection',
-                href: '#'
+                href: '/diabetic-retinopathy-detection'
               },
               {
                 title: 'Dr. Level Up',
@@ -189,7 +189,7 @@ export default function Chapters() {
             ].map(item => (
               <li key={item.title} className="my-16">
                 <Link className="flex items-center" href={item.href}>
-                  <div className="bg-[#142a44] sm:w-8 sm:h-8 w-6 h-6 rounded-full mr-5"></div>
+                  <div className="bg-[#142a44] sm:w-8 sm:h-8 w-4 h-4 rounded-full mr-3 sm:mr-5"></div>
                   <span className="whitespace-pre-line">{item.title}</span>
                 </Link>
               </li>
