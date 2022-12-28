@@ -15,7 +15,7 @@ export default function Chapters() {
       <div className="w-4/5 mx-auto">
         <h1 className="uppercase font-bold text-4xl">index</h1>
       </div>
-      <div id="index" className="text-[#142a44] sm:text-2xl text-lg flex w-4/5 justify-evenly mx-auto">
+      <div id="index" className="text-[#142a44] sm:text-2xl flex w-4/5 justify-evenly mx-auto">
         <ul>
           <li className="my-16">
             <Link href="/preface" className="flex items-center">
@@ -24,7 +24,7 @@ export default function Chapters() {
             </Link>
           </li>
           <li className="my-16">
-            <Link className="flex items-center" href="#">
+            <Link className="flex items-center" href="/timeline">
               <div className="bg-[#142a44] sm:w-8 sm:h-8 w-6 h-6 rounded-full mr-5"></div>
               <span>Timeline</span>
             </Link>

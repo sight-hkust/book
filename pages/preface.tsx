@@ -1,9 +1,13 @@
 import React from "react";
 import Head from "next/head";
+import Layout from "../components/Layout";
 
 export default function Preface() {
   return (
-    <div className="bg-[#fffef7] w-full h-full text-[#142a44]">
+    <Layout 
+      prevPageHref="/chapters"
+      nextPageHref="/motto"
+      className="bg-[#fffef7] w-full h-full text-[#142a44]">
       <Head>
         <title>Preface</title>
       </Head>
@@ -26,6 +30,6 @@ need to deploy interdisciplinary skillsets. All this behooves students to break 
         <h2 className="font-bold sm:text-4xl text-2xl mb-4">Prof. Ying Chau</h2>
         <span className="sm:text-xl">Founder and Director, SIGHT at HKUST, 2014 - present</span>
       </section>
-    </div>
+    </Layout>
   )
 }
