@@ -12,7 +12,7 @@ export default function Chapter() {
         <title>Behind the Scene</title>
       </Head>
       <section className="h-screen bg-[#fffef7] text-[#892b2b] text-2xl py-24 flex flex-col justify-center sm:px-16 px-8">
-        <h1 className="text-5xl font-bold">&quot;</h1>
+        <h1 className="text-5xl font-bold">&ldquo;</h1>
         <h1 className="text-[#fffef7] sm:text-5xl text-3xl font-black" style={{WebkitTextStroke: '1px #892b2b'}}>Enriching our education to serve its <br/>purpose:</h1>
         <h1 className="sm:text-6xl text-4xl font-black mt-16">For the betterment of humanity.</h1>
       </section>
@@ -32,12 +32,12 @@ a variety of approaches and possibilities, and most importantly, be mindful of t
         </article>
       </section>
       <section className="h-screen bg-[#15216a] text-white sm:text-2xl text-lg py-24 flex flex-col justify-center sm:px-16 px-8">
-        <h1 className="sm:text-6xl text-3xl font-bold">&quot;</h1>
+        <h1 className="sm:text-6xl text-3xl font-bold">&ldquo;</h1>
         <h1 className="text-white sm:text-6xl text-3xl font-black">It is through SIGHT,<br/> that I see with students, learn with students <br/>and serve with students.</h1>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] text-2xl flex flex-col items-center py-24">
         <h1 className="font-black sm:text-5xl text-2xl">Prof. Ying Chau</h1>
-        <h2 className="font-medium text-lg">Founder and Director, SIGHT at HKUST, 2014 - present</h2>
+        <h2 className="font-medium sm:text-lg text-sm">Founder and Director, SIGHT at HKUST, 2014 - present</h2>
         <article className="sm:text-xl text-base w-4/5 mx-auto flex flex-col space-y-10">
           <p className="first-letter:text-2xl sm:first-letter:text-4xl">Under the near-40 ̊C sun, one could see the sweat on the students&apos; backs as it soaked through their shirts. The group had just pulled an all-nighter, and they were now explaining how their creation works to the medical team serving the slums in Phnom Penh, Cambodia. Students from different majors pulled together to construct their electronic medical record system, over months of development and testing. They still worried that their system would not be accepted by the local residents,
 but relief is palpable when one of the residents spontaneously made way to the fingerprint sensor by themselves to retrieve their medical record. At the other end of the site, other students were running an open air health seminar. While language was still a barrier, thanks to the translation of our local partner, the students and residents were mingling, sharing what ails them, in health and in life. Each and every one of the students wore their blue SIGHT t-shirts, with “Simple Technology, BIG Difference” emblazoned on the back. This moment from the Cambodian trip with the MedEasy Project Team is still etched in my mind. Each SIGHT project comes with such cherished memories. Every time I witness students’ selfless dedication to their projects, their passion to change the world for the better, I find myself so proud of them. And not just pride, but also newfound respect, as well as gratitude for the hope they are bringing to the future.</p>
@@ -46,15 +46,15 @@ but relief is palpable when one of the residents spontaneously made way to the f
         </article>
       </section>
       <section className="h-screen bg-[#fffef7] text-[#412312] sm:text-2xl text-lg py-24 flex flex-col justify-center items-center px-16">
-        <h1 className="sm:text-6xl text-3xl font-bold w-full">&quot;</h1>
+        <h1 className="sm:text-6xl text-3xl font-bold w-full">&ldquo;</h1>
         <h1 className="text-[#fffef7] sm:text-8xl text-4xl font-black" style={{WebkitTextStroke: '2px #142a44'}}>Learning is all about </h1>
         <h1 className="text-[#412312] sm:text-8xl text-4xl font-black">experience</h1>
         <h1 className="text-[#fffef7] sm:text-7xl text-3xl font-black" style={{WebkitTextStroke: '2px #142a44'}}>rest is just information.</h1>
       </section>
       <section className="bg-[#bfab95] text-[#412312] sm:text-2xl text-lg flex flex-col items-center py-24">
         <h1 className="font-black sm:text-5xl text-2xl">Prof. Anirban Mukhopadhyay</h1>
-        <h2 className="font-medium text-lg">Faculty Advisor</h2>
-        <h2 className="font-medium text-lg">Associate Provost (Teaching & Learning), Sep 2020 - Jan 2022</h2>
+        <h2 className="font-medium sm:text-lg text-sm">Faculty Advisor</h2>
+        <h2 className="font-medium sm:text-lg text-sm">Associate Provost (Teaching & Learning), Sep 2020 - Jan 2022</h2>
         <article className="sm:text-xl text-base w-4/5 mx-auto flex flex-col space-y-10">
           <p className="first-letter:text-2xl sm:first-letter:text-4xl">With a balanced amalgamation of innovation, training and real-life implementation, SIGHT offers a unique and exciting platform for students to get acquainted with
 the ground reality. To me, the distinguishing feature for SIGHT is its clearly laid out multidisciplinary focus and the sheer institutional backing provided by committed members of SIGHT, including the instructors, advisors, leaders to name a few. The strong foothold that SIGHT has made for itself in the past 7 years is a result of its commitment, and passion towards experiential learning that came out in an effort- intensive, yet, effective manner. I look forward to seeing more courses at UST that can look up to SIGHT and incorporate the virtues of it.</p>
@@ -65,8 +65,8 @@ the right attitude towards learning and constantly remind ourselves of the ultim
       </section>
       <section className="bg-[#fffef7] text-[#134d4d] sm:text-2xl text-lg flex flex-col items-center py-24">
         <h1 className="font-black sm:text-5xl text-2xl">Prof. Marshal Liu</h1>
-        <h2 className="font-medium sm:text-lg text-base">Faculty Advisor</h2>
-        <h2 className="font-medium sm:text-lg text-base">Food gerontechnology - Feed You Well, Zi Saam Dim Sum</h2>
+        <h2 className="font-medium sm:text-lg text-sm">Faculty Advisor</h2>
+        <h2 className="font-medium sm:text-lg text-sm">Food gerontechnology - Feed You Well, Zi Saam Dim Sum</h2>
         <article className="sm:text-xl text-base w-4/5 mx-auto flex flex-col space-y-10">
           <p className="first-letter:text-2xl sm:first-letter:text-4xl">There are lots of problems arising every day. Hong Kong students, both primary and secondary school students, often lack the opportunity to be exposed directly to these problems. Social issues are included in class discussion e.g. during Liberal Studies lessons, but simply learning is different from getting involved personally and coming up with solutions. The emotional attachment, which is also the human element, makes things happen differently. Luckily, SIGHT is present in HKUST for connecting students with the world, equipping them with problem-solving and communication skills.</p>
           <p>SIGHT is different from any other programmes in UST. As an experiential learning course, it offers a well-designed but customised course design to students, depending on different project teams&apos; needs. Usually, project milestones are set according to students&apos; pace and the teaching team’s expectation. Simultaneously, students have to be learning-driven to identify and acquire useful skills for the project themselves. I believe the flexibility given have made the learning space more relaxing and uplifting for the students.</p>
@@ -80,8 +80,8 @@ In SIGHT, students from diverse background come together and work on the big tas
       </section>
       <section className="bg-[#134d4d] text-[#fffef7] sm:text-2xl text-lg flex flex-col items-center py-24">
         <h1 className="font-black sm:text-5xl text-2xl">Prof. Vincent Li</h1>
-        <h2 className="font-medium sm:text-lg text-base">Faculty Advisor</h2>
-        <h2 className="font-medium sm:text-lg text-base">Lavatory Management System, CollaBox, Malaria Prevention</h2>
+        <h2 className="font-medium sm:text-lg text-sm">Faculty Advisor</h2>
+        <h2 className="font-medium sm:text-lg text-sm">Lavatory Management System, CollaBox, Malaria Prevention</h2>
         <article className="sm:text-xl text-base w-4/5 mx-auto flex flex-col space-y-10">
           <p className="first-letter:text-2xl sm:first-letter:text-4xl">It is my pleasure to write about my memories during the last five years as a SIGHT advisor and I am happy to see SIGHT has experienced their six years journey. I joined SIGHT in 2015 when I commenced my humanitarian services with Medecins San Frontiers (Doctor Without Borders) as a field worker. I have engaged in missions in various war zones and pandemic areas, like Afghanistan, Cambodia, Nigeria, India, Zimbabwe and Sierra Leone. I was responsible for designing and building new hospitals in the affected areas; and providing technical supports to the front line medical operations. My experience in Samaritans Befrienders (counseling people who are suicidal) also facilitates me in assisting my colleagues in the field who are stressed and frustrated. I hope my past experience in helping others can provide guidance to SIGHT students working on humanitarian projects.</p>
           <p>I have made a number of presentations about my missions for SIGHT students. I was happy to see students were quite enthusiastic about the humanitarian operations
@@ -95,8 +95,8 @@ soap workshop and the hygiene training program. We did give some ideas about the
       </section>
       <section className="bg-[#382656] text-[#fffef7] sm:text-2xl text-lg flex flex-col items-center py-24">
         <h1 className="font-black sm:text-5xl text-2xl">Prof. Rhea Liem</h1>
-        <h2 className="font-medium sm:text-lg text-base">Faculty Advisor</h2>
-        <h2 className="font-medium sm:text-lg text-base">CollaBox, Environmental Awareness in Sri Lanka</h2>
+        <h2 className="font-medium sm:text-lg text-sm">Faculty Advisor</h2>
+        <h2 className="font-medium sm:text-lg text-sm">CollaBox, Environmental Awareness in Sri Lanka</h2>
         <article className="sm:text-xl text-base w-4/5 mx-auto flex flex-col space-y-10">
           <p className="first-letter:text-2xl sm:first-letter:text-4xl">Not long after I joined HKUST, I noticed a large SIGHT banner near the Piazza. Intrigued, I started searching for more information about what I thought would be an interesting and meaningful program (and of course, it is). Well, you see, “service” and “social awareness” have been a big part of my upbringing. I spent half of my pre- tertiary education in a school where “I will serve” is the motto and guiding principle. Hence, naturally, SIGHT’s vision and mission are very close to my heart and I wanted to know whether I could contribute. Yet, I didn’t make any efforts to join at that time for several reasons. First, I had bigger fish to fry, i.e., to survive in my new job (highly important!). Second, with my aerospace engineering background, I thought there was no room for me to contribute. Lo and behold, one day I received an email from none other than Prof. Ying Chau herself—the esteemed founder, director, queen bee of SIGHT—with an invitation to be a faculty advisor for SIGHT. She assured me that my aerospace engineering background could “somehow be useful to SIGHT.” It was in 2018, and the rest is history. Since then, I have supervised four SIGHT projects and am still immensely enjoying my role and involvement.</p>
           <p>Being a faculty advisor for SIGHT reminded me of four things—things that should
@@ -124,7 +124,7 @@ itself bit by bit into the world ranking institution it is today. In particular,
       </section>
       <section className="bg-[#c56e56] text-[#fffef7] text-2xl flex flex-col items-center py-24">
         <h1 className="font-black sm:text-5xl text-2xl">Yuki</h1>
-        <h2 className="font-medium text-lg">Former SIGHT Teaching Associate</h2>
+        <h2 className="font-medium sm:text-lg text-sm">Former SIGHT Teaching Associate</h2>
         <article className="sm:text-xl text-base w-4/5 mx-auto flex flex-col space-y-10">
           <p className="first-letter:text-2xl sm:first-letter:text-4xl">I am Yuki. I joined SIGHT as Teaching Associate in May 2014 and worked until 2016. Now I live in another city and am a mother of a three year-old. Back then SIGHT was just founded. We started small. There were 8 student members in Fall 2014 and 12 in Spring 2015. I was the only full-time staff for the first year. Looking back, the three semesters I worked in SIGHT was like “prototyping”. We didn’t know what exactly the program should look like. But we kept trying and learning from it. Things were new and chaotic. But it was also this period that allowed us to lay down the program framework and made us confident that it could work.</p>
           <p>I dug out SIGHT files from my old laptop. And I am still kind of amazed by how much we pulled through together and how far we pushed ourselves. Students spent way more hours
@@ -136,7 +136,7 @@ too hard, the learning experience may not be real any more. So where is the line
       </section>
       <section className="bg-[#a0b98c] text-[#fffef7] text-2xl flex flex-col items-center py-24">
         <h1 className="font-black sm:text-5xl text-2xl">Fernando</h1>
-        <h2 className="font-medium text-lg">SIGHT Leader</h2>
+        <h2 className="font-medium sm:text-lg text-sm">SIGHT Leader</h2>
         <article className="sm:text-xl text-base w-4/5 mx-auto flex flex-col space-y-10">
           <p className="first-letter:text-2xl sm:first-letter:text-4xl">Having spent 4 years at SIGHT, I am quite qualified to say SIGHT is constructed by selfless efforts and very voluntary. I joined SIGHT camp just to discover new things, with
 no expectations of the program. The application process involved a group interview with a problem-solving task. The teaching team was interested in how we would go about solving the problem, rather than the result itself. From then, I have always seen SIGHT as a creative space and a very exciting project to be part of. It gathers like-minded people to look at various health challenges, and eventually welds ideas and solutions. It helps people, it improves the wellbeing of communities, what more could you ask for?</p>
@@ -150,7 +150,7 @@ an impactful role in the team. As a social science student working among enginee
       </section>
       <section className="bg-[#a0b98c] text-[#fffef7] text-2xl flex flex-col items-center py-24">
         <h1 className="font-black sm:text-5xl text-2xl">Vanessa</h1>
-        <h2 className="font-medium text-lg">SIGHT Leader</h2>
+        <h2 className="font-medium sm:text-lg text-sm">SIGHT Leader</h2>
         <article className="sm:text-xl text-base w-4/5 mx-auto flex flex-col space-y-10">
           <p className="first-letter:text-2xl sm:first-letter:text-4xl">There is a story about a caterpillar, being afraid to change until a butterfly encourages him to believe in himself. Eventually, the caterpillar faces his fears, breaks through all the challenges and becomes a butterfly. Why am I bringing this up? Probably because “Vanessa” can be referred as “butterfly” in literary work, but I am still on my way to becoming a “Vanessa”.</p>
           <p>I love things that are dynamic, but I used to hate changes too. During my first year in university, I barely joined any school activities. Peer comparison also stressed me out. Stepping out of my comfort zone to talk to others was such a big challenge. Though, it is often stressed that university is a place to extend your connections and try every possibility. In my second year, I started looking for opportunities, as I did not want to continue wasting my time here, and I met SIGHT.</p>
@@ -164,12 +164,12 @@ will be having big achievements, and that makes me happy. Reality tells instead,
         </article>
       </section>
       <section className="h-screen bg-[#447f7f] text-[#fffef7] text-2xl py-24 flex justify-center items-center sm:px-16 px-8">
-        <div className="h-24 w-0.5 bg-[#fffef7] mr-8"></div>
-        <h1 className="sm:text-5xl text-2xl font-bold">&quot;SIGHT is my second home and I&apos;ve enjoyed every bit of my time here.&quot;</h1>
+        <div className="h-24 w-0.5 bg-[#fffef7] sm:mr-8 mr-4"></div>
+        <h1 className="sm:text-5xl text-2xl font-bold">&ldquo;SIGHT is my second home and I&apos;ve enjoyed every bit of my time here.&rdquo;</h1>
       </section>
       <section className="bg-[#fffef7] text-[#447f7f] text-2xl flex flex-col items-center py-24">
         <h1 className="font-black sm:text-5xl text-2xl">Malinda</h1>
-        <h2 className="font-medium text-lg">SIGHT Teaching Team - Program Manager</h2>
+        <h2 className="font-medium sm:text-lg text-sm">SIGHT Teaching Team - Program Manager</h2>
         <article className="sm:text-xl text-base w-4/5 mx-auto flex flex-col space-y-10">
           <p className="first-letter:text-2xl sm:first-letter:text-4xl">I first heard about SIGHT when I was in my final few months of postgraduate studies in HKUST, and I was deeply impressed by what SIGHT was doing and how it applied the student innovation mindset to solve health problems around the world. Once I graduated, I got a chance to join as a SIGHT Teaching Team member.</p>
           <p>Since then, SIGHT is my second home and I&apos;ve enjoyed every bit of my time here. It would be impossible to cover all the memories at SIGHT but I will try my best to summarize the more memorable ones.</p>
@@ -180,12 +180,12 @@ will be having big achievements, and that makes me happy. Reality tells instead,
         </article>
       </section>
       <section className="h-screen bg-[#fffef7] text-[#667e55] text-2xl py-24 flex flex-col justify-center items-center sm:px-16 px-8">
-        <h1 className="sm:text-5xl text-2xl font-bold">&quot;Amidst the hurricane that was life I found refuge, insights and perhaps even growth in SIGHT.&quot;</h1>
+        <h1 className="sm:text-5xl text-2xl font-bold">&ldquo;Amidst the hurricane that was life I found refuge, insights and perhaps even growth in SIGHT.&rdquo;</h1>
         <div className="h-0.5 w-full bg-[#667e55] mt-4"></div>
       </section>
       <section className="bg-[#667e55] text-[#fffef7] text-2xl flex flex-col items-center py-24">
         <h1 className="font-black sm:text-5xl text-2xl">Joel</h1>
-        <h2 className="font-medium text-lg">SIGHT Teaching Team - Instructional Assistant</h2>
+        <h2 className="font-medium sm:text-lg text-sm">SIGHT Teaching Team - Instructional Assistant</h2>
         <article className="sm:text-xl text-base w-4/5 mx-auto flex flex-col space-y-10">
           <p className="first-letter:text-2xl sm:first-letter:text-4xl">This is a haphazard story on how I found an unlikely home by enrolling in a course on a whim after lunch. After messing up my college credits, I was on my last semester as an extension in HKUST. The usual approach to do this was to take the minimum course load, fulfil whatever requirements that is left, and just cruise your way into an easy finish, all the while looking for a job. Obviously, none of that happened, from the cruising to the job hunting.</p>
           <p>As Don Keefer once said, it all started with &apos;the lunch&apos;. An old high school friend of mine, Thalha, shared excitedly about a ground-breaking course that he took. A course that took him to Cambodia, and let him work on something hands on. It was an instant draw, I didn’t even care about the travel, just the idea that I would get to work on something hands on was beyond enough. Having grown up on a steady diet of Top Gear, there was just something romantic about cuing the A-Team theme and breaking out the angle grinders and power drills. Granted I never had any formal training on any hardware at that point, but all Jeremy Clarkson had were honorary doctorates of engineering and an unlimited supply of jeans, and they did zilch in getting him across the British Channel.</p>
@@ -195,11 +195,11 @@ so at ease, and had so much fun in an interview. The whole exercise was about he
         </article>
       </section>
       <section className="h-screen bg-[#fffef7] text-[#29347f] text-2xl py-24 flex flex-col justify-center items-center sm:px-16 px-8">
-        <h1 className="sm:text-6xl text-3xl font-bold">&quot;<span className="text-[#fffef7]" style={{WebkitTextStroke: '2px #29347f'}}>Being able to</span> empathize <span className="text-[#fffef7]" style={{WebkitTextStroke: '2px #29347f'}}>is an</span> engineering skill&quot;</h1>
+        <h1 className="sm:text-6xl text-3xl font-bold">&ldquo;<span className="text-[#fffef7]" style={{WebkitTextStroke: '2px #29347f'}}>Being able to</span> empathize <span className="text-[#fffef7]" style={{WebkitTextStroke: '2px #29347f'}}>is an</span> engineering skill&rdquo;</h1>
       </section>
       <section className="bg-[#dda746] text-[#29347f] text-2xl flex flex-col items-center py-24">
         <h1 className="font-black sm:text-5xl text-2xl">Kris</h1>
-        <h2 className="font-medium text-lg">SIGHT Teaching Team - Assistant Software Engineer</h2>
+        <h2 className="font-medium sm:text-lg text-sm">SIGHT Teaching Team - Assistant Software Engineer</h2>
         <article className="sm:text-xl text-base w-4/5 mx-auto flex flex-col space-y-10">
           <p className="first-letter:text-2xl sm:first-letter:text-4xl">At SIGHT, we bring real life struggles and challenges of underprivileged communities and everyday people to our students. In a semester or two, these students begin as if they are a blank piece of paper to incubate their ideas and create solutions for the real world in a very short period of time. However, these achievements mostly did not come from their intellect, but from their ingenuity to listen and pay close attention to the details of what people really need. It was no easy journey for the students to embark on. During the 14 weeks of SIGHT Camp, the students went from knowing nothing about Design Thinking and the challenges they have been given to crafting prototypes and presenting them to our partners. These took a great deal of time and effort to be able to quickly absorb the environment, the practical skills us teaching staff will be teaching them but most importantly, to understand the situation our partners have presented to them fully and think hard about how to help them with what they have gotten.</p>
           <p>For those of us who have had a normal course taken in the university, the norm was always a bit towards passive learning whether in a given settings, students were told what to do or learn in a instructed manner. However, being inside SIGHT we prompt active learning for students to pick up things they have never learned before or not even related to their studies or major at all. This was just the first test of their independence towards solving problems without guidance. The real challenge comes when they have to concretely think about a suitable solution that can potentially help out our partners’ situation and relief them from their pain points. Suffice to say that, for their solution to become useful, it involves students learning
