@@ -11,15 +11,15 @@ export default function Epilogue() {
       <Head>
         <title>Epilogue</title>
       </Head>
-      <section className='h-screen flex items-center px-16'>
+      <section className='h-screen flex items-center sm:px-16 px-8'>
         <div className='flex items-center'>
-          <span className='w-0.5 h-24 bg-[#142a44] mr-4'></span>
-          <h1 className='text-6xl'>Epilogue</h1>
+          <span className='w-0.5 sm:h-24 h-12 bg-[#142a44] mr-4'></span>
+          <h1 className='sm:text-6xl text-3xl'>Epilogue</h1>
         </div>
       </section>
-      <section className='h-screen px-16'>
-        <article className="w-4/5 mx-auto text-xl flex flex-col space-y-8">
-          <p className='first-letter:text-4xl'>
+      <section className='h-screen sm:px-16 px-8'>
+        <article className="sm:w-4/5 w-full mx-auto sm:text-xl text-lg flex flex-col space-y-8">
+          <p className='first-letter:text-2xl sm:first-letter:text-4xl'>
             As the book comes to an end, the task of the epilogue falls upon my perhaps-not-too-ready shoulders.
           </p>
           <p>
@@ -43,8 +43,8 @@ to collaborate besides just academic performance. You can always see the boundle
           </p>
         </article>
         <section className="w-4/5 flex flex-col items-end my-16 mx-auto">
-          <h2 className="font-bold text-4xl mb-4">Kahlen</h2>
-          <span className="text-xl font-medium">SIGHT Teaching Team - Project Assistant</span>
+          <h2 className="font-bold sm:text-4xl text-2xl sm:mb-4 mb-2">Kahlen</h2>
+          <span className="sm:text-xl text-base font-medium">SIGHT Teaching Team - Project Assistant</span>
         </section>
       </section>
     </Layout>

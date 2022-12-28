@@ -11,22 +11,22 @@ export default function Attributions() {
       <Head>
         <title>Thanks & Credits</title>
       </Head>
-      <h1 className="font-bold text-6xl ml-12">Thanks & Credits</h1>
+      <h1 className="font-bold sm:text-6xl text-3xl ml-12">Thanks & Credits</h1>
       <section className="w-4/5 mx-auto py-24 flex flex-col space-y-16">
         <dl>
-          <dt className="font-bold text-4xl mb-6">Publisher</dt>
-          <dd className="text-2xl">SIGHT @ The Hong Kong University of <br/>Science and Technology</dd>
+          <dt className="font-bold sm:text-4xl text-2xl sm:mb-6 mb-3">Publisher</dt>
+          <dd className="sm:text-2xl text-xl">SIGHT @ The Hong Kong University of <br/>Science and Technology</dd>
         </dl>
         <dl>
-          <dt className="font-bold text-4xl mb-6">Editorial Director</dt>
-          <dd className="text-2xl">Prof. Ying CHAU</dd>
+          <dt className="font-bold sm:text-4xl text-2xl sm:mb-6 mb-3">Editorial Director</dt>
+          <dd className="sm:text-2xl text-xl">Prof. Ying CHAU</dd>
         </dl>
         <dl>
-          <dt className="font-bold text-4xl mb-6">Creative Director</dt>
-          <dd className="text-2xl">Kahlen CHAN</dd>
+          <dt className="font-bold sm:text-4xl text-2xl sm:mb-6 mb-3">Creative Director</dt>
+          <dd className="sm:text-2xl text-xl">Kahlen CHAN</dd>
         </dl>
         <dl>
-          <dt className="font-bold text-4xl mb-6">Editorial Team</dt>
+          <dt className="font-bold sm:text-4xl text-2xl sm:mb-6 mb-3">Editorial Team</dt>
           {
             ["Prof. Ying CHAU",
             "Malinda ABEYNAYAKE",
@@ -36,12 +36,12 @@ export default function Attributions() {
             "Mei Yue WONG",
             "Sze Chun Vanessa LEE",
             "Diya AGRAWAL"].map(name => (
-              <dd className="text-2xl" key={name}>{name}</dd>
+              <dd className="sm:text-2xl text-xl" key={name}>{name}</dd>
             ))
           }
         </dl>
         <dl>
-          <dt className="font-bold text-4xl mb-6">Contributors</dt>
+          <dt className="font-bold sm:text-4xl text-2xl sm:mb-6 mb-3">Contributors</dt>
           {
             [
               "Prof. Wei SHYY",
@@ -82,11 +82,11 @@ export default function Attributions() {
               "Yanna Yatnga HUI",
               "Yoonsuh OH",
               "Hiu Ching Denise CHAN"
-            ].map(name => <dd key={name} className="text-2xl">{name}</dd>)
+            ].map(name => <dd key={name} className="sm:text-2xl text-xl">{name}</dd>)
           }
         </dl>
         <dl>
-          <dt className="font-bold text-4xl mb-6">Partners</dt>
+          <dt className="font-bold sm:text-4xl text-2xl sm:mb-6 mb-3">Partners</dt>
           {
             [
               "One-2-One Charitable Trust",
@@ -107,20 +107,20 @@ export default function Attributions() {
               "Jockey Club “age at home” Gerontech Education and Rental Service",
               "Elderly Resources Centre",
               "Kowloon Sam Yuk Secondary School",
-            ].map(name => <dd key={name} className="text-2xl">{name}</dd>)
+            ].map(name => <dd key={name} className="sm:text-2xl text-xl">{name}</dd>)
           }
         </dl>
         <dl>
-          <dt className="font-bold text-4xl mb-6">Funding</dt>
+          <dt className="font-bold sm:text-4xl text-2xl sm:mb-6 mb-3">Funding</dt>
           {[
             "Chinese Manufacturer’s Association of Hong Kong",
             "Equal Opportunities Foundation",
             "Lau Chor Tak Foundation Limited",
             "Seal of Love Charitable Foundation University Grants Committee",
-          ].map(name => <dd key={name} className="text-2xl">{name}</dd>)}
+          ].map(name => <dd key={name} className="sm:text-2xl text-xl">{name}</dd>)}
         </dl>
         <dl>
-          <dt className="font-bold text-4xl mb-6">Faculty Advisors</dt>
+          <dt className="font-bold sm:text-4xl text-2xl sm:mb-6 mb-3">Faculty Advisors</dt>
           {
             [
               "Prof. Vincent Y F LI",
@@ -151,11 +151,11 @@ export default function Attributions() {
               "Dr. Silver CHAN",
               "Mr. Derek LAM",
               "Mr. Donny Koon Ming SIU Mr. Tat Chi Francis LO",
-            ].map(name => <dd key={name} className="text-2xl">{name}</dd>)
+            ].map(name => <dd key={name} className="sm:text-2xl text-xl">{name}</dd>)
           }
         </dl>
         <dl>
-          <dt className="font-bold text-4xl mb-6">Special Thanks</dt>
+          <dt className="font-bold sm:text-4xl text-2xl sm:mb-6 mb-3">Special Thanks</dt>
           {
             [
               'Jin Teng CHUNG',
@@ -336,7 +336,7 @@ export default function Attributions() {
               'LAM Yun Tin',
               'NG Tik Sang',
               'WONG Chak Long'
-            ].map(name => <dd key={name} className="text-2xl">{name}</dd>)
+            ].map(name => <dd key={name} className="sm:text-2xl text-xl">{name}</dd>)
           }
         </dl>
       </section>
