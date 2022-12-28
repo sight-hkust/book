@@ -11,18 +11,18 @@ export default function Chapter() {
       <Head>
         <title>Dr. Level Up</title>
       </Head>
-      <section className="h-screen bg-[#accb41] text-[#020203] text-2xl py-24">
-        <hr className="my-4 mx-auto w-4/5 h-0.5 bg-[#132a44] rounded border-0 md:my-10"/>
-        <p className="w-4/5 mx-auto">An electronic health record system designed for medical outreach to homeless people.</p>
-        <p className="w-4/5 mx-auto mt-16">The problem : The Salvation Army in Hong Kong conducts medical outreach for the homeless around Hong Kong, and lack a system for both their nurses and volunteers to record the health data accrued throughout the service.</p>
-        <hr className="my-4 mx-auto w-4/5 h-0.5 bg-[#020203] rounded border-0 md:my-10"/>
+      <section className="h-screen bg-[#accb41] text-[#020203] text-lg sm:text-2xl py-16 sm:py-24">
+        <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-[#132a44] rounded border-0 md:my-10"/>
+        <p className="w-5/6 sm:w-4/5 mx-auto">An electronic health record system designed for medical outreach to homeless people.</p>
+        <p className="w-5/6 sm:w-4/5 mx-auto mt-16">The problem : The Salvation Army in Hong Kong conducts medical outreach for the homeless around Hong Kong, and lack a system for both their nurses and volunteers to record the health data accrued throughout the service.</p>
+        <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-[#020203] rounded border-0 md:my-10"/>
       </section>
-      <section className="bg-[#fffef7] text-[#142a44] flex flex-col items-center py-24">
-        <h1 className="font-black text-5xl">Zoya</h1>
-        <h2 className="font-medium text-lg">SIGHT member in 2018</h2>
-        <h3 className="text-lg">Dr. Level Up</h3>
-        <article className="text-xl w-4/5 mx-auto flex flex-col space-y-10">
-          <p className="first-letter:text-4xl">When I first joined the SIGHT Camp, I was a sophomore year student with a lot of ambitions to bring change and make a difference in the world. There were several projects introduced at the Camp, but what stroke my attention the most was the project introduced by the Salvation Army, where they had a health support service called Level Up to help the street sleepers and other deprived communities in Hong Kong. Although Hong Kong is well-known for being one of the most developed cities in Asia, one in five Hong Kong residents live below the poverty line, and it is undeniable that some people are unable to seek help when it comes to their health. The presence of Level Up would allow the marginalized people to come forward and inform their issues to the volunteers, whereas the volunteers can give support such as medicine, motivation, or guidance to them.</p>
+      <section className="bg-[#fffef7] text-[#142a44] flex flex-col items-center py-16 sm:py-24">
+        <h1 className="font-black text-3xl sm:text-5xl">Zoya</h1>
+        <h2 className="font-medium text-sm sm:text-lg">SIGHT member in 2018</h2>
+        <h3 className="text-sm sm:text-lg">Dr. Level Up</h3>
+        <article className="text-base sm:text-xl w-5/6 sm:w-4/5 mx-auto flex flex-col space-y-10">
+          <p className="first-letter:text-2xl sm:first-letter:text-4xl">When I first joined the SIGHT Camp, I was a sophomore year student with a lot of ambitions to bring change and make a difference in the world. There were several projects introduced at the Camp, but what stroke my attention the most was the project introduced by the Salvation Army, where they had a health support service called Level Up to help the street sleepers and other deprived communities in Hong Kong. Although Hong Kong is well-known for being one of the most developed cities in Asia, one in five Hong Kong residents live below the poverty line, and it is undeniable that some people are unable to seek help when it comes to their health. The presence of Level Up would allow the marginalized people to come forward and inform their issues to the volunteers, whereas the volunteers can give support such as medicine, motivation, or guidance to them.</p>
           <p>Given the scale of the project, Level Up had to manage a large number of volunteers to record the health information of the outreached. However, different volunteers would have different perceptions on how to record the information. It became a source of trouble to do follow-ups during outreach, and Level Up was in need of a centralized system that can effectively collect, store, and retrieve health information of the outreached.</p>
           <p>To solve the issue, we wanted to build an app that could encourage the volunteers to record the information in a systematic way. With that in mind, we went on to do several field visits to see how the volunteers did the outreach and use the experience to design the app.</p>
           <p>During my first visit, I was able to see first-hand how the street sleepers live. Although we do not really see people living in the streets during the day, a sheer number of people actually stay in parks and streets for the night. Most of them had jobs, but they still chose to sleep in the park with almost no privacy rather than having to pay rent to live in a cage home.</p>
@@ -35,11 +35,11 @@ of the solution that I created along with others feels very rewarding and gives 
         </article>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] flex flex-col items-center py-24">
-        <h1 className="font-black text-5xl">Tommy</h1>
-        <h2 className="font-medium text-lg">Yau Ma Tei Shelter</h2>
-        <h3 className="text-lg">Partnership with SIGHT since 2018</h3>
+        <h1 className="font-black text-3xl sm:text-5xl">Tommy</h1>
+        <h2 className="font-medium text-base sm:text-xl">Yau Ma Tei Shelter</h2>
+        <h3 className="text-base sm:text-xl">Partnership with SIGHT since 2018</h3>
         <article className="text-xl w-4/5 mx-auto flex flex-col space-y-10">
-          <p className="first-letter:text-4xl">Beyond the noticeable issues of food, shelter and employment, street sleepers are challenged by unknowns. For instance, they often lack the resources or knowledge to take care of health issues. The Level Up project takes a remarkable step in redefining services for street sleepers. Through uniting passionate healthcare workers, the project provides medical support for street sleepers. I was pleasantly surprised
+          <p className="first-letter:text-2xl sm:first-letter:text-4xl">Beyond the noticeable issues of food, shelter and employment, street sleepers are challenged by unknowns. For instance, they often lack the resources or knowledge to take care of health issues. The Level Up project takes a remarkable step in redefining services for street sleepers. Through uniting passionate healthcare workers, the project provides medical support for street sleepers. I was pleasantly surprised
 when I heard that SIGHT at HKUST can organize university students to come up with technology innovations for NGOs. Technology plays a vital role in social service. One cannot keep up with the times by simply keeping to existing processes and structures. SIGHT does not only offer hands-on opportunities for students, but also enables and encourages NGOs to employ technological solutions for a boost in service efficiency and quality.</p>
           <p>The students who coded for us did not understand Cantonese, but they did not let the unfamiliarity stand in their way. They went on visits with us regularly, engaging in conversations with people we meet on the way, and contributed to our discussions. They also tested their prototype with our doctors and nurses, taking in their feedback and making adjustments. The language barrier did make it rather challenging to communicate, but I was proud of the team of humble learners who transcended cultural and geographical barriers with their strong empathy and commitment. The prototype did have a lot of room for improvement. We made suggestions on cloud data storage and and the UI, and I highly appreciate their eagerness in making alterations and responding to our feedback.</p>
           <p>While conventional medical processes such as wound care and health screenings make up the bedrock of the Level Up project, our work did not stop here. We reached out to support the mental well-being of street sleepers as well. While struggling with tough living conditions, street sleepers are often battling feelings

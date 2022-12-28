@@ -11,18 +11,18 @@ export default function Chapter() {
       <Head>
         <title>Sip-n-Puff</title>
       </Head>
-      <section className="h-screen bg-[#f0833f] text-[#132a44] text-2xl py-24">
-        <hr className="my-4 mx-auto w-4/5 h-0.5 bg-[#132a44] rounded border-0 md:my-10"/>
-        <p className="w-4/5 mx-auto">A mouth-based control system for wheelchair users.</p>
-        <p className="w-4/5 mx-auto mt-16">The problem : Hong Kong Red Cross John F. Kennedy Centre is a special school, where some of their students are wheelchair bound. Some of these students are unable to control their wheelchairs with their arms.</p>
-        <hr className="my-4 mx-auto w-4/5 h-0.5 bg-[#132a44] rounded border-0 md:my-10"/>
+      <section className="h-screen bg-[#f0833f] text-[#132a44] text-lg sm:text-2xl py-16 sm:py-24">
+        <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-[#132a44] rounded border-0 md:my-10"/>
+        <p className="w-5/6 sm:w-4/5 mx-auto">A mouth-based control system for wheelchair users.</p>
+        <p className="w-5/6 sm:w-4/5 mx-auto mt-8 sm:mt-16">The problem : Hong Kong Red Cross John F. Kennedy Centre is a special school, where some of their students are wheelchair bound. Some of these students are unable to control their wheelchairs with their arms.</p>
+        <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-[#132a44] rounded border-0 md:my-10"/>
       </section>
-      <section className="bg-[#fffef7] text-[#142a44] flex flex-col items-center py-24">
-        <h1 className="font-black text-5xl">Henry</h1>
-        <h2 className="font-medium text-lg">SIGHT member in 2017</h2>
-        <h3 className="text-lg">Sip-n-puff</h3>
-        <article className="text-xl w-4/5 mx-auto flex flex-col space-y-10">
-          <p className="first-letter:text-4xl">“Simple Technology, Big Difference”
+      <section className="bg-[#fffef7] text-[#142a44] flex flex-col items-center py-16 sm:py-24">
+        <h1 className="font-black text-3xl sm:text-5xl">Henry</h1>
+        <h2 className="font-medium text-sm sm:text-lg">SIGHT member in 2017</h2>
+        <h3 className="text-sm sm:text-lg">Sip-n-puff</h3>
+        <article className="text-base sm:text-xl w-5/6 sm:w-4/5 mx-auto flex flex-col space-y-10">
+          <p className="first-letter:text-2xl sm:first-letter:text-4xl">“Simple Technology, Big Difference”
 That’s the motto of SIGHT: a simple yet powerful idea. Throughout my time at SIGHT, I saw this idea realised time and time again, not just in my project but in my peers’ projects as well.
 </p>
           <p>I joined SIGHT as a freshman, and the project I chose to work on was the construction of a hands-free wheelchair control system for paraplegic children. We came up
