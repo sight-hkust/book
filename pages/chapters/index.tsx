@@ -156,7 +156,7 @@ export default function Chapters() {
             [
               {
                 title: 'Diabetic\nRetina\nDetection',
-                href: '/diabetic-retinopathy-detection'
+                href: '/chapters/diabetic-retinopathy-detection'
               },
               {
                 title: 'Dr. Level Up',

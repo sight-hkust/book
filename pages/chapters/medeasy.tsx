@@ -11,27 +11,27 @@ export default function Chapter() {
       <Head>
         <title>MedEasy</title>
       </Head>
-      <section className="h-screen bg-[#182a46] text-white text-2xl py-24">
-        <hr className="my-4 mx-auto w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
-        <p className="w-4/5 mx-auto">An electronic health record system for mobile clinics, complete with a smartphone app, a local Raspberry Pi-based server and online reporting portal.</p>
-        <p className="w-4/5 mx-auto mt-16">The problem : <strong>One-2-One Cambodia</strong> is a medical NGO that conducts mobile clinic outreach in the slums of Phnom Penh and the provinces of Cambodia. Their old way of storing patient records is via paper, which is cumbersome and susceptible to damage.</p>
+      <section className="h-screen bg-[#182a46] text-white text-lg sm:text-2xl py-24">
+        <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
+        <p className="w-5/6 sm:w-4/5 mx-auto">An electronic health record system for mobile clinics, complete with a smartphone app, a local Raspberry Pi-based server and online reporting portal.</p>
+        <p className="w-5/6 sm:w-4/5 mx-auto mt-16">The problem : <strong>One-2-One Cambodia</strong> is a medical NGO that conducts mobile clinic outreach in the slums of Phnom Penh and the provinces of Cambodia. Their old way of storing patient records is via paper, which is cumbersome and susceptible to damage.</p>
         <div className="flex justify-center my-16">Awards</div>
-        <dl className="flex flex-col mx-auto w-4/5">
+        <dl className="flex flex-col mx-auto w-5/6 sm:w-4/5 mt-8 sm:mt-16">
           <dt className="font-bold">1st Prize</dt>
-          <dl className="text-xl">(Rice 360° Undergraduate Global Health Technologies Design Competition)</dl>
+          <dl className="text-base sm:text-xl">(Rice 360° Undergraduate Global Health Technologies Design Competition)</dl>
         </dl>
-        <dl className="flex flex-col mx-auto w-4/5 mt-16">
+        <dl className="flex flex-col mx-auto w-5/6 sm:w-4/5 mt-8 sm:mt-16">
           <dt className="font-bold">Silver Award, Best Social Impact Award</dt>
-          <dl className="text-xl">(Chun Wo Innovation Student Awards)</dl>
+          <dl className="text-base sm:text-xl">(Chun Wo Innovation Student Awards)</dl>
         </dl>
-        <hr className="my-4 mx-auto w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
+        <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] text-2xl flex flex-col items-center py-24">
-        <h1 className="font-black text-5xl">Jonathan</h1>
-        <h2 className="font-medium text-lg">SIGHT member in 2015</h2>
-        <h3 className="text-lg">MedEasy</h3>
-        <article className="text-xl w-4/5 mx-auto flex flex-col space-y-10">
-          <p className="first-letter:text-4xl">Greetings to former, current, and prospective SIGHT members alike! It has certainly been a long while since my days as a member of the SIGHT team, back when I was an undergraduate student at HKUST. Thus, when Malinda contacted me inviting me to be part of this book project, I was both honoured and mildly worried. The latter feeling of course, arose from the fact that there is this 4-5 year gap that has certainly tainted and muddled my memories of exactly what I was up to those number of years ago.</p>
+        <h1 className="font-black text-3xl sm:text-5xl">Jonathan</h1>
+        <h2 className="font-medium text-sm sm:text-lg">SIGHT member in 2015</h2>
+        <h3 className="text-sm sm:text-lg">MedEasy</h3>
+        <article className="text-base sm:text-xl w-5/6 sm:w-4/5 mx-auto flex flex-col space-y-10">
+          <p className="first-letter:text-2xl sm:first-letter:text-4xl">Greetings to former, current, and prospective SIGHT members alike! It has certainly been a long while since my days as a member of the SIGHT team, back when I was an undergraduate student at HKUST. Thus, when Malinda contacted me inviting me to be part of this book project, I was both honoured and mildly worried. The latter feeling of course, arose from the fact that there is this 4-5 year gap that has certainly tainted and muddled my memories of exactly what I was up to those number of years ago.</p>
           <p>I do remember that I was part of the Cambodia team, in which we tried to implement a mobile app for healthcare workers and medical volunteers to use to document health information for people living in poor conditions within the many slums scattered around Phnom Penh (we used to call that project “EasyMed”, and then it became “MedEasy”, but I’m not sure what you guys call it now!). Looking back it was certainly challenging to have been taking part (as a person who knows very little in coding) in a project that in essence requires coding knowledge to work. Thus my efforts were mainly focused on the user experience, to try and understand the healthcare workers’ needs in helping them streamline their medical services. Another part of the challenge was to design a portable storage unit to place 3 main pieces of equipment: a router for wifi services in the slums, a raspberry pi essentially for data storage, and a power bank to ensure the first two are running.</p>
           <p>I participated in two weekly-long field trips (one in June 2016 and the other in June 2017), whose aim was to implement the project and see how it functions in a real- life situation. Having been fortunately equipped with a plethora of photographic evidence (as well as a number of embarrassing video clips of my mug, which I am not keen to highlight!) documenting these two events, I will thus take you readers on a pictographic journey of the early days of this “Electronic Health Record System” project...</p>
           <div className="flex flex-wrap justify-around">
@@ -51,11 +51,11 @@ in which the patient travels to visit the doctor. Having had a one-year opportun
         </article>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] text-2xl flex flex-col items-center py-24">
-        <h1 className="font-black text-5xl">Ziuwin</h1>
-        <h2 className="font-medium text-lg">SIGHT member in 2016</h2>
-        <h3 className="text-lg">MedEasy</h3>
-        <article className="text-xl w-4/5 mx-auto flex flex-col space-y-10">
-          <p className="first-letter:text-4xl">SIGHT is a very hands-on and interdisciplinary programme, bringing people from different fields together with the same goals in making the world a better place. I
+        <h1 className="font-black text-3xl sm:text-5xl">Ziuwin</h1>
+        <h2 className="font-medium text-sm sm:text-lg">SIGHT member in 2016</h2>
+        <h3 className="text-sm sm:text-lg">MedEasy</h3>
+        <article className="text-base sm:text-xl w-5/6 sm:w-4/5 mx-auto flex flex-col space-y-10">
+          <p className="first-letter:text-2xl sm:first-letter:text-4xl">SIGHT is a very hands-on and interdisciplinary programme, bringing people from different fields together with the same goals in making the world a better place. I
 think one of the biggest challenges and learnings I had back then was having effective communication and understanding the value of teamwork. Everyone being from different backgrounds, it was hard in the beginning to work as a team as everyone
 had their own perspectives they want to explore. Our solutions were just all over the place, however once we realized the value of having different perspectives when problem solving, our ideas started becoming more “out of the box” and eventually
 led to MedEasy despite having no background in any hardware or UX or biometrics or computer/software engineering. That said, my whole SIGHT journey has really taught me to open up my mind and consider other perspectives and views, while thinking critically, which helped me see the bigger picture and find a solution that covers all criteria when faced with a problem.</p>
@@ -63,11 +63,11 @@ led to MedEasy despite having no background in any hardware or UX or biometrics 
         </article>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] text-2xl flex flex-col items-center py-24">
-        <h1 className="font-black text-5xl">Oscar</h1>
-        <h2 className="font-medium text-lg">SIGHT member in 2017</h2>
-        <h3 className="text-lg">MedEasy</h3>
-        <article className="text-xl w-4/5 mx-auto flex flex-col space-y-10">
-          <p className="first-letter:text-4xl">It is never effortless to work on a SIGHT project, especially for a freshman like me in
+        <h1 className="font-black text-3xl sm:text-5xl">Oscar</h1>
+        <h2 className="font-medium text-sm sm:text-lg">SIGHT member in 2017</h2>
+        <h3 className="text-sm sm:text-lg">MedEasy</h3>
+        <article className="text-base sm:text-xl w-5/6 sm:w-4/5 mx-auto flex flex-col space-y-10">
+          <p className="first-letter:text-2xl sm:first-letter:text-4xl">It is never effortless to work on a SIGHT project, especially for a freshman like me in
 the past. I have no experience totally in working on such a large-scale, cross-disciplinary project before. Students are expected to handle a lot of readings and meetings understanding of the topics before weekly meeting in the SIGHT program. Looking back, I realized I had changed a lot after joining the SIGHT program. Thanks to all the difficult tasks and challenging presentations, I learned how to think with a more flexible mindset and always stay hungry for knowledge. One should never be limited within
 their comfort zone or major field. SIGHT project requires students to work with people from different cultural or academic backgrounds and cooperate together to have an innovative idea to solve real-world problems. SIGHT has absolutely revolutionized the way I think and look at things. Before working in SIGHT, I didn’t know working with people from different backgrounds is that important since I always imagine that only groups of professionals with similar expertise can change the world. However, it is totally wrong, nowadays, most of the problems need expertise from diverse areas to cooperate and work together to solve the problems. Teamwork and an innovative mindset have become one of the most crucial skills in the 21st century. To conclude, my experience
 in SIGHT is truly amazing and unforgettable. I will never forget all my memories, be it good or bad.</p>
@@ -75,11 +75,11 @@ in SIGHT is truly amazing and unforgettable. I will never forget all my memories
         </article>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] text-2xl flex flex-col items-center py-24">
-        <h1 className="font-black text-5xl">Charlie</h1>
-        <h2 className="font-medium text-lg">SIGHT member in 2018</h2>
-        <h3 className="text-lg">MedEasy</h3>
-        <article className="text-xl w-4/5 mx-auto flex flex-col space-y-10">
-          <p className="first-letter:text-4xl">“Why are you creating this product? ”</p>
+        <h1 className="font-black text-3xl sm:text-5xl">Charlie</h1>
+        <h2 className="font-medium text-sm sm:text-lg">SIGHT member in 2018</h2>
+        <h3 className="text-sm sm:text-lg">MedEasy</h3>
+        <article className="text-base sm:text-xl w-5/6 sm:w-4/5 mx-auto flex flex-col space-y-10">
+          <p className="first-letter:text-2xl sm:first-letter:text-4xl">“Why are you creating this product? ”</p>
           <p>Asked the investor sitting right in front of me after hearing my pitch for almost 60 minutes. I couldn’t remember how many times I have been challenged with this question, no matter how confident I am or how many slides I have prepared, I always felt like I didn’t answer this question perfectly. I tried to rephrase and emphasise my features and business model again and again, but I could always feel that it was not what they really want to hear.</p>
           <p>“Excuse me?”</p>
           <p>His voice brought me back from my introspection. I reviewed all my content in my mind again and got ready to repeat my points, but he kept saying.</p>
@@ -104,11 +104,11 @@ pi for supporting the data sync without network, and a well-design user flow of 
         </article>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] text-2xl flex flex-col items-center py-24">
-        <h1 className="font-black text-5xl">Dawn</h1>
-        <h2 className="font-medium text-lg">SIGHT member in 2016</h2>
-        <h3 className="text-lg">MedEasy</h3>
-        <article className="text-xl w-4/5 mx-auto flex flex-col space-y-10">
-          <p className="first-letter:text-4xl">SIGHT has been one of the most founding memories of my undergraduate life.
+        <h1 className="font-black text-3xl sm:text-5xl">Dawn</h1>
+        <h2 className="font-medium text-sm sm:text-lg">SIGHT member in 2016</h2>
+        <h3 className="text-sm sm:text-lg">MedEasy</h3>
+        <article className="text-base sm:text-xl w-5/6 sm:w-4/5 mx-auto flex flex-col space-y-10">
+          <p className="first-letter:text-2xl sm:first-letter:text-4xl">SIGHT has been one of the most founding memories of my undergraduate life.
 The hands-on experience of applying technology to real-life problem inspired me to become a researcher. I participated in the “MedEasy” project, which aimed to help the NGO doctors that provided free medical service for patients from the slums in Phnom Penh, Cambodia. Our team designed a comprehensive electronic medical record system (EMRS) that digitalized the entire consultation process. The EMRS reduced cumbersome binders of patient history into a light and portable hardware device that could be simply operated using smartphones.</p>
           <p>The hardest and the most valuable lesson this experience taught me was that there isn’t a solution manual for the real world problems. As a young science student who was used to solving for the “correct answers”, my initial experience at SIGHT was truly anxiety- inducing. However, through the process, I learnt that the lack of answer is exciting: it creates opportunities for innovation. I realized that I enjoy tackling the unknown and the difficult questions, and my passion for innovation perpetuates till today.</p>
           <p>SIGHT also showed me that interdisciplinary collaboration is the trend for the future. My current project as a Chemistry PhD student requires interdisciplinary skill from Chemistry, Physics and computer science. As a result, I often communicate and work with people from various disciplines. The experience of developing the EMRS prepared me for
@@ -119,11 +119,11 @@ my current work for research. The EMRS requires talents from the computer scienc
         </article>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] text-2xl flex flex-col items-center py-24">
-        <h1 className="font-black text-5xl">Fernando</h1>
-        <h2 className="font-medium text-lg">SIGHT member in 2016</h2>
-        <h3 className="text-lg">MedEasy</h3>
-        <article className="text-xl w-4/5 mx-auto flex flex-col space-y-10">
-          <p className="first-letter:text-4xl">Having spent 4 years at SIGHT, I am quite qualified to say SIGHT is constructed by selfless efforts and very voluntary. I joined SIGHT camp just to discover new things, with
+        <h1 className="font-black text-3xl sm:text-5xl">Fernando</h1>
+        <h2 className="font-medium text-sm sm:text-lg">SIGHT member in 2016</h2>
+        <h3 className="text-sm sm:text-lg">MedEasy</h3>
+        <article className="text-base sm:text-xl w-5/6 sm:w-4/5 mx-auto flex flex-col space-y-10">
+          <p className="first-letter:text-2xl sm:first-letter:text-4xl">Having spent 4 years at SIGHT, I am quite qualified to say SIGHT is constructed by selfless efforts and very voluntary. I joined SIGHT camp just to discover new things, with
 no expectations of the program. The application process involved a group interview with a problem-solving task. The teaching team was interested in how we would go about solving the problem, rather than the result itself. From then, I have always seen SIGHT as a creative space and a very exciting project to be part of. It gathers like-minded people to look at various health challenges, and eventually welds ideas and solutions. It helps people, it improves the wellbeing of communities, what more could you ask for?</p>
           <p>On a rather macro scale, SIGHT’s role is the union of disciplines for a social impact. It brings together people of different backgrounds to form interdisciplinary teams, hoping to use technology in a smart way. “Simple technology, BIG difference,” our slogan is really true. Some of the technologies we use might not even fall within our traditional conception of technology, but with innovation and by putting them into the right social context, they can be very powerful.</p>
           <p>SIGHT means a lot to me for two reasons. First, I could bring my unique skillset to play
@@ -134,11 +134,11 @@ an impactful role in the team. As a social science student working among enginee
         </article>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] text-2xl flex flex-col items-center py-24">
-        <h1 className="font-black text-5xl">Kevin</h1>
-        <h2 className="font-medium text-lg">SIGHT member in 2015</h2>
-        <h3 className="text-lg">MedEasy</h3>
-        <article className="text-xl w-4/5 mx-auto flex flex-col space-y-10">
-          <p className="first-letter:text-4xl">One of the best experiences I’ve had was the SIGHT Scholar 2017 program, where we spent 3 weeks – in Phnom Penh, Cambodia – observing the implementation of a mobile healthcare registration system with our Cambodian NGO partner, One-2-One. For me, especially as someone coming from a social science background, this was a really good opportunity to experience, and put into practice, the art of “fieldwork observation”. Sounds fancy, eh? It’s actually a pretty straightforward qualitative method, where all
+        <h1 className="font-black text-3xl sm:text-5xl">Kevin</h1>
+        <h2 className="font-medium text-sm sm:text-lg">SIGHT member in 2015</h2>
+        <h3 className="text-sm sm:text-lg">MedEasy</h3>
+        <article className="text-base sm:text-xl w-5/6 sm:w-4/5 mx-auto flex flex-col space-y-10">
+          <p className="first-letter:text-2xl sm:first-letter:text-4xl">One of the best experiences I’ve had was the SIGHT Scholar 2017 program, where we spent 3 weeks – in Phnom Penh, Cambodia – observing the implementation of a mobile healthcare registration system with our Cambodian NGO partner, One-2-One. For me, especially as someone coming from a social science background, this was a really good opportunity to experience, and put into practice, the art of “fieldwork observation”. Sounds fancy, eh? It’s actually a pretty straightforward qualitative method, where all
 you do is to make yourself present in a situation, observe the surrounding, and make notes about what you see. Throughout this 3-week program, we worked closely with
 our partners on implementing the system in their daily visits to clinics and community centers, detecting potential technical ‘bugs’, and liaising with the SIGHT core team in Hong Kong about debugging these issues. But, these were only a part and parcel of our story.</p>
           <p>An insightful takeaway from this 3-week journey has been the chance for us to exchange personal stories, thoughts, and experiences with not only our One-2-One partners,
@@ -150,8 +150,8 @@ to cook Cambodian dishes, to Konnga for bringing us to taste Cambodian street fo
         </article>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] text-2xl flex flex-col items-center py-24">
-        <article className="text-xl w-4/5 mx-auto flex flex-col space-y-10">
-          <p className="first-letter:text-4xl">One-2-One has been working with SIGHT for 7 years. We are very happy to have SIGHT’s help and to see them improved and updated every time they come back. We learned a lot from each other and we are grateful to have students who are dedicated and always work hard to make what we need.</p>
+        <article className="text-base sm:text-xl w-5/6 sm:w-4/5 mx-auto flex flex-col space-y-10">
+          <p className="first-letter:text-2xl sm:first-letter:text-4xl">One-2-One has been working with SIGHT for 7 years. We are very happy to have SIGHT’s help and to see them improved and updated every time they come back. We learned a lot from each other and we are grateful to have students who are dedicated and always work hard to make what we need.</p>
           <p>The most valuable project to us has been MedEasy. Before using MedEasy, we had to carry stacks of files with lots of paper for documentation into our clinics. With MedEasy, we no longer have to carry heavy stacks of paper, we can just do everything on a phone. It is now a lot easier to input and search for data. It also connects our pharmacy, consultation and _ teams in one single system, something that we did not know we could do. While our colleagues use the app frequently, it often takes a long time to train the volunteers at our clinic as they do not know how to use it. As we always have different volunteers coming in, the training could be challenging.</p>
           <p>On the technical side, we have experienced some problems with the app. Sometimes the app does not work, and we still hope that the app could store records and generate reports on demand. There is a need for continuous support from the SIGHT team, but it has been hard since we cannot travel because of COVID-19. We hope that COVID-19 will be gone soon so that the SIGHT team can come back and help us with MedEasy again.</p>
           <p>Another SIGHT project that we had is Healthy Snacks, for which SIGHT students came up with a new snack for the children in the community. It was a good snack, but only half of the children liked it. The kids here liked sweet food, and the Healthy Snack was not sweet enough for them. We think it is equally important to change the idea of the students - why is it called a “healthy” snack? Why is it better than the other snacks in the market? Apart from coming up with a good snack we will also have to educate the children on what is good for their health. It takes time to change their mindsets, but the children still had a wonderful time playing with the SIGHT team.</p>
