@@ -11,18 +11,18 @@ export default function Chapter() {
       <Head>
         <title>Collabox</title>
       </Head>
-      <section className="h-screen bg-[#fffef7] text-[#ed8902] text-2xl">
-        <hr className="my-4 mx-auto w-4/5 h-0.5 bg-[#ed8902] rounded border-0 md:my-10"/>
-        <p className="w-4/5 mx-auto">A learning platform for special needs students at the Caritas Lok Kan School, with collaborative games and custom input devices.</p>
-        <p className="w-4/5 mx-auto mt-16">The problem : Students at the Lok Kan School lack collaborative games that allow them to play and learn together.</p>
-        <hr className="my-4 mx-auto w-4/5 h-0.5 bg-[#ed8902] rounded border-0 md:my-10"/>
+      <section className="h-screen bg-[#fffef7] text-[#ed8902] text-lg sm:text-2xl">
+        <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-[#ed8902] rounded border-0 md:my-10"/>
+        <p className="w-5/6 sm:w-4/5 mx-auto">A learning platform for special needs students at the Caritas Lok Kan School, with collaborative games and custom input devices.</p>
+        <p className="w-5/6 sm:w-4/5 mx-auto mt-16">The problem : Students at the Lok Kan School lack collaborative games that allow them to play and learn together.</p>
+        <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-[#ed8902] rounded border-0 md:my-10"/>
       </section>
-      <section className="bg-[#ed8902] text-white flex flex-col items-center py-24">
-        <h1 className="font-black text-5xl">Vanessa</h1>
-        <h2 className="font-medium text-lg">SIGHT member in 2019</h2>
-        <h3 className="text-lg">Collabox</h3>
-        <article className="text-xl w-4/5 mx-auto flex flex-col space-y-10">
-          <p className="first-letter:text-4xl">
+      <section className="bg-[#ed8902] text-white flex flex-col items-center py-16 sm:py-24">
+        <h1 className="font-black text-3xl sm:text-5xl">Vanessa</h1>
+        <h2 className="font-medium text-sm sm:text-lg">SIGHT member in 2019</h2>
+        <h3 className="text-sm sm:text-lg">Collabox</h3>
+        <article className="text-lg sm:text-xl w-5/6 sm:w-4/5 mx-auto flex flex-col space-y-10">
+          <p className="first-letter:text-2xl sm:first-letter:text-4xl">
           Having regular volunteering work at church, students with SEN are not something new for me. Chatting with them, grabbing things for them, playing games with them. I never imagine what else I can do for them, to improve their behaviors, not just the external environment. SIGHT has given me not only the opportunity to help these kids directly, but also the inspiration that we can look for changes anywhere.
           </p>
           <p>
@@ -44,12 +44,12 @@ in the animations and graphics. But here came the challenge, I had only a little
           </p>
         </article>
       </section>
-      <section className="bg-[#fffef7] text-[#142a44] text-2xl flex flex-col items-center py-24">
-        <h1 className="font-black text-5xl">Doris</h1>
-        <h2 className="font-medium text-lg">SIGHT member in 2019</h2>
-        <h3 className="text-lg">Collabox</h3>
-        <article className="text-xl w-4/5 mx-auto flex flex-col space-y-10">
-          <p className="first-letter:text-4xl">
+      <section className="bg-[#fffef7] text-[#142a44] text-lg sm:text-2xl flex flex-col items-center py-16 sm:py-24">
+        <h1 className="font-black text-3xl sm:text-5xl">Doris</h1>
+        <h2 className="font-medium text-sm sm:text-lg">SIGHT member in 2019</h2>
+        <h3 className="text-sm sm:text-lg">Collabox</h3>
+        <article className="text-lg sm:text-xl w-5/6 sm:w-4/5 mx-auto flex flex-col space-y-10">
+          <p className="first-letter:text-2xl sm:first-letter:text-4xl">
           As one of the editors of this book, I’ve had the privilege to hear and write about many experiences, thoughts and reflections with SIGHT. I don’t feel like writing about what SIGHT encompasses anymore, so I thought I’d tell a story of how SIGHT fits into my growth, the journey of finding myself and my place in the world.
           </p>
           <p>The story started in 2019, when I joined HKUST as an undergraduate. To be honest the academic journey ahead didn’t sound really exciting to me. I knew university was a time for me to expose myself to different voices and experiences, to formulate
@@ -76,12 +76,12 @@ and eventually come to life, and not even once did I find the teaching team tryi
           </p>
         </article>
       </section>
-      <section className="bg-[#fffef7] text-[#142a44] text-2xl flex flex-col items-center py-24">
-        <h1 className="font-black text-5xl">Diya</h1>
-        <h2 className="font-medium text-lg">SIGHT member in 2019</h2>
-        <h3 className="text-lg">Collabox</h3>
-        <article className="text-xl w-4/5 mx-auto flex flex-col space-y-10">
-          <p className="first-letter:text-4xl">
+      <section className="bg-[#fffef7] text-[#142a44] text-lg sm:text-2xl flex flex-col items-center py-16 sm:py-24">
+        <h1 className="font-black text-3xl sm:text-5xl">Diya</h1>
+        <h2 className="font-medium text-sm sm:text-lg">SIGHT member in 2019</h2>
+        <h3 className="text-sm sm:text-lg">Collabox</h3>
+        <article className="text-lg sm:text-xl w-5/6 sm:w-4/5 mx-auto flex flex-col space-y-10">
+          <p className="first-letter:text-2xl sm:first-letter:text-4xl">
           I can never put to words how much I appreciate what SIGHT has given to me. My journey as a SIGHT camper to that of a leader has been a memorable one. Starting from their edgy interview style I was a fan. I remember making an RC drawing car for the interview and thinking to myself “Wow, I am already an engineer”. Then on I was offered to join the Caritas project where I would be developing technologies for SEN kids. Although my initial plan for the project was different, the sudden turning of everything to online made us go through a lot of changes. My team of 6 then came up with an idea to make collaborative video games for special kids.
           </p>
           <p>It was daunting. 6 people from diverse backgrounds, none of us knowing the ABC of coding but now committed to coding games and building a console! At that point it was the supportive SIGHT staff who pushed us and believed in us and said, “Don’t worry if you don’t know how to do it, we will show you a way”. They really lived up to their words. The greatest form of support is not holding you by your pinky finger, but letting you face challenges while constantly showing you your goal. This is exactly what SIGHT did – the advisors offered us an invisible helping hand. (Special shoutout to the God-like Kris who we’d go crying to every time we got stuck)</p>
@@ -92,12 +92,12 @@ failed so many times, but somehow, it all seemed worth it when we stood in the r
           <p>The best part of SIGHT is that I feel like I’m at home. Every single advisor, every classmate, and even the professor makes it a little family. I can easily express myself, talk to anyone if I face problems, and openly ask for help. And this extends beyond my work at SIGHT. I am so glad to have been a part of this family and I am extremely elated to have the opportunity to carry on this legacy as a SIGHT leader.</p>
         </article>
       </section>
-      <section className="bg-[#fffef7] text-[#142a44] text-2xl flex flex-col items-center py-24">
-        <h1 className="font-black text-5xl">Caritas Lok Kan School</h1>
-        <h2 className="font-medium text-lg">Partnership with SIGHT since 2018</h2>
-        <h3 className="text-lg">Collabox, Lavatory Management System</h3>
-        <article className="text-xl w-4/5 mx-auto flex flex-col space-y-10">
-          <p className="first-letter:text-4xl">
+      <section className="bg-[#fffef7] text-[#142a44] text-lg sm:text-2xl flex flex-col items-center py-16 sm:py-24">
+        <h1 className="font-black text-3xl sm:text-5xl">Caritas Lok Kan School</h1>
+        <h2 className="font-medium text-sm sm:text-lg">Partnership with SIGHT since 2018</h2>
+        <h3 className="text-sm sm:text-lg">Collabox, Lavatory Management System</h3>
+        <article className="text-lg sm:text-xl w-5/6 sm:w-4/5 mx-auto flex flex-col space-y-10">
+          <p className="first-letter:text-2xl sm:first-letter:text-4xl">
           Students with Special Education Needs (SEN) are like ordinary Hong Kong students, they go to school and have lessons. However, the general public is not well educated on special education. There are also inadequate support for SEN students in the society, so we are very happy to have talented and capable students from SIGHT working on these problems. Their assistance has increased the SEN students’ capability to learn and enriched their leaning experience.
           </p>
           <p>SEN is a broad term that refers to the group of students who require assistance in education, physically and/or mentally. SEN students often need tailor-made solution for their unique needs, which is not commonly found on market due to small market size. Tight school budget and limited knowledge on new technology also hinder school from producing own solutions. Not all of our teachers and social workers have previous experience with SEN kids before joining the school, and it takes time to understand the actual situation and needs in the SEN environment, which is not much preferred in the society. Having students from SIGHT going into our campus and interacting with our students is definitely a good news and a good opportunity to increase the exposure of SEN students.</p>

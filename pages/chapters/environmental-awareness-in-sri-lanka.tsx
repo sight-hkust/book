@@ -12,18 +12,18 @@ export default function Chapter() {
       <Head>
         <title>Environmental Awareness in Sri Lanka</title>
       </Head>
-      <section className="h-screen bg-[#e2bf5c] text-[#020203] text-2xl py-24">
-        <hr className="my-4 mx-auto w-4/5 h-0.5 bg-[#020203] rounded border-0 md:my-10"/>
-        <p className="w-4/5 mx-auto">A plastic recycling program for an NGO serving children near Kandy, Sri Lanka.</p>
-        <p className="w-4/5 mx-auto mt-16">The problem : The TEA-Project is a children’s NGO in the Hanthana area, where the community faces challenges in poverty and plastic waste.</p>
-        <hr className="my-4 mx-auto w-4/5 h-0.5 bg-[#020203] rounded border-0 md:my-10"/>
+      <section className="h-screen bg-[#e2bf5c] text-[#020203] text-lg sm:text-2xl py-16 sm:py-24">
+        <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-[#020203] rounded border-0 md:my-10"/>
+        <p className="w-5/6 sm:w-4/5 mx-auto">A plastic recycling program for an NGO serving children near Kandy, Sri Lanka.</p>
+        <p className="w-5/6 sm:w-4/5 mx-auto mt-8 sm:mt-16">The problem : The TEA-Project is a children’s NGO in the Hanthana area, where the community faces challenges in poverty and plastic waste.</p>
+        <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-[#020203] rounded border-0 md:my-10"/>
       </section>
-      <section className="bg-[#fffef7] text-[#142a44] text-2xl flex flex-col items-center py-24">
-        <h1 className="font-black text-5xl">Denise</h1>
-        <h2 className="font-medium text-lg">SIGHT member in 2022</h2>
-        <h3 className="text-lg">Environmental awareness in Sri Lanka</h3>
-        <article className="text-xl w-4/5 mx-auto flex flex-col space-y-10">
-          <p className="first-letter:text-4xl">“This is a wonderful experience working with our partners in Sri Lanka and SIGHT.”</p>
+      <section className="bg-[#fffef7] text-[#142a44] text-lg sm:text-2xl flex flex-col items-center py-16 sm:py-24">
+        <h1 className="font-black text-3xl sm:text-5xl">Denise</h1>
+        <h2 className="font-medium text-sm sm:text-lg">SIGHT member in 2022</h2>
+        <h3 className="text-sm sm:text-lg">Environmental awareness in Sri Lanka</h3>
+        <article className="text-base sm:text-xl w-5/6 sm:w-4/5 mx-auto flex flex-col space-y-10">
+          <p className="first-letter:text-2xl sm:first-letter:text-4xl">“This is a wonderful experience working with our partners in Sri Lanka and SIGHT.”</p>
           <p>The project is challenging yet rewarding, which pushes me beyond limits and unleashes my potential in design and communication. I am Denise, a year 4 student from the school of Humanities and Social Sciences. In the last semester of my final year, I have decided to take the course ENGG 4930E Global Health. This will help me challenge myself in the application of knowledge that I have learned throughout the years. The TEA project trusted me and adopted our suggestions to help organize the workshop, and I am happy that they did so.</p>
           <p>My project is about improving the conditions in the tea estate located next to Kandy town in Sri Lanka. Prior to my participation, the previous team of students had been working with our partner for about a year. Unfortunately, working over the internet amid covid adds difficulties to their collaboration. When I was notified that I was the only student on the team, I did think about dropping the course at the beginning. However, the passion of the SIGHT team has changed my decision. I decided to have a go.</p>
           <p>The first time when I was introduced to the TEA project, I have no idea what the life was like in Sri Lanka. I treated it as a research paper and did some background research. However, identifying the problems based on books and statistics is impractical. We saw images of line houses, tea cultivation, tea pickers, roads, and schools but these did not provide enough clues for me to identify the

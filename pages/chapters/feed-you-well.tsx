@@ -11,18 +11,18 @@ export default function Chapter() {
       <Head>
         <title>Feed You Well</title>
       </Head>
-      <section className="h-screen bg-[#9ac875] text-white text-2xl py-24">
-        <hr className="my-4 mx-auto w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
-        <p className="w-4/5 mx-auto">Nutritional Meals Ready-to-Eat for young elderly.</p>
-        <p className="w-4/5 mx-auto mt-16">The problem : The young elderly might not always have the time to cook themselves and existing MREs do not hold the desired nutritional value.</p>
-        <hr className="my-4 mx-auto w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
+      <section className="h-screen bg-[#9ac875] text-white text-lg sm:text-2xl py-16 sm:py-24">
+        <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
+        <p className="w-5/6 sm:w-4/5 mx-auto">Nutritional Meals Ready-to-Eat for young elderly.</p>
+        <p className="w-5/6 sm:w-4/5 mx-auto mt-16">The problem : The young elderly might not always have the time to cook themselves and existing MREs do not hold the desired nutritional value.</p>
+        <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
       </section>
-      <section className="bg-[#9ac875] text-white text-2xl flex flex-col items-center py-24">
-        <h1 className="font-black text-5xl">Alexi</h1>
-        <h2 className="font-medium text-lg">SIGHT member in 2022</h2>
-        <h3 className="text-lg">Feed You Well</h3>
-        <article className="text-xl w-4/5 mx-auto flex flex-col space-y-10">
-          <p className="first-letter:text-4xl">At the beginning of this course, I thought I am not able to have a final product that I will be satisfied with since creating a whole series of food products in one semester is not easy. And we had so many ideas, so we are not able to come up with an organized one. Yet, after several meetings and cooking throughout few months, we gradually came up with a series of final products after failures. We did not know how to cook at first since we were not used to cooking by ourselves, but after trying many times, we learnt some techniques like how to marinate the meat before cooking and how long do the food needed to be cooked so that after reheating, it will not be
+      <section className="bg-[#9ac875] text-white text-lg sm:text-2xl flex flex-col items-center py-16 sm:py-24">
+        <h1 className="font-black text-3xl sm:text-5xl">Alexi</h1>
+        <h2 className="font-medium text-sm sm:text-lg">SIGHT member in 2022</h2>
+        <h3 className="text-sm sm:text-lg">Feed You Well</h3>
+        <article className="text-base sm:text-xl w-5/6 sm:w-4/5 mx-auto flex flex-col space-y-10">
+          <p className="first-letter:text-2xl sm:first-letter:text-4xl">At the beginning of this course, I thought I am not able to have a final product that I will be satisfied with since creating a whole series of food products in one semester is not easy. And we had so many ideas, so we are not able to come up with an organized one. Yet, after several meetings and cooking throughout few months, we gradually came up with a series of final products after failures. We did not know how to cook at first since we were not used to cooking by ourselves, but after trying many times, we learnt some techniques like how to marinate the meat before cooking and how long do the food needed to be cooked so that after reheating, it will not be
 too soft or hard. Also, we did not know how to create a website at first. But luckily, I discovered a platform to create website free of charge and we were able to finish the website with pretty design and useful information inside. Before having a sharing in ERC, I was extremely nervous since I am quite shy that I am not used to speak in front of many people. But after several practices, it ended up quite well and I am able to interact with the elderly smoothly to create a relaxing sharing atmosphere.</p>
          <p>In my opinion, design thinking and user-centered design is gradually becoming more and more popular nowadays in terms of technology. Since many services are performing on the internet and introducing only a series of food is not enough to both this course and elderly since this is not a cooking course. So this is the reason why we choose to add a QR code on our food packages to strongly combine food and technology. Apart from technology user-centered design, I also found out that collecting comments from target users is super important. Since I do not have elderly relatives or friends, I am not familiar with their mindsets and eating habits. After the sharing in ERC, I found out young elderly have way more ideas than we expected such as they think soup is essential for a meal that I have never thought of because
 I hate soup. Also, some of them like western food like mashed potato and western soup which surprised me with their not so traditional Chinese eating habits. So, collecting comments from target users can help to enrich our products to another level and become more user friendly.</p>
