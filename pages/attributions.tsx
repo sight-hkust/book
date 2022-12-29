@@ -339,6 +339,9 @@ export default function Attributions() {
             ].map(name => <dd key={name} className="sm:text-2xl text-xl">{name}</dd>)
           }
         </dl>
+        <div className="w-full flex flex-row-reverse sm:text-xl">
+          Copyright &#169; { new Date().getFullYear() } SIGHT
+        </div>
       </section>
     </Layout>
   )
