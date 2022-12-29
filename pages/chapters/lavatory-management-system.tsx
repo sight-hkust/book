@@ -11,17 +11,17 @@ export default function Chapter() {
       <Head>
         <title>Lavatory Management System</title>
       </Head>
-      <section className="h-screen bg-[#e49059] text-white text-2xl py-24">
-        <hr className="my-4 mx-auto w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
-        <p className="w-4/5 mx-auto">An RFID system that tracks the usage of toilets at the Caritas Lok Kan School.</p>
-        <p className="w-4/5 mx-auto mt-16">The problem : Students at the Lok Kan School often suffer from conditions that affect their toileting as well as their ability to communicate that need. Therefore teachers there need to track their toileting data, such as timing, success, condition, etc.</p>
-        <hr className="my-4 mx-auto w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
+      <section className="h-screen bg-[#e49059] text-white text-lg sm:text-2xl py-16 sm:py-24">
+        <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
+        <p className="w-5/6 sm:w-4/5 mx-auto">An RFID system that tracks the usage of toilets at the Caritas Lok Kan School.</p>
+        <p className="w-5/6 sm:w-4/5 mx-auto mt-16">The problem : Students at the Lok Kan School often suffer from conditions that affect their toileting as well as their ability to communicate that need. Therefore teachers there need to track their toileting data, such as timing, success, condition, etc.</p>
+        <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
       </section>
-      <section className="bg-[#fffef7] text-[#142a44] text-2xl flex flex-col items-center py-24">
-        <h1 className="font-black text-5xl">Jacky</h1>
-        <h2 className="font-medium text-lg">SIGHT member in 2020</h2>
-        <h3 className="text-lg">Lavatory Management System</h3>
-        <article className="text-xl w-4/5 mx-auto flex flex-col space-y-10">
+      <section className="bg-[#fffef7] text-[#142a44] text-lg sm:text-2xl flex flex-col items-center py-16 sm:py-24">
+        <h1 className="font-black text-3xl sm:text-5xl">Jacky</h1>
+        <h2 className="font-medium text-sm sm:text-lg">SIGHT member in 2020</h2>
+        <h3 className="text-sm sm:text-lg">Lavatory Management System</h3>
+        <article className="text-base sm:text-xl w-5/6 sm:w-4/5 mx-auto flex flex-col space-y-10">
           <p className="first-letter:text-4xl">My experience at SIGHT started with one of my friends. Saying SIGHT is both challenging and rewarding, and he gave special exaggeration towards the word “challenging”.</p>
           <p>Going through my journey of SIGHT, I finally understood him. In SIGHT, you not only need to manage your work but also all the planning including meetings with partners and time planning. Just the part where we figure out the topic of our project had already gotten us headaches, back then all the plan seemed flawed. We struggled
 to find one viable solution for an SEN school. Looking through various technologies and solution, still, there wasn’t any perfect match for our partner’s needs. To track students’ living routine, and their health status, they wanted something more convenient and fast, instead of just doing it all manually. Either the setup is too expensive or the technology is not robust enough, seeing that the deadline of the presentation is approaching tight, we were truly stressed. In the end, with the help of our mentors, we finally figured out how to integrate various technologies for our use.</p>

@@ -11,18 +11,18 @@ export default function Chapter() {
       <Head>
         <title>Zi Saam Dim Sum</title>
       </Head>
-      <section className="h-screen bg-[#d1b205] text-white text-2xl py-24">
-        <hr className="my-4 mx-auto w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
-        <p className="w-4/5 mx-auto">Texture modified food (TMF) recicpes for elderly with dysphasia.</p>
-        <p className="w-4/5 mx-auto mt-16">The problem : Elderly with dysphasia often have limited food options, which could in turn affect appetite and therefore body weight.</p>
-        <hr className="my-4 mx-auto w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
+      <section className="h-screen bg-[#d1b205] text-white text-lg sm:text-2xl py-16 sm:py-24">
+        <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
+        <p className="w-5/6 sm:w-4/5 mx-auto">Texture modified food (TMF) recicpes for elderly with dysphasia.</p>
+        <p className="w-5/6 sm:w-4/5 mx-auto mt-8 sm:mt-16">The problem : Elderly with dysphasia often have limited food options, which could in turn affect appetite and therefore body weight.</p>
+        <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
       </section>
-      <section className="bg-[#d1b205] text-[#142a44] text-2xl flex flex-col items-center py-24">
-        <h1 className="font-black text-5xl">Daniel</h1>
-        <h2 className="font-medium text-lg">SIGHT member in 2022</h2>
-        <h3 className="text-lg">Zi Saam Dim Sum</h3>
-        <article className="text-xl w-4/5 mx-auto flex flex-col space-y-10">
-          <p className="first-letter:text-4xl">Through this course, I learned a lot of useful information regarding texture modified food (TMF) and a lot of critical thinking skills. I learned there are many ways to solve
+      <section className="bg-[#d1b205] text-[#142a44] text-lg sm:text-2xl flex flex-col items-center py-16 sm:py-24">
+        <h1 className="font-black text-3xl sm:text-5xl">Daniel</h1>
+        <h2 className="font-medium text-sm sm:text-lg">SIGHT member in 2022</h2>
+        <h3 className="text-sm sm:text-lg">Zi Saam Dim Sum</h3>
+        <article className="text-base sm:text-xl w-5/6 sm:w-4/5 mx-auto flex flex-col space-y-10">
+          <p className="first-letter:text-2xl sm:first-letter:text-4xl">Through this course, I learned a lot of useful information regarding texture modified food (TMF) and a lot of critical thinking skills. I learned there are many ways to solve
 a problem and there are no rules to say which is the best, it depends on how I want the matter to be solved. It is uncertain whether the knowledge of making TMF would be helpful to me in any way in the future but the making of TMF is not my largest takeaway. I have stumbled upon a lot of challenges in the project.</p>
           <p>From the beginning of the project, I already cannot find a lot of helpful information since there are not a lot of people or organizations focused on making TMF. I gathered many pieces of information from here and there to piece out something
 we can work on. Moreover, I am not much of a chef and to make food that not only

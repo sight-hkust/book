@@ -11,18 +11,18 @@ export default function Chapter() {
       <Head>
         <title>ForeSee</title>
       </Head>
-      <section className="h-screen bg-[#65b4e5] text-white text-2xl py-24">
-        <hr className="my-4 mx-auto w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
-        <p className="w-4/5 mx-auto">An electronic eye health platform for parents in Hong Kong.</p>
-        <p className="w-4/5 mx-auto mt-16">The problem : Children myopia has seen staggering growth in Hong Kong, and parents often lack the proper aids to keep track of their kids’ eye health.</p>
-        <hr className="my-4 mx-auto w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
+      <section className="h-screen bg-[#65b4e5] text-white text-lg sm:text-2xl py-16 sm:py-24">
+        <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
+        <p className="w-5/6 sm:w-4/5 mx-auto">An electronic eye health platform for parents in Hong Kong.</p>
+        <p className="w-5/6 sm:w-4/5 mx-auto mt-8 sm:mt-16">The problem : Children myopia has seen staggering growth in Hong Kong, and parents often lack the proper aids to keep track of their kids’ eye health.</p>
+        <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
       </section>
-      <section className="bg-[#fffef7] text-[#142a44] text-2xl flex flex-col items-center py-24">
-        <h1 className="font-black text-5xl">Jaman</h1>
-        <h2 className="font-medium text-lg">SIGHT member in 2019</h2>
-        <h3 className="text-lg">ForeSee</h3>
-        <article className="text-xl w-4/5 mx-auto flex flex-col space-y-10">
-          <p className="first-letter:text-4xl">ForeSee is a family to me.</p>
+      <section className="bg-[#fffef7] text-[#142a44] text-lg sm:text-2xl flex flex-col items-center py-16 sm:py-24">
+        <h1 className="font-black text-3xl sm:text-5xl">Jaman</h1>
+        <h2 className="font-medium text-sm sm:text-lg">SIGHT member in 2019</h2>
+        <h3 className="text-sm sm:text-lg">ForeSee</h3>
+        <article className="text-base sm:text-xl w-5/6 sm:w-4/5 mx-auto flex flex-col space-y-10">
+          <p className="first-letter:text-2xl sm:first-letter:text-4xl">ForeSee is a family to me.</p>
           <p>What does SIGHT mean to me?</p>
           <p>SIGHT is a spirit. It shows in every participant’s mind and actions. When I first joined SIGHT, I was only looking for friendships and interaction with international peers. As the time goes, I have found far more than I expected in SIGHT as well as my little organization started in SIGHT, ForeSee. In SIGHT, we bond and communicate openly. It feels good to tell everyone that we are trying to solve a real-life problem that is
 yet to be solved. However, the reality is often more complicated than expected, trying to solve a real-life problem could face a lot of setbacks and failure, which is extremely discouraging and sometimes left us heartbroken. Fortunately, we are not alone in SIGHT, liked-minded people will work together, hands in hands in designing, prototyping and implementing the whole project, it taught me the true meaning

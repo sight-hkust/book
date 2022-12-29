@@ -11,18 +11,18 @@ export default function Chapter() {
       <Head>
         <title>eyessistant</title>
       </Head>
-      <section className="h-screen bg-[#6067ae] text-white text-2xl py-24">
-        <hr className="my-4 mx-auto w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
-        <p className="w-4/5 mx-auto">A low-cost VR-based eye surgery training system for eye surgeons to train up their surgical skills.</p>
-        <p className="w-4/5 mx-auto mt-16">The problem : Eye surgery simulators are either prohibitively expensive, unportable, or both. This leaves training inaccessible for aspiring eye doctors, especially in developing regions where eye diseases are common.</p>
-        <hr className="my-4 mx-auto w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
+      <section className="h-screen bg-[#6067ae] text-white text-lg sm:text-2xl py-16 sm:py-24">
+        <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
+        <p className="w-5/6 sm:w-4/5 mx-auto">A low-cost VR-based eye surgery training system for eye surgeons to train up their surgical skills.</p>
+        <p className="w-5/6 sm:w-4/5 mx-auto mt-8 sm:mt-16">The problem : Eye surgery simulators are either prohibitively expensive, unportable, or both. This leaves training inaccessible for aspiring eye doctors, especially in developing regions where eye diseases are common.</p>
+        <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
       </section>
-      <section className="bg-[#fffef7] text-[#142a44] text-2xl flex flex-col items-center py-24">
-        <h1 className="font-black text-5xl">Rubaiyat</h1>
-        <h2 className="font-medium text-lg">SIGHT member in 2016</h2>
-        <h3 className="text-lg">eyessistant</h3>
-        <article className="text-xl w-4/5 mx-auto flex flex-col space-y-10">
-          <p className="first-letter:text-4xl">What to do when you feel like you are doomed?</p>
+      <section className="bg-[#fffef7] text-[#142a44] text-lg sm:text-2xl flex flex-col items-center py-16 sm:py-24">
+        <h1 className="font-black text-3xl sm:text-5xl">Rubaiyat</h1>
+        <h2 className="font-medium text-sm sm:text-lg">SIGHT member in 2016</h2>
+        <h3 className="text-sm sm:text-lg">eyessistant</h3>
+        <article className="text-lg sm:text-xl w-5/6 sm:w-4/5 mx-auto flex flex-col space-y-10">
+          <p className="first-letter:text-2xl sm:first-letter:text-4xl">What to do when you feel like you are doomed?</p>
           <p>As soon as the meeting with Prof. Roger Cheng ended, my team and I exited the meeting room in a state of disbelief and heavily sighing hearts. We had worked on our projects for half the semester and suddenly, our efforts were drenched. We wondered, do we have to start all over?</p>
           <p>We were building a portable fundus camera, which would detect early diabetic retinopathy for patients in Yogyakarta, Indonesia. It was a challenging yet gratifying first few months of solving. We delved into ideating multiple solutions, with confident attempts of applying design thinking tools. Naively, we were collecting data points
 at the same time we were ideating. But at least we were moving! Prototyping began soon as we had narrowed down the solutions that we believed would solve all the problems and were well on our way to completing the project smoothly.</p>
