@@ -1,8 +1,13 @@
 import React from "react";
 import Head from "next/head";
 import Layout from "../../components/Layout";
+import Image from "next/image";
+import { useRouter } from "next/router";
 
 export default function Chapter() {
+
+  const router = useRouter();
+
   return (
     <Layout 
       prevPageHref="#"
@@ -11,7 +16,7 @@ export default function Chapter() {
       <Head>
         <title>MedEasy</title>
       </Head>
-      <section className="h-screen bg-[#182a46] text-white text-lg sm:text-2xl py-24">
+      <section className=" bg-[#182a46] text-white text-lg sm:text-2xl py-24">
         <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
         <p className="w-5/6 sm:w-4/5 mx-auto">An electronic health record system for mobile clinics, complete with a smartphone app, a local Raspberry Pi-based server and online reporting portal.</p>
         <p className="w-5/6 sm:w-4/5 mx-auto mt-16">The problem : <strong>One-2-One Cambodia</strong> is a medical NGO that conducts mobile clinic outreach in the slums of Phnom Penh and the provinces of Cambodia. Their old way of storing patient records is via paper, which is cumbersome and susceptible to damage.</p>
@@ -25,6 +30,9 @@ export default function Chapter() {
           <dl className="text-base sm:text-xl">(Chun Wo Innovation Student Awards)</dl>
         </dl>
         <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
+        <div className="w-5/6 mx-auto flex justify-center">
+          <Image className="w-full sm:w-3/5" src={`/vectors/${router.pathname.replace('/chapters/', '')}.png`} width={430} height={150} alt=""/>
+        </div>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] text-2xl flex flex-col items-center py-24">
         <h1 className="font-black text-3xl sm:text-5xl">Jonathan</h1>

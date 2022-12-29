@@ -1,8 +1,11 @@
 import React from "react";
 import Head from "next/head";
 import Layout from "../../components/Layout";
+import { useRouter } from "next/router";
+import Image from "next/image";
 
 export default function Chapter() {
+  const router = useRouter()
   return (
     <Layout
       prevPageHref="/chapters/softkeyboard"
@@ -16,6 +19,9 @@ export default function Chapter() {
         <p className="w-5/6 sm:w-4/5 mx-auto">An RFID system that tracks the usage of toilets at the Caritas Lok Kan School.</p>
         <p className="w-5/6 sm:w-4/5 mx-auto mt-16">The problem : Students at the Lok Kan School often suffer from conditions that affect their toileting as well as their ability to communicate that need. Therefore teachers there need to track their toileting data, such as timing, success, condition, etc.</p>
         <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
+        <div className="w-5/6 mx-auto flex justify-center">
+          <Image className="w-full sm:w-3/5" src={`/vectors/${router.pathname.replace('/chapters/', '')}.png`} width={430} height={150} alt=""/>
+        </div>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] text-lg sm:text-2xl flex flex-col items-center py-16 sm:py-24">
         <h1 className="font-black text-3xl sm:text-5xl">Jacky</h1>

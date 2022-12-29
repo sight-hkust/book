@@ -1,8 +1,11 @@
 import React from "react";
 import Head from "next/head";
 import Layout from "../../components/Layout";
+import { useRouter } from "next/router";
+import Image from "next/image";
 
 export default function Chapter() {
+  const router = useRouter()
   return (
     <Layout 
       prevPageHref="/chapters/moringa"
@@ -16,6 +19,9 @@ export default function Chapter() {
         <p className="w-5/6 sm:w-4/5 mx-auto">A mouth-based control system for wheelchair users.</p>
         <p className="w-5/6 sm:w-4/5 mx-auto mt-8 sm:mt-16">The problem : Hong Kong Red Cross John F. Kennedy Centre is a special school, where some of their students are wheelchair bound. Some of these students are unable to control their wheelchairs with their arms.</p>
         <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-[#132a44] rounded border-0 md:my-10"/>
+        <div className="w-5/6 mx-auto flex justify-center">
+          <Image className="w-full sm:w-3/5" src={`/vectors/${router.pathname.replace('/chapters/', '')}.png`} width={430} height={150} alt=""/>
+        </div>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] flex flex-col items-center py-16 sm:py-24">
         <h1 className="font-black text-3xl sm:text-5xl">Henry</h1>

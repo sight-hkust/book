@@ -1,8 +1,11 @@
 import React from "react";
 import Head from "next/head";
 import Layout from "../../components/Layout";
+import { useRouter } from "next/router";
+import Image from "next/image";
 
 export default function Chapter() {
+  const router = useRouter();
   return (
     <Layout
       prevPageHref="/chapters/space-design"
@@ -16,6 +19,9 @@ export default function Chapter() {
         <p className="w-5/6 sm:w-4/5 mx-auto">Nutritional Meals Ready-to-Eat for young elderly.</p>
         <p className="w-5/6 sm:w-4/5 mx-auto mt-16">The problem : The young elderly might not always have the time to cook themselves and existing MREs do not hold the desired nutritional value.</p>
         <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
+        <div className="w-5/6 mx-auto flex justify-center">
+          <Image className="w-full sm:w-3/5" src={`/vectors/${router.pathname.replace('/chapters/', '')}.png`} width={430} height={150} alt=""/>
+        </div>
       </section>
       <section className="bg-[#9ac875] text-white text-lg sm:text-2xl flex flex-col items-center py-16 sm:py-24">
         <h1 className="font-black text-3xl sm:text-5xl">Alexi</h1>

@@ -1,8 +1,11 @@
 import React from "react";
 import Head from "next/head";
 import Layout from "../../components/Layout";
+import { useRouter } from "next/router";
+import Image from "next/image";
 
 export default function Chapter() {
+  const router = useRouter()
   return (
     <Layout 
       prevPageHref="/chapters/dr-level-up"
@@ -16,6 +19,9 @@ export default function Chapter() {
         <p className="w-5/6 sm:w-4/5 mx-auto">An electronic eye health record system for eye health outreach in Shantou, China.</p>
         <p className="w-5/6 sm:w-4/5 mx-auto mt-8 sm:mt-16">The Joint Shantou International Eye Center conducts eye health outreach in the prefecture and its surrounding districts, be it at community health centers or boarding schools. Records of these outreach efforts are paper-based, meaning manual entry to the electronic database would be required.</p>
         <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
+        <div className="w-5/6 mx-auto flex justify-center">
+          <Image className="w-full sm:w-3/5" src={`/vectors/${router.pathname.replace('/chapters/', '')}.png`} width={430} height={150} alt=""/>
+        </div>
       </section>
       <section className="bg-[#fffef7] text-[#375ba7] text-lg sm:text-2xl flex flex-col items-center py-16 sm:py-24">
         <h1 className="font-bold text-lg sm:text-2xl mb-8 sm:mb-16">Description</h1>
