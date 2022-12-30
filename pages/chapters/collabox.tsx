@@ -15,6 +15,7 @@ export default function Chapter() {
         <title>Collabox</title>
       </Head>
       <section className="h-screen bg-[#fffef7] text-[#ed8902] text-lg sm:text-2xl">
+      <Image className="mx-auto sm:w-2/3 w-11/12" src={`/titles/${router.pathname.replace('/chapters/', '')}.png`} width={1460} height={968} alt=""/>
         <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-[#ed8902] rounded border-0 md:my-10"/>
         <p className="w-5/6 sm:w-4/5 mx-auto">A learning platform for special needs students at the Caritas Lok Kan School, with collaborative games and custom input devices.</p>
         <p className="w-5/6 sm:w-4/5 mx-auto mt-16">The problem : Students at the Lok Kan School lack collaborative games that allow them to play and learn together.</p>

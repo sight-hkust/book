@@ -14,6 +14,7 @@ export default function Chapter() {
       <Head>
         <title>Drug Dispensing Box</title>
       </Head>
+      <Image className="w-screen bg-[#fffef7]" src={`/covers/${router.pathname.replace('/chapters/', '')}.png`} width={1460} height={968} alt=""/>
       <section className="h-screen bg-[#ea5545] text-white text-lg sm:text-2xl py-16 sm:py-24">
         <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
         <p className="w-5/6 sm:w-4/5 mx-auto">A medicine transportation and organization system for mobile clinics.</p>

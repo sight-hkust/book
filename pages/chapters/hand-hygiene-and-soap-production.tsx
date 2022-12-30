@@ -14,7 +14,8 @@ export default function Chapter() {
       <Head>
         <title>Hand Hygiene and Soap Production</title>
       </Head>
-      <section className="h-screen bg-[#ebc01c] text-white text-lg sm:text-2xl py-16 sm:py-24">
+      <section className="bg-[#ebc01c] text-white text-lg sm:text-2xl py-16 sm:py-24">
+      <Image className="w-3/4 sm:w-2/3 mx-auto" src={`/titles/${router.pathname.replace('/chapters/', '')}.png`} width={876} height={162} alt=""/>
         <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
         <p className="w-5/6 sm:w-4/5 mx-auto">An education platform to teach Cambodian schoolchildren the importance of handwashing, as well as a social enterprise model in which local women manufacture scented soaps for tourists to fund soap for school kids.</p>
         <p className="w-5/6 sm:w-4/5 mx-auto mt-8 sm:mt-16">The problem : Primary healthcare in rural Siem Reap is priced out of reach for the villagers. Yet common hygiene practices such has handwashing with soap is not yet pervasive.</p>
@@ -22,6 +23,7 @@ export default function Chapter() {
         <div className="w-5/6 mx-auto flex justify-center">
           <Image className="w-full sm:w-3/5" src={`/vectors/${router.pathname.replace('/chapters/', '')}.png`} width={430} height={150} alt=""/>
         </div>
+        <Image className="mt-16 sm:mt-24 sm:w-1/5 w-2/5 mx-auto" src={`/covers/${router.pathname.replace('/chapters/', '')}.png`} width={1460} height={968} alt=""/>
       </section>
       <section className="bg-[#ebc01c] text-white text-lg sm:text-2xl flex flex-col items-center py-16 sm:py-24">
         <h1 className="font-bold text-lg sm:text-2xl mb-8 sm:mb-16">Description</h1>

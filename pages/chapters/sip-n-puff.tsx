@@ -14,7 +14,9 @@ export default function Chapter() {
       <Head>
         <title>Sip-n-Puff</title>
       </Head>
+      <Image className="w-screen" src={`/covers/${router.pathname.replace('/chapters/', '')}.png`} width={1460} height={968} alt=""/>
       <section className="h-screen bg-[#f0833f] text-[#132a44] text-lg sm:text-2xl py-16 sm:py-24">
+        <Image className="w-2/3 mx-auto" src={`/titles/${router.pathname.replace('/chapters/', '')}.png`} width={1001} height={212} alt=""/>
         <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-[#132a44] rounded border-0 md:my-10"/>
         <p className="w-5/6 sm:w-4/5 mx-auto">A mouth-based control system for wheelchair users.</p>
         <p className="w-5/6 sm:w-4/5 mx-auto mt-8 sm:mt-16">The problem : Hong Kong Red Cross John F. Kennedy Centre is a special school, where some of their students are wheelchair bound. Some of these students are unable to control their wheelchairs with their arms.</p>

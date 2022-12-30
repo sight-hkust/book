@@ -14,6 +14,7 @@ export default function Chapter() {
       <Head>
         <title>Diabetic Retinopathy Detection</title>
       </Head>
+      <Image className="w-screen" src={`/covers/${router.pathname.replace('/chapters/', '')}.png`} width={1500} height={1320} alt=""/>
       <section className="h-screen bg-[#fffef7] text-[#c12239] text-lg sm:text-2xl py-16 sm:py-24">
         <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-[#c12239] rounded border-0 md:my-10"/>
         <p className="w-4/5 mx-auto">A platform that leverages portable fundus cameras and image analysis to detect diabetic retinopathy.</p>

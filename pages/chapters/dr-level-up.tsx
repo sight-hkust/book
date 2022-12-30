@@ -14,14 +14,16 @@ export default function Chapter() {
       <Head>
         <title>Dr. Level Up</title>
       </Head>
-      <section className="h-screen bg-[#accb41] text-[#020203] text-lg sm:text-2xl py-16 sm:py-24">
+      <section className="bg-[#accb41] text-[#020203] text-lg sm:text-2xl pt-16 sm:pt-24 flex flex-col justify-between">
+        <Image className="w-2/3 mx-auto" src={`/titles/${router.pathname.replace('/chapters/', '')}.png`} width={876} height={162} alt=""/>
         <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-[#132a44] rounded border-0 md:my-10"/>
         <p className="w-5/6 sm:w-4/5 mx-auto">An electronic health record system designed for medical outreach to homeless people.</p>
         <p className="w-5/6 sm:w-4/5 mx-auto mt-16">The problem : The Salvation Army in Hong Kong conducts medical outreach for the homeless around Hong Kong, and lack a system for both their nurses and volunteers to record the health data accrued throughout the service.</p>
         <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-[#020203] rounded border-0 md:my-10"/>
-        <div className="w-5/6 mx-auto flex justify-center">
+        <div className="w-5/6 mx-auto flex justify-center mb-16 sm:mb-24">
           <Image className="w-full sm:w-3/5" src={`/vectors/${router.pathname.replace('/chapters/', '')}.png`} width={430} height={150} alt=""/>
         </div>
+        <Image className="w-screen" src={`/covers/${router.pathname.replace('/chapters/', '')}.png`} width={1460} height={968} alt=""/>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] flex flex-col items-center py-16 sm:py-24">
         <h1 className="font-black text-3xl sm:text-5xl">Zoya</h1>

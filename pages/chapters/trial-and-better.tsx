@@ -14,7 +14,7 @@ export default function Chapter() {
       <section className="h-screen bg-[#fffef7] text-[#142a44] text-lg sm:text-2xl py-16 sm:py-24">
         <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-[#142a44] rounded border-0 md:my-10"/>
         <p className="w-5/6 sm:w-4/5 mx-auto">Leveraging Stanford d.school’s Designing for Life curriculum for early secondary school students.</p>
-        <p className="w-5/6 sm:w-4/5 mx-auto mt-16">The problem : The COVID pandemic along with subsequent government policies had at times left teaching and learning in a jumble. But amid all this we saw a chance to also experiment with something novel and untested in Hong Kong, prototyping with secondary school students their ideal lives.</p>
+        <p className="w-5/6 sm:w-4/5 mx-auto mb-8 sm:mt-16">The problem : The COVID pandemic along with subsequent government policies had at times left teaching and learning in a jumble. But amid all this we saw a chance to also experiment with something novel and untested in Hong Kong, prototyping with secondary school students their ideal lives.</p>
         <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-[#142a44] rounded border-0 md:my-10"/>
       </section>
       <section className="bg-[#fcf37d] text-[#142a44] text-lg sm:text-2xl flex flex-col items-center py-16 sm:py-24">

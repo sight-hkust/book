@@ -14,7 +14,8 @@ export default function Chapter() {
       <Head>
         <title>ForeSee</title>
       </Head>
-      <section className="h-screen bg-[#65b4e5] text-white text-lg sm:text-2xl py-16 sm:py-24">
+      <section className="bg-[#65b4e5] text-white text-lg sm:text-2xl py-16 sm:py-24">
+        <Image className="w-5/6 mx-auto" src={`/covers/${router.pathname.replace('/chapters/', '')}.png`} width={1460} height={968} alt=""/>
         <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
         <p className="w-5/6 sm:w-4/5 mx-auto">An electronic eye health platform for parents in Hong Kong.</p>
         <p className="w-5/6 sm:w-4/5 mx-auto mt-8 sm:mt-16">The problem : Children myopia has seen staggering growth in Hong Kong, and parents often lack the proper aids to keep track of their kids’ eye health.</p>

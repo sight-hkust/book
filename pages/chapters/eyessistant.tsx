@@ -16,11 +16,12 @@ export default function Chapter() {
       <Head>
         <title>eyessistant</title>
       </Head>
-      <section className="h-screen bg-[#6067ae] text-white text-lg sm:text-2xl py-16 sm:py-24">
-        <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
+      <section className="h-screen bg-[#f0efb8] text-[#142a44] text-lg sm:text-2xl py-16 sm:py-24">
+      <Image className="w-3/4 sm:w-2/3 mx-auto" src={`/titles/${router.pathname.replace('/chapters/', '')}.png`} width={876} height={162} alt=""/>
+        <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-[#142a44] rounded border-0 md:my-10"/>
         <p className="w-5/6 sm:w-4/5 mx-auto">A low-cost VR-based eye surgery training system for eye surgeons to train up their surgical skills.</p>
         <p className="w-5/6 sm:w-4/5 mx-auto mt-8 sm:mt-16">The problem : Eye surgery simulators are either prohibitively expensive, unportable, or both. This leaves training inaccessible for aspiring eye doctors, especially in developing regions where eye diseases are common.</p>
-        <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
+        <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-[#142a44] rounded border-0 md:my-10"/>
         <div className="w-5/6 mx-auto flex justify-center">
           <Image className="w-full sm:w-3/5" src={`/vectors/${router.pathname.replace('/chapters/', '')}.png`} width={430} height={150} alt=""/>
         </div>
