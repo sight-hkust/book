@@ -1,8 +1,12 @@
 import React from "react";
 import Head from "next/head";
+import Image from "next/image";
+import { useRouter } from "next/router";
 import Layout from "../../components/Layout";
+import AuthorName from "../../components/AuthorName";
 
 export default function Chapter() {
+  const router = useRouter();
   return (
     <Layout 
       prevPageHref="/chapters/environmental-awareness-in-sri-lanka"
@@ -11,11 +15,16 @@ export default function Chapter() {
       <Head>
         <title>Trial & Better</title>
       </Head>
+      <Image className="w-screen" src={`/covers/${router.pathname.split('/').slice(-1)}.png`} width={1460} height={968} alt=""/>
       <section className="h-screen bg-[#fffef7] text-[#142a44] text-lg sm:text-2xl py-16 sm:py-24">
+      <Image className="mx-auto sm:w-2/3 w-11/12" src={`/artworks/teaching-team.png`} width={1460} height={968} alt=""/>
         <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-[#142a44] rounded border-0 md:my-10"/>
         <p className="w-5/6 sm:w-4/5 mx-auto">Leveraging Stanford d.school’s Designing for Life curriculum for early secondary school students.</p>
         <p className="w-5/6 sm:w-4/5 mx-auto mb-8 sm:mt-16">The problem : The COVID pandemic along with subsequent government policies had at times left teaching and learning in a jumble. But amid all this we saw a chance to also experiment with something novel and untested in Hong Kong, prototyping with secondary school students their ideal lives.</p>
         <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-[#142a44] rounded border-0 md:my-10"/>
+        <div className="w-5/6 mx-auto flex justify-center">
+          <Image className="w-full sm:w-3/5" src={`/vectors/${router.pathname.split('/').slice(-1)}.png`} width={430} height={150} alt=""/>
+        </div>
       </section>
       <section className="bg-[#fcf37d] text-[#142a44] text-lg sm:text-2xl flex flex-col items-center py-16 sm:py-24">
         <h1 className="font-bold text-lg sm:text-2xl mb-16">Description</h1>
@@ -26,7 +35,7 @@ of kind volunteers, we linked students up with professionals and experts of thei
         </article>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] text-lg sm:text-2xl flex flex-col items-center py-16 sm:py-24">
-        <h1 className="font-black text-3xl sm:text-5xl">Leung Wing Mui</h1>
+        <AuthorName name="Leung Wing Mui"/>
         <h2 className="font-medium text-sm sm:text-lg">Vice-principal</h2>
         <h3 className="text-sm sm:text-lg">Kowloon Sam Yuk Secondary School</h3>
         <article className="text-base sm:text-xl w-5/6 sm:w-4/5 mx-auto flex flex-col space-y-10">
@@ -37,7 +46,7 @@ in this programme, students are able to breakthrough these difficulties and be a
         </article>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] text-lg sm:text-2xl flex flex-col items-center py-16 sm:py-24">
-        <h1 className="font-black text-3xl sm:text-5xl">Law Lam Sze</h1>
+        <AuthorName name="Law Lam Sze"/>
         <h2 className="font-medium text-sm sm:text-lg">Student</h2>
         <h3 className="text-sm sm:text-lg">Kowloon Sam Yuk Secondary School</h3>
         <article className="text-base sm:text-xl w-5/6 sm:w-4/5 mx-auto flex flex-col space-y-10">

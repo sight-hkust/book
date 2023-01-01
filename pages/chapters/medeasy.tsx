@@ -3,6 +3,7 @@ import Head from "next/head";
 import Layout from "../../components/Layout";
 import Image from "next/image";
 import { useRouter } from "next/router";
+import AuthorName from "../../components/AuthorName";
 
 export default function Chapter() {
 
@@ -32,17 +33,18 @@ export default function Chapter() {
         </dl>
         <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
         <div className="w-5/6 mx-auto flex justify-center">
-          <Image className="w-full sm:w-3/5" src={`/vectors/${router.pathname.replace('/chapters/', '')}.png`} width={430} height={150} alt=""/>
+          <Image className="w-full sm:w-3/5" src={`/vectors/${router.pathname.split('/').slice(-1)}.png`} width={430} height={150} alt=""/>
         </div>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] text-2xl flex flex-col items-center py-24">
-        <h1 className="font-black text-3xl sm:text-5xl">Jonathan</h1>
+        <AuthorName name="Jonathan" />
         <h2 className="font-medium text-sm sm:text-lg">SIGHT member in 2015</h2>
         <h3 className="text-sm sm:text-lg">MedEasy</h3>
         <article className="text-base sm:text-xl w-5/6 sm:w-4/5 mx-auto flex flex-col space-y-10">
           <p className="first-letter:text-2xl sm:first-letter:text-4xl">Greetings to former, current, and prospective SIGHT members alike! It has certainly been a long while since my days as a member of the SIGHT team, back when I was an undergraduate student at HKUST. Thus, when Malinda contacted me inviting me to be part of this book project, I was both honoured and mildly worried. The latter feeling of course, arose from the fact that there is this 4-5 year gap that has certainly tainted and muddled my memories of exactly what I was up to those number of years ago.</p>
           <p>I do remember that I was part of the Cambodia team, in which we tried to implement a mobile app for healthcare workers and medical volunteers to use to document health information for people living in poor conditions within the many slums scattered around Phnom Penh (we used to call that project “EasyMed”, and then it became “MedEasy”, but I’m not sure what you guys call it now!). Looking back it was certainly challenging to have been taking part (as a person who knows very little in coding) in a project that in essence requires coding knowledge to work. Thus my efforts were mainly focused on the user experience, to try and understand the healthcare workers’ needs in helping them streamline their medical services. Another part of the challenge was to design a portable storage unit to place 3 main pieces of equipment: a router for wifi services in the slums, a raspberry pi essentially for data storage, and a power bank to ensure the first two are running.</p>
           <p>I participated in two weekly-long field trips (one in June 2016 and the other in June 2017), whose aim was to implement the project and see how it functions in a real- life situation. Having been fortunately equipped with a plethora of photographic evidence (as well as a number of embarrassing video clips of my mug, which I am not keen to highlight!) documenting these two events, I will thus take you readers on a pictographic journey of the early days of this “Electronic Health Record System” project...</p>
+          <Image className="mx-auto w-2/5" src="/artworks/jonathan.png" width={644} height={662} alt=""/>
           <div className="flex flex-wrap justify-around">
             <p className="w-1/2">This photo was taken in the early days of the field trip. A big part of the implementation challenge was to teach the healthcare workers how to use the mobile app, and how to set up the “EasyMed Box” (the purple contraption on the left). This office space also serves as the headquarters in which after each trip to the slum we discuss on what went well, what went awry, and how we can improve in the future.</p>
             <p className="w-1/2">Here is a shot of one of the slums we volunteered in; at that moment we were helping to set up the so-called “triage, consultation, and pharmacy” stations. I do remember the smell being a mixture of rotting food waste and burning plastic, with
@@ -60,7 +62,8 @@ in which the patient travels to visit the doctor. Having had a one-year opportun
         </article>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] text-2xl flex flex-col items-center py-24">
-        <h1 className="font-black text-3xl sm:text-5xl">Ziuwin</h1>
+        <Image className="mx-auto max-w-sm w-2/5" src="/artworks/ziuwin.png" width={644} height={662} alt=""/>
+        <AuthorName name="Ziuwin" />
         <h2 className="font-medium text-sm sm:text-lg">SIGHT member in 2016</h2>
         <h3 className="text-sm sm:text-lg">MedEasy</h3>
         <article className="text-base sm:text-xl w-5/6 sm:w-4/5 mx-auto flex flex-col space-y-10">
@@ -72,7 +75,8 @@ led to MedEasy despite having no background in any hardware or UX or biometrics 
         </article>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] text-2xl flex flex-col items-center py-24">
-        <h1 className="font-black text-3xl sm:text-5xl">Oscar</h1>
+        <Image className="mx-auto max-w-sm w-2/5" src="/artworks/oscar.png" width={644} height={662} alt=""/>
+        <AuthorName name="Oscar" />
         <h2 className="font-medium text-sm sm:text-lg">SIGHT member in 2017</h2>
         <h3 className="text-sm sm:text-lg">MedEasy</h3>
         <article className="text-base sm:text-xl w-5/6 sm:w-4/5 mx-auto flex flex-col space-y-10">
@@ -84,7 +88,8 @@ in SIGHT is truly amazing and unforgettable. I will never forget all my memories
         </article>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] text-2xl flex flex-col items-center py-24">
-        <h1 className="font-black text-3xl sm:text-5xl">Charlie</h1>
+        <Image className="mx-auto max-w-sm w-2/5" src="/artworks/charlie.png" width={644} height={662} alt=""/>
+        <AuthorName name="Charlie" />
         <h2 className="font-medium text-sm sm:text-lg">SIGHT member in 2018</h2>
         <h3 className="text-sm sm:text-lg">MedEasy</h3>
         <article className="text-base sm:text-xl w-5/6 sm:w-4/5 mx-auto flex flex-col space-y-10">
@@ -113,7 +118,7 @@ pi for supporting the data sync without network, and a well-design user flow of 
         </article>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] text-2xl flex flex-col items-center py-24">
-        <h1 className="font-black text-3xl sm:text-5xl">Dawn</h1>
+        <AuthorName name="Dawn" />
         <h2 className="font-medium text-sm sm:text-lg">SIGHT member in 2016</h2>
         <h3 className="text-sm sm:text-lg">MedEasy</h3>
         <article className="text-base sm:text-xl w-5/6 sm:w-4/5 mx-auto flex flex-col space-y-10">
@@ -126,9 +131,10 @@ my current work for research. The EMRS requires talents from the computer scienc
           <p>In 2018, after I returned from my exchange in Canada, I became a SIGHT leader. This experience helped me to develop leadership and communication skills that is beyond what could be learnt in a classroom setting. I mentored the new members to continue with the MedEasy project, and at the same time, fostered newly established projects in SIGHT. I truly enjoyed being a mentor, especially when I was promoting projects and ideas that could make actual positive impacts on communities. I guided the new team to when they were unsure about their direction. It was difficult to keep everyone motivated for the project. Through this experience, I learnt that leaders have to “walk- the-talk”: I had to be the leading example of keeping the work up even when the mentees felt unmotivated and dropped behind. I learnt that leadership is a balance between insisting what was right but also listening and adjusting to different opinions. I understood that the capability of one person is limited, however, an astounding product could be accomplished with the collaboration among a diverse group of specialists. Great leadership and collaboration is impossible without good communication. I learnt to express my ideas more clearly and customized for the target audience.</p>
           <p>I truly cherish my time working with SIGHT, it inspire my current career path as a researcher and I made lovely and life-long friends. I miss traveling with my blue-shirted sweaty friends. May the pandemic be over soon.</p>
         </article>
+        <Image className="mx-auto w-1/3 sm:w-1/6 max-w-md" src="/artworks/dawn.png" width={644} height={662} alt=""/>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] text-2xl flex flex-col items-center py-24">
-        <h1 className="font-black text-3xl sm:text-5xl">Fernando</h1>
+        <AuthorName name="Fernando" />
         <h2 className="font-medium text-sm sm:text-lg">SIGHT member in 2016</h2>
         <h3 className="text-sm sm:text-lg">MedEasy</h3>
         <article className="text-base sm:text-xl w-5/6 sm:w-4/5 mx-auto flex flex-col space-y-10">
@@ -143,7 +149,7 @@ an impactful role in the team. As a social science student working among enginee
         </article>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] text-2xl flex flex-col items-center py-24">
-        <h1 className="font-black text-3xl sm:text-5xl">Kevin</h1>
+        <AuthorName name="Kevin" />
         <h2 className="font-medium text-sm sm:text-lg">SIGHT member in 2015</h2>
         <h3 className="text-sm sm:text-lg">MedEasy</h3>
         <article className="text-base sm:text-xl w-5/6 sm:w-4/5 mx-auto flex flex-col space-y-10">
@@ -157,6 +163,7 @@ of growing in a poor background, Channat defied all odds to receive education (a
 the doctors: Soursdey, Sophen, and Nhoel. Thank you for allowing us to ‘bug’ into your work, and despite your busy schedule, spend some time cracking jokes with us. And also for other staff at One-2-One: thank you to Lila and Laihorng for teaching us how
 to cook Cambodian dishes, to Konnga for bringing us to taste Cambodian street food, and – apologies for starting to forget some names after all these five years! – countless others who have made our three-week stay felt like home! We also want to thank Empowering Youth in Cambodia (EYC) and Synoeun for helping to facilitate the design- thinking workshop in their school, and giving us detailed understanding about the neighborhood the school is located. And, no less important: thank you to Vaishak and Jonathan for the close-to-3-week company we had for the SIGHT Scholar 2017 program. Look forward to visiting Cambodia again (together) in the near future!</p>
         </article>
+        <Image className="mx-auto w-1/3 sm:w-1/6 max-w-md" src="/artworks/kevin.png" width={644} height={662} alt=""/>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] text-2xl flex flex-col items-center py-24">
         <article className="text-base sm:text-xl w-5/6 sm:w-4/5 mx-auto flex flex-col space-y-10">

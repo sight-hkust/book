@@ -3,6 +3,7 @@ import Head from "next/head";
 import Layout from "../../components/Layout";
 import Image from "next/image";
 import { useRouter } from "next/router";
+import AuthorName from "../../components/AuthorName";
 
 export default function Chapter() {
   const router = useRouter();
@@ -15,17 +16,17 @@ export default function Chapter() {
         <title>Collabox</title>
       </Head>
       <section className="h-screen bg-[#fffef7] text-[#ed8902] text-lg sm:text-2xl">
-      <Image className="mx-auto sm:w-2/3 w-11/12" src={`/titles/${router.pathname.replace('/chapters/', '')}.png`} width={1460} height={968} alt=""/>
+        <Image className="mx-auto sm:w-2/3 w-11/12" src={`/titles/${router.pathname.split('/').slice(-1)}.png`} width={1460} height={968} alt=""/>
         <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-[#ed8902] rounded border-0 md:my-10"/>
         <p className="w-5/6 sm:w-4/5 mx-auto">A learning platform for special needs students at the Caritas Lok Kan School, with collaborative games and custom input devices.</p>
         <p className="w-5/6 sm:w-4/5 mx-auto mt-16">The problem : Students at the Lok Kan School lack collaborative games that allow them to play and learn together.</p>
         <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-[#ed8902] rounded border-0 md:my-10"/>
         <div className="w-5/6 mx-auto flex justify-center">
-          <Image className="w-full sm:w-3/5" src={`/vectors/${router.pathname.replace('/chapters/', '')}.png`} width={430} height={150} alt=""/>
+          <Image className="w-full sm:w-3/5" src={`/vectors/${router.pathname.split('/').slice(-1)}.png`} width={430} height={150} alt=""/>
         </div>
       </section>
       <section className="bg-[#ed8902] text-white flex flex-col items-center py-16 sm:py-24">
-        <h1 className="font-black text-3xl sm:text-5xl">Vanessa</h1>
+        <AuthorName name="Vanessa"/>
         <h2 className="font-medium text-sm sm:text-lg">SIGHT member in 2019</h2>
         <h3 className="text-sm sm:text-lg">Collabox</h3>
         <article className="text-lg sm:text-xl w-5/6 sm:w-4/5 mx-auto flex flex-col space-y-10">
@@ -52,7 +53,7 @@ in the animations and graphics. But here came the challenge, I had only a little
         </article>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] text-lg sm:text-2xl flex flex-col items-center py-16 sm:py-24">
-        <h1 className="font-black text-3xl sm:text-5xl">Doris</h1>
+        <AuthorName name="Doris"/>
         <h2 className="font-medium text-sm sm:text-lg">SIGHT member in 2019</h2>
         <h3 className="text-sm sm:text-lg">Collabox</h3>
         <article className="text-lg sm:text-xl w-5/6 sm:w-4/5 mx-auto flex flex-col space-y-10">
@@ -84,7 +85,7 @@ and eventually come to life, and not even once did I find the teaching team tryi
         </article>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] text-lg sm:text-2xl flex flex-col items-center py-16 sm:py-24">
-        <h1 className="font-black text-3xl sm:text-5xl">Diya</h1>
+        <AuthorName name="Diya"/>
         <h2 className="font-medium text-sm sm:text-lg">SIGHT member in 2019</h2>
         <h3 className="text-sm sm:text-lg">Collabox</h3>
         <article className="text-lg sm:text-xl w-5/6 sm:w-4/5 mx-auto flex flex-col space-y-10">
@@ -100,7 +101,7 @@ failed so many times, but somehow, it all seemed worth it when we stood in the r
         </article>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] text-lg sm:text-2xl flex flex-col items-center py-16 sm:py-24">
-        <h1 className="font-black text-3xl sm:text-5xl">Caritas Lok Kan School</h1>
+        <AuthorName name="Caritas Lok Kan School"/>
         <h2 className="font-medium text-sm sm:text-lg">Partnership with SIGHT since 2018</h2>
         <h3 className="text-sm sm:text-lg">Collabox, Lavatory Management System</h3>
         <article className="text-lg sm:text-xl w-5/6 sm:w-4/5 mx-auto flex flex-col space-y-10">

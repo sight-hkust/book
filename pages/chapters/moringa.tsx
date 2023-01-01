@@ -15,7 +15,7 @@ export default function Chapter() {
         <title>Ms. Moringa</title>
       </Head>
       <section className="h-screen bg-[#6067ae] text-white text-lg sm:text-2xl py-16 sm:py-24">
-      <Image className="w-2/3 mx-auto" src={`/titles/${router.pathname.replace('/chapters/', '')}.png`} width={876} height={162} alt=""/>
+      <Image className="w-2/3 mx-auto" src={`/titles/${router.pathname.split('/').slice(-1)}.png`} width={876} height={162} alt=""/>
         <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
         <p className="w-5/6 sm:w-4/5 mx-auto">First, it all started as a water purification project in Changshun County, Guizhou, China. Now it is a social enterprise empowering local female artists to preserve their local culture.</p>
         <p className="w-5/6 sm:w-4/5 mx-auto mt-16">The problem : At first, the villagers in the mountainous regions of Changshun County were afflicted by flouride contaminated water, but then the villagers were moved out mandatorily of the affected area. Changshun County is also home to traditional batik art of the Buyi people.</p>
@@ -26,7 +26,7 @@ export default function Chapter() {
         </dl>
         <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
         <div className="w-5/6 mx-auto flex justify-center">
-          <Image className="w-full sm:w-3/5" src={`/vectors/${router.pathname.replace('/chapters/', '')}.png`} width={430} height={150} alt=""/>
+          <Image className="w-full sm:w-3/5" src={`/vectors/${router.pathname.split('/').slice(-1)}.png`} width={430} height={150} alt=""/>
         </div>
       </section>
       <section className="bg-[#fffef7] text-[#6067ae] text-lg sm:text-2xl flex flex-col items-center py-16 sm:py-24">

@@ -3,6 +3,7 @@ import Head from "next/head";
 import Layout from "../../components/Layout";
 import { useRouter } from "next/router";
 import Image from "next/image";
+import AuthorName from "../../components/AuthorName";
 
 export default function Chapter() {
   const router = useRouter()
@@ -15,17 +16,17 @@ export default function Chapter() {
         <title>ForeSee</title>
       </Head>
       <section className="bg-[#65b4e5] text-white text-lg sm:text-2xl py-16 sm:py-24">
-        <Image className="w-5/6 mx-auto" src={`/covers/${router.pathname.replace('/chapters/', '')}.png`} width={1460} height={968} alt=""/>
+        <Image className="w-5/6 mx-auto" src={`/covers/${router.pathname.split('/').slice(-1)}.png`} width={1460} height={968} alt=""/>
         <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
         <p className="w-5/6 sm:w-4/5 mx-auto">An electronic eye health platform for parents in Hong Kong.</p>
         <p className="w-5/6 sm:w-4/5 mx-auto mt-8 sm:mt-16">The problem : Children myopia has seen staggering growth in Hong Kong, and parents often lack the proper aids to keep track of their kids’ eye health.</p>
         <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
         <div className="w-5/6 mx-auto flex justify-center">
-          <Image className="w-full sm:w-3/5" src={`/vectors/${router.pathname.replace('/chapters/', '')}.png`} width={430} height={150} alt=""/>
+          <Image className="w-full sm:w-3/5" src={`/vectors/${router.pathname.split('/').slice(-1)}.png`} width={430} height={150} alt=""/>
         </div>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] text-lg sm:text-2xl flex flex-col items-center py-16 sm:py-24">
-        <h1 className="font-black text-3xl sm:text-5xl">Jaman</h1>
+        <AuthorName name="Jaman"/>
         <h2 className="font-medium text-sm sm:text-lg">SIGHT member in 2019</h2>
         <h3 className="text-sm sm:text-lg">ForeSee</h3>
         <article className="text-base sm:text-xl w-5/6 sm:w-4/5 mx-auto flex flex-col space-y-10">

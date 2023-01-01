@@ -3,6 +3,7 @@ import Head from "next/head";
 import Layout from "../../components/Layout";
 import { useRouter } from "next/router";
 import Image from "next/image";
+import AuthorName from "../../components/AuthorName";
 
 export default function Chapter() {
 
@@ -17,17 +18,17 @@ export default function Chapter() {
         <title>eyessistant</title>
       </Head>
       <section className="h-screen bg-[#f0efb8] text-[#142a44] text-lg sm:text-2xl py-16 sm:py-24">
-      <Image className="w-3/4 sm:w-2/3 mx-auto" src={`/titles/${router.pathname.replace('/chapters/', '')}.png`} width={876} height={162} alt=""/>
+      <Image className="w-3/4 sm:w-2/3 mx-auto" src={`/titles/${router.pathname.split('/').slice(-1)}.png`} width={876} height={162} alt=""/>
         <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-[#142a44] rounded border-0 md:my-10"/>
         <p className="w-5/6 sm:w-4/5 mx-auto">A low-cost VR-based eye surgery training system for eye surgeons to train up their surgical skills.</p>
         <p className="w-5/6 sm:w-4/5 mx-auto mt-8 sm:mt-16">The problem : Eye surgery simulators are either prohibitively expensive, unportable, or both. This leaves training inaccessible for aspiring eye doctors, especially in developing regions where eye diseases are common.</p>
         <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-[#142a44] rounded border-0 md:my-10"/>
         <div className="w-5/6 mx-auto flex justify-center">
-          <Image className="w-full sm:w-3/5" src={`/vectors/${router.pathname.replace('/chapters/', '')}.png`} width={430} height={150} alt=""/>
+          <Image className="w-full sm:w-3/5" src={`/vectors/${router.pathname.split('/').slice(-1)}.png`} width={430} height={150} alt=""/>
         </div>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] text-lg sm:text-2xl flex flex-col items-center py-16 sm:py-24">
-        <h1 className="font-black text-3xl sm:text-5xl">Rubaiyat</h1>
+        <AuthorName name="Rubaiyat"/>
         <h2 className="font-medium text-sm sm:text-lg">SIGHT member in 2016</h2>
         <h3 className="text-sm sm:text-lg">eyessistant</h3>
         <article className="text-lg sm:text-xl w-5/6 sm:w-4/5 mx-auto flex flex-col space-y-10">

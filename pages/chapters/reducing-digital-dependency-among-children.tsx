@@ -20,7 +20,7 @@ export default function Chapter() {
         <p className="w-5/6 sm:w-4/5 mx-auto mt-8 sm:mt-16">The problem : Our increasing digital footprint has left us more vulnerable to addiction the content of our screens, which could then lead to various mental health disorders.</p>
         <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
         <div className="w-5/6 mx-auto flex justify-center">
-          <Image className="w-full sm:w-3/5" src={`/vectors/${router.pathname.replace('/chapters/', '')}.png`} width={430} height={150} alt=""/>
+          <Image className="w-full sm:w-3/5" src={`/vectors/${router.pathname.split('/').slice(-1)}.png`} width={430} height={150} alt=""/>
         </div>
       </section>
       <section className="bg-[#fffef7] text-[#893136] text-lg sm:text-2xl flex flex-col items-center py-16 sm:py-24">

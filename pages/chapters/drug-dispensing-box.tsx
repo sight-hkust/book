@@ -3,6 +3,7 @@ import Head from "next/head";
 import Layout from "../../components/Layout";
 import { useRouter } from "next/router";
 import Image from "next/image";
+import AuthorName from "../../components/AuthorName";
 
 export default function Chapter() {
   const router = useRouter();
@@ -14,18 +15,18 @@ export default function Chapter() {
       <Head>
         <title>Drug Dispensing Box</title>
       </Head>
-      <Image className="w-screen bg-[#fffef7]" src={`/covers/${router.pathname.replace('/chapters/', '')}.png`} width={1460} height={968} alt=""/>
+      <Image className="w-screen bg-[#fffef7]" src={`/covers/${router.pathname.split('/').slice(-1)}.png`} width={1460} height={968} alt=""/>
       <section className="h-screen bg-[#ea5545] text-white text-lg sm:text-2xl py-16 sm:py-24">
         <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
         <p className="w-5/6 sm:w-4/5 mx-auto">A medicine transportation and organization system for mobile clinics.</p>
         <p className="w-5/6 sm:w-4/5 mx-auto mt-16">The problem : <strong>One-2-One Cambodia</strong> is a medical NGO that conducts mobile clinic outreach in the slums of Phnom Penh and the provinces of Cambodia. Their old way of packing and transporting medicine to site was via suitcases, which were cumbersome and offered no organization.</p>
         <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
         <div className="w-5/6 mx-auto flex justify-center">
-          <Image className="w-full sm:w-3/5" src={`/vectors/${router.pathname.replace('/chapters/', '')}.png`} width={430} height={150} alt=""/>
+          <Image className="w-full sm:w-3/5" src={`/vectors/${router.pathname.split('/').slice(-1)}.png`} width={430} height={150} alt=""/>
         </div>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] flex flex-col items-center py-24">
-        <h1 className="font-black text-3xl sm:text-5xl">Melody</h1>
+        <AuthorName name="Melody"/>
         <h2 className="font-medium text-sm sm:text-lg">SIGHT member in 2014</h2>
         <h3 className="text-sm sm:text-lg">Drug Dispensing Box</h3>
         <article className="text-base sm:text-xl w-5/6 sm:w-4/5 mx-auto flex flex-col space-y-10">

@@ -3,6 +3,7 @@ import Head from "next/head";
 import Layout from "../../components/Layout";
 import { useRouter } from "next/router";
 import Image from "next/image";
+import AuthorName from "../../components/AuthorName";
 
 export default function Chapter() {
   const router = useRouter()
@@ -25,11 +26,11 @@ export default function Chapter() {
         </dl>
         <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
         <div className="w-5/6 mx-auto flex justify-center">
-          <Image className="w-full sm:w-3/5" src={`/vectors/${router.pathname.replace('/chapters/', '')}.png`} width={430} height={150} alt=""/>
+          <Image className="w-full sm:w-3/5" src={`/vectors/${router.pathname.split('/').slice(-1)}.png`} width={430} height={150} alt=""/>
         </div>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] text-lg sm:text-2xl flex flex-col items-center py-16 sm:py-24">
-        <h1 className="font-black text-3xl sm:text-5xl">Elizabeth</h1>
+        <AuthorName name="Elizabeth"/>
         <h2 className="font-medium text-sm sm:text-lg">SIGHT member in 2016</h2>
         <h3 className="text-sm sm:text-lg">Softkeyboard</h3>
         <article className="text-base sm:text-xl w-5/6 sm:w-4/5 mx-auto flex flex-col space-y-10">
