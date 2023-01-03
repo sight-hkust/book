@@ -185,11 +185,11 @@ to cook Cambodian dishes, to Konnga for bringing us to taste Cambodian street fo
         </article>
         <Image className="mx-auto w-1/3 sm:w-1/6 max-w-md" src="/artworks/kevin.png" width={644} height={662} alt=""/>
       </section>
-      <section className="h-screen flex justify-center items-center bg-[#142a44]">
-        <Image className="w-screen" src="/media/medeasy-13.png" alt="" width={1500} height={1312}/>
+      <section className="h-full flex justify-center items-center bg-[#142a44]">
+        <Image className="w-screen my-32" src="/media/medeasy-13.png" alt="" width={1500} height={1312}/>
       </section>
-      <section className="h-screen flex justify-center items-center bg-[#fffef7]">
-        <Image className="w-screen" src="/covers/one-2-one.png" alt="" width={1500} height={1312}/>
+      <section className="h-full flex justify-center items-center bg-[#fffef7]">
+        <Image className="w-screen my-24" src="/covers/one-2-one.png" alt="" width={1500} height={1312}/>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] text-2xl flex flex-col items-center py-24">
         <article className="text-base sm:text-xl w-5/6 sm:w-4/5 mx-auto flex flex-col space-y-10">

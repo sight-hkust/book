@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Layout from "../components/Layout";
+import Image from "next/image";
 
 export default function Chapter() {
   return (
@@ -16,7 +17,7 @@ export default function Chapter() {
         <h1 className="text-[#fffef7] sm:text-5xl text-3xl font-black" style={{WebkitTextStroke: '1px #892b2b'}}>Enriching our education to serve its <br/>purpose:</h1>
         <h1 className="sm:text-6xl text-4xl font-black mt-16">For the betterment of humanity.</h1>
       </section>
-      <section className="bg-[#892b2b] text-white sm:text-2xl text-lg flex flex-col items-center py-24">
+      <section className="bg-[#892b2b] text-white sm:text-2xl text-lg flex flex-col items-center pt-16 sm:pt-24">
         <h1 className="font-black sm:text-5xl text-2xl">Prof. Wei Shyy</h1>
         <h3 className="text-lg">President of HKUST, Sep 2018 - Oct 2022</h3>
         <article className="sm:text-xl text-base w-4/5 mx-auto flex flex-col space-y-10">
@@ -30,12 +31,13 @@ we believe in their resonance, that they can find common grounds with their empa
           <p>In my eyes, three virtues make up the bedrock of SIGHT&apos;s spirit: perseverance, open- mindedness and humility. Our students are challenged by numerous obstacles along the way, but like the way things work in sports, repeated effort is really a prerequisite of success of any form. To tackle these challenges you would need to be open to
 a variety of approaches and possibilities, and most importantly, be mindful of the differing perspectives of your peers. Last but not least, keep in mind that you can learn from anything, anywhere. The aircraft is a multi-generation effort that stemmed from the study of nothing more than something that is always around us - birds. With these three virtues, I am sure that future generations of SIGHT students will carry the legacy and be strong advocates of their motto, <strong>&quot;Simple Technology, BIG Difference&quot;.</strong></p>
         </article>
+        <Image className="mx-auto w-1/3 sm:w-1/5 mt-16 sm:mt-24" src="/artworks/weishyy.png" alt="" width={1080} height={744}/>
       </section>
       <section className="h-screen bg-[#15216a] text-white sm:text-2xl text-lg py-24 flex flex-col justify-center sm:px-16 px-8">
         <h1 className="sm:text-6xl text-3xl font-bold">&ldquo;</h1>
         <h1 className="text-white sm:text-6xl text-3xl font-black">It is through SIGHT,<br/> that I see with students, learn with students <br/>and serve with students.</h1>
       </section>
-      <section className="bg-[#fffef7] text-[#142a44] text-2xl flex flex-col items-center py-24">
+      <section className="bg-[#fffef7] text-[#142a44] text-2xl flex flex-col items-center pt-16 sm:pt-24">
         <h1 className="font-black sm:text-5xl text-2xl">Prof. Ying Chau</h1>
         <h2 className="font-medium sm:text-lg text-sm">Founder and Director, SIGHT at HKUST, 2014 - present</h2>
         <article className="sm:text-xl text-base w-4/5 mx-auto flex flex-col space-y-10">
@@ -44,6 +46,7 @@ but relief is palpable when one of the residents spontaneously made way to the f
           <p>Over the years, taking students all over the world to implement projects was to leverage creativity and knowledge to serve society. But along the way, it became more of a humbling experience. In the mountains of Guizhou, under a starry nightscape and in a valley lit up with fireflies, I saw the beauty that lies beyond the material world. In the countryside of Cambodia, a local community leader built an oasis with scant resources, highlighting their tenacity and wisdom. And through video conferencing this year, I got to meet ethnic minorities in north-eastern Myanmar, who were displaced due to war, but still brimming with hope and unfading smiles on their faces. It is hard not to admire their resolve!</p>
           <p>I am a person of faith, and I truly believe SIGHT is a godsend. It is through SIGHT, that I see with students, learn with students and serve with students.</p>
         </article>
+        <Image className="mx-auto w-1/3 sm:w-1/5 mt-16 sm:mt-24" src="/artworks/yingchau.png" alt="" width={1080} height={744}/>
       </section>
       <section className="h-screen bg-[#fffef7] text-[#412312] sm:text-2xl text-lg py-24 flex flex-col justify-center items-center px-16">
         <h1 className="sm:text-6xl text-3xl font-bold w-full">&ldquo;</h1>
@@ -51,7 +54,7 @@ but relief is palpable when one of the residents spontaneously made way to the f
         <h1 className="text-[#412312] sm:text-8xl text-4xl font-black">experience</h1>
         <h1 className="text-[#fffef7] sm:text-7xl text-3xl font-black" style={{WebkitTextStroke: '2px #142a44'}}>rest is just information.</h1>
       </section>
-      <section className="bg-[#bfab95] text-[#412312] sm:text-2xl text-lg flex flex-col items-center py-24">
+      <section className="bg-[#bfab95] text-[#412312] sm:text-2xl text-lg flex flex-col items-center pt-16 sm:pt-24">
         <h1 className="font-black sm:text-5xl text-2xl">Prof. Anirban Mukhopadhyay</h1>
         <h2 className="font-medium sm:text-lg text-sm">Faculty Advisor</h2>
         <h2 className="font-medium sm:text-lg text-sm">Associate Provost (Teaching & Learning), Sep 2020 - Jan 2022</h2>
@@ -62,8 +65,9 @@ the ground reality. To me, the distinguishing feature for SIGHT is its clearly l
           <p>We feel lucky to be able to provide our students with ample resources such that the only limiting factor in their development is their imagination itself. At SIGHT, students from multiple, and often complex, backgrounds come together and pool in their knowledge for a shared objective, challenging them to push their boundaries and be the best version of themselves. In the near future, we are going to accommodate topics related to humility, empathy and mental toughness in the common core curriculum because we recognise the importance of instilling these traits from the beginning of their journey into adulthood. What you are teaching and how you are teaching needs to be constantly reshaped as there are technological advances every now and then - so amidst the uncertainty of the future, we only strive to bestow
 the right attitude towards learning and constantly remind ourselves of the ultimate purpose we serve: for the betterment of humanity.</p>
         </article>
+        <Image className="mx-auto w-1/3 sm:w-1/5 mt-16 sm:mt-24" src="/artworks/anirban.png" alt="" width={1080} height={744}/>
       </section>
-      <section className="bg-[#fffef7] text-[#134d4d] sm:text-2xl text-lg flex flex-col items-center py-24">
+      <section className="bg-[#fffef7] text-[#134d4d] sm:text-2xl text-lg flex flex-col items-center pt-16 sm:pt-24">
         <h1 className="font-black sm:text-5xl text-2xl">Prof. Marshal Liu</h1>
         <h2 className="font-medium sm:text-lg text-sm">Faculty Advisor</h2>
         <h2 className="font-medium sm:text-lg text-sm">Food gerontechnology - Feed You Well, Zi Saam Dim Sum</h2>
@@ -77,8 +81,9 @@ In SIGHT, students from diverse background come together and work on the big tas
           <p>Having previously been involved with the anemia project team, I am also impressed by how passionate and dedicated the SIGHT students are. Under the pandemic, everything has to be switched online. The team managed to work well and support each other, despite not having a relevant knowledge background. Things were not always smooth, but the team also had a strong mentality when facing failures from their prototypes. Their passion has fuelled them throughout the hard times, and their experience would be very meaningful when they look back at what they have achieved. This is one of the special features that SIGHT students possess.</p>
           <p>Without a fixed course syllabus, SIGHT looks beyond GPA. Students learn from real-life, learn from application, learn from the world, with empathy. Students would also go through series of personal development during the course. There might be failures at times, but students have learnt to be tough. I hope that in future, students could put more emphasis on ECAs activities like SIGHT, be trained and cultivated to become good society leaders.</p>
         </article>
+        <Image className="mx-auto w-1/3 sm:w-1/5 mt-16 sm:mt-24" src="/artworks/marshalliu.png" alt="" width={1080} height={744}/>
       </section>
-      <section className="bg-[#134d4d] text-[#fffef7] sm:text-2xl text-lg flex flex-col items-center py-24">
+      <section className="bg-[#134d4d] text-[#fffef7] sm:text-2xl text-lg flex flex-col items-center pt-16 sm:pt-24">
         <h1 className="font-black sm:text-5xl text-2xl">Prof. Vincent Li</h1>
         <h2 className="font-medium sm:text-lg text-sm">Faculty Advisor</h2>
         <h2 className="font-medium sm:text-lg text-sm">Lavatory Management System, CollaBox, Malaria Prevention</h2>
@@ -92,8 +97,9 @@ soap workshop and the hygiene training program. We did give some ideas about the
           <p>Groups of students worked on projects to develop assistive technology for students with special needs at Caritas Lok Kan School in Hong Kong. SIGHT students have opportunity to contribute their engineering knowledge to the disabled children in the school. They developed a system to monitor the toileting habit of the children using RFID technology. Students took initiatives to test their prototype in the school and overcome various technical problems. We provided suggestions for the selection of components and the design of the overall system. Despite the fact that further improvement could be done on the developed technology, the administration of the school has got the insight and concepts from the students in this project and used them to assist their daily operations.</p>
           <p>It is nice to see HKUST student are making contribution to the society and they offer technological solutions to the problems which are experienced by the underprivileged. I am happy to be a SIGHT advisor and I will continue sharing my experience in humanitarian operations with the students, as well as providing guidance to their projects.</p>
         </article>
+        <Image className="mx-auto w-1/3 sm:w-1/5 mt-16 sm:mt-24" src="/artworks/vincentli.png" alt="" width={1080} height={744}/>
       </section>
-      <section className="bg-[#382656] text-[#fffef7] sm:text-2xl text-lg flex flex-col items-center py-24">
+      <section className="bg-[#382656] text-[#fffef7] sm:text-2xl text-lg flex flex-col items-center pt-16 sm:pt-24">
         <h1 className="font-black sm:text-5xl text-2xl">Prof. Rhea Liem</h1>
         <h2 className="font-medium sm:text-lg text-sm">Faculty Advisor</h2>
         <h2 className="font-medium sm:text-lg text-sm">CollaBox, Environmental Awareness in Sri Lanka</h2>
@@ -105,8 +111,9 @@ of academic, gender, culture, personality, interests, etc. Finding a unique solu
           <p>Being part of an academic community, we are constantly reminded about the importance of academic excellence. Yet, we need to remind ourselves that academic excellence is necessary but not enough. It is important for us to be aware of the needs of the society and find ways, within our capacity, to help. SIGHT provides an avenue for teachers and students not only to sharpen this social awareness, but also to act upon it. I believe that the positive impact of SIGHT will extend beyond what SIGHT students deliver to society now—it covers what they will deliver in the future and the influence they will pass to the next generation. Education, after all, is always about paying it forward.</p>
           <p>To me, personally, serving in SIGHT has been an honor and a gift. Thank you all. SERVIAM.</p>
         </article>
+        <Image className="mx-auto w-2/3 sm:w-3/5 mt-16 sm:mt-24" src="/artworks/rhealiem.png" alt="" width={1080} height={744}/>
       </section>
-      <section className="bg-[#fffef7] text-[#382656] sm:text-2xl text-lg flex flex-col items-center py-24">
+      <section className="bg-[#fffef7] text-[#382656] sm:text-2xl text-lg flex flex-col items-center pt-16 sm:pt-24">
         <h1 className="font-black sm:text-5xl text-2xl">Francis Lo</h1>
         <h2 className="font-medium sm:text-lg text-base">SIGHT Mentor</h2>
         <article className="sm:text-xl text-base w-4/5 mx-auto flex flex-col space-y-10">
@@ -121,8 +128,10 @@ a Joystick Keyboard to help Mucopolysaccharidosis (MPS) patients, recognizing th
 itself bit by bit into the world ranking institution it is today. In particular, SIGHT reminds me of Prof. Kung Shain-Dow, Professor in Biology, Dean of Science and Vice President for Academic Affairs in the period of 1991-2001, whom I had the privilege of working with during my time at the Students’ Union. Whilst Professor Kung was never hungry for the spotlight, he was instrumental to the University’s evolution into the living ecosystem it is today, where people connect to excel, and our students are encouraged to take charge and fail forwards. The soul Professor Kung worked hard to nurture is well and alive in the HKUST community, and I believe it is embodied and deeply felt by the culture and people at SIGHT.</p>
           <p>With this, I dedicate my humble contribution in SIGHT to Prof. Kung Shain-Dow, a gentleman, scientist, educator, and entrepreneur whose legacy lives on though he has departed.</p>
         </article>
+        <Image className="mx-auto w-1/3 sm:w-1/5 mt-16 sm:mt-24" src="/artworks/francislo.png" alt="" width={1080} height={744}/>
       </section>
-      <section className="bg-[#c56e56] text-[#fffef7] text-2xl flex flex-col items-center py-24">
+      <section className="bg-[#c56e56] text-[#fffef7] text-2xl flex flex-col items-center ">
+        <Image className="w-screen mb-16 sm:mb-24" src={`/media/bts.jpg`} width={1460} height={968} alt=""/>
         <h1 className="font-black sm:text-5xl text-2xl">Yuki</h1>
         <h2 className="font-medium sm:text-lg text-sm">Former SIGHT Teaching Associate</h2>
         <article className="sm:text-xl text-base w-4/5 mx-auto flex flex-col space-y-10">
@@ -133,8 +142,9 @@ on projects than course credits asked for. They coped with complexity, time cons
 too hard, the learning experience may not be real any more. So where is the line between my responsibility and the students&apos;? As a parent, I find myself in a very similar situation. I believe the current teaching team already has a better answer. Taking the result properly should be a quality equally important as persistence.</p>
           <p>Finally, this is my favorite photo of SIGHT. We step into the unknown with friends and determination to change for the better. May we all not forget why we started the journey.</p>
         </article>
+        <Image className="mx-auto w-1/3 sm:w-1/5 mt-16 sm:mt-24" src="/artworks/yuki.png" alt="" width={1080} height={744}/>
       </section>
-      <section className="bg-[#a0b98c] text-[#fffef7] text-2xl flex flex-col items-center py-24">
+      <section className="bg-[#a0b98c] text-[#fffef7] text-2xl flex flex-col items-center pt-16 sm:pt-24">
         <h1 className="font-black sm:text-5xl text-2xl">Fernando</h1>
         <h2 className="font-medium sm:text-lg text-sm">SIGHT Leader</h2>
         <article className="sm:text-xl text-base w-4/5 mx-auto flex flex-col space-y-10">
@@ -147,8 +157,9 @@ an impactful role in the team. As a social science student working among enginee
           <p>My journey at SIGHT did not stop at MedEasy. As a SIGHT leader, I was able to build internal connections within SIGHT and take part in the learning process of SIGHT itself. One of the most important tasks for leaders is helping new campers arrive at their own ideas without giving them away. The hardest part is letting our experience guide us, but not blind us. Initially we had a fingerprint scanner on MedEasy, but it did not work, so we had to find a replacement biometric. We decided on an iris scanner. which actually worked much better than expected and avoided many problems that would have surfaced with the fingerprint scanner. This story proves that new and untested ideas are not bad, and our existing ideas are not necessarily good. Staying open and allowing things to happen is vital in keeping our projects organic and constantly improving.</p>
           <p>Embracing spontaneity does not mean giving up on thinking entirely. The more sophisticated SIGHT is, the easier it is to be stagnant. It takes constant questioning on everything to keep us on our toes, ready to adopt something better. Is this the right way to approach the problem? Is it the best way to do it? I made a conscious effort of trying to do something different throughout the four years. They say you should leave things in a better state than you found them. I guess that had kept me going, and I think I did make a positive difference.</p>
         </article>
+        <Image className="mx-auto w-1/3 sm:w-1/5 mt-16 sm:mt-24" src="/artworks/fernando.png" alt="" width={1080} height={744}/>
       </section>
-      <section className="bg-[#a0b98c] text-[#fffef7] text-2xl flex flex-col items-center py-24">
+      <section className="bg-[#a0b98c] text-[#fffef7] text-2xl flex flex-col items-center pt-16 sm:pt-24">
         <h1 className="font-black sm:text-5xl text-2xl">Vanessa</h1>
         <h2 className="font-medium sm:text-lg text-sm">SIGHT Leader</h2>
         <article className="sm:text-xl text-base w-4/5 mx-auto flex flex-col space-y-10">
@@ -162,12 +173,13 @@ is afraid of making mistakes, the SIGHT learning environment motivates me to try
 will be having big achievements, and that makes me happy. Reality tells instead, change is relevant, regardless of the scale. Like in my Caritas project, SEN students represent only a small portion of the population, but that does not mean changes made for them are not important or useful. I had a great sense of fulfillment afterwards too. Perspective matters. Comparison is not always the best method to learn and improve. As long as you excel in your own expertise or focus, things will look good.</p>
           <p>SIGHT plays a crucial part in my university life, not just because I love hanging around the lab. It has inspired me to always think and do beyond what I previously believed was the limit. My SIGHT journey has given me more confidence and a stronger mentality. Although now, I am still a caterpillar wandering around the leaves and getting sense of the world. One day, I will break through the cocoon and become a butterfly and soar.</p>
         </article>
+        <Image className="mx-auto w-1/3 sm:w-1/5 mt-16 sm:mt-24" src="/artworks/vanessa.png" alt="" width={1080} height={744}/>
       </section>
       <section className="h-screen bg-[#447f7f] text-[#fffef7] text-2xl py-24 flex justify-center items-center sm:px-16 px-8">
         <div className="h-24 w-0.5 bg-[#fffef7] sm:mr-8 mr-4"></div>
         <h1 className="sm:text-5xl text-2xl font-bold">&ldquo;SIGHT is my second home and I&apos;ve enjoyed every bit of my time here.&rdquo;</h1>
       </section>
-      <section className="bg-[#fffef7] text-[#447f7f] text-2xl flex flex-col items-center py-24">
+      <section className="bg-[#fffef7] text-[#447f7f] text-2xl flex flex-col items-center pt-16 sm:pt-24">
         <h1 className="font-black sm:text-5xl text-2xl">Malinda</h1>
         <h2 className="font-medium sm:text-lg text-sm">SIGHT Teaching Team - Program Manager</h2>
         <article className="sm:text-xl text-base w-4/5 mx-auto flex flex-col space-y-10">
@@ -178,12 +190,13 @@ will be having big achievements, and that makes me happy. Reality tells instead,
           <p>The SIGHT Teaching Team consists of people from diverse backgrounds, different personalities but sharing the same mission towards learner-centered education and impact creation through student innovations. Everyone in the team is empowered to propose new ideas and turn them into innovative programs, and also support each other to accomplish the goals. This open and flexible working environment is one of the keys to the success of SIGHT.</p>
           <p>SIGHT has expanded over the years, and it is always great to reflect on what we did, what went wrong, and how we can even improve by looking at the past. This is a great moment for everyone who were involved in the SIGHT journey to look back on what we have done and share the moments of those experiences!</p>
         </article>
+        <Image className="mx-auto w-1/3 sm:w-1/5 mt-16 sm:mt-24" src="/artworks/malinda.png" alt="" width={1080} height={744}/>
       </section>
       <section className="h-screen bg-[#fffef7] text-[#667e55] text-2xl py-24 flex flex-col justify-center items-center sm:px-16 px-8">
         <h1 className="sm:text-5xl text-2xl font-bold">&ldquo;Amidst the hurricane that was life I found refuge, insights and perhaps even growth in SIGHT.&rdquo;</h1>
         <div className="h-0.5 w-full bg-[#667e55] mt-4"></div>
       </section>
-      <section className="bg-[#667e55] text-[#fffef7] text-2xl flex flex-col items-center py-24">
+      <section className="bg-[#667e55] text-[#fffef7] text-2xl flex flex-col items-center mt-16 sm:pt-24">
         <h1 className="font-black sm:text-5xl text-2xl">Joel</h1>
         <h2 className="font-medium sm:text-lg text-sm">SIGHT Teaching Team - Instructional Assistant</h2>
         <article className="sm:text-xl text-base w-4/5 mx-auto flex flex-col space-y-10">
@@ -193,11 +206,12 @@ will be having big achievements, and that makes me happy. Reality tells instead,
 so at ease, and had so much fun in an interview. The whole exercise was about helping your partner prepare the perfect gift for their best friend, a task we still use time to time at SIGHT. As much fun as it was though, I would later learn that I almost did not make it through the selection process. The team I had applied for was looking for a mechanical engineer, but I was as close to a mechanical engineer as my imaginary dog is an imaginary cat. There was however a mechanical engineering applicant, so as the team slightly struggled with who to choose, someone thankfully blurted out “Why not both?”, and I was in.</p>
           <p>Fast forward 6 seasons (years) and a movie (year), it had been one wild ride. It was more than anything that I could have dreamed of. I got to live out my best life as a project photographer, capturing genuine heartfelt moments as students gave life to their projects and engage with users, be it in Hong Kong or in some far-flung corners of Southeast Asia. With the Teaching Team, I got to design games and training, from physical ones to virtual ones. Our programs went from just SIGHT Camp to now a catalog that includes a Common Core course. Amidst the hurricane that was life I found refuge, insights and perhaps even growth in SIGHT. I was just lucky enough to know that I am in the good old days before I’ve actually left them. And on that bombshell, it’s time to end (this piece).</p>
         </article>
+        <Image className="mx-auto w-1/3 sm:w-1/5 mt-16 sm:mt-24" src="/artworks/joel.png" alt="" width={1080} height={744}/>
       </section>
       <section className="h-screen bg-[#fffef7] text-[#29347f] text-2xl py-24 flex flex-col justify-center items-center sm:px-16 px-8">
         <h1 className="sm:text-6xl text-3xl font-bold">&ldquo;<span className="text-[#fffef7]" style={{WebkitTextStroke: '2px #29347f'}}>Being able to</span> empathize <span className="text-[#fffef7]" style={{WebkitTextStroke: '2px #29347f'}}>is an</span> engineering skill&rdquo;</h1>
       </section>
-      <section className="bg-[#dda746] text-[#29347f] text-2xl flex flex-col items-center py-24">
+      <section className="bg-[#dda746] text-[#29347f] text-2xl flex flex-col items-center pt-16 sm:pt-24">
         <h1 className="font-black sm:text-5xl text-2xl">Kris</h1>
         <h2 className="font-medium sm:text-lg text-sm">SIGHT Teaching Team - Assistant Software Engineer</h2>
         <article className="sm:text-xl text-base w-4/5 mx-auto flex flex-col space-y-10">
@@ -207,6 +221,7 @@ to become observant and empathetic. Because there should be thoughts and cares g
 may not face the difficulties like those who are less fortunate than us and without being able to empathize with them, we can only make assumptions that might misjudge the audience’s capacity and economic freedom to utilize the solution.</p>
           <p>The beauty of a design is shown from the appreciation of its users, because whenever parts of a solution or prototype are being praised or continuously used, it means the thoughts and attention to details that goes into the design are actually touching the lives of those people the students have helped.</p>
         </article>
+        <Image className="mx-auto w-1/3 sm:w-1/5 mt-16 sm:mt-24" src="/artworks/kris.png" alt="" width={1080} height={744}/>
       </section>
     </Layout>
   )

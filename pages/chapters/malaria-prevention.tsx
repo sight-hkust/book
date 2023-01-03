@@ -16,7 +16,7 @@ export default function Chapter() {
         <title>Malaria Prevention</title>
       </Head>
       <section className="h-screen bg-[#577360] text-[#020203] text-lg sm:text-2xl py-16 sm:py-24">
-        <Image className="w-3/4 mx-auto" src={`/covers/${router.pathname.split('/').slice(-1)}.svg`} width={876} height={162} alt=""/>
+        <Image className="w-3/4 mx-auto" src={`/covers/${router.pathname.split('/').slice(-1)}.png`} width={876} height={162} alt=""/>
         <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-[#020203] rounded border-0 md:my-10"/>
         <p className="w-5/6 sm:w-4/5 mx-auto">Malaria prevention at a refugee settlement in Sadon, Myanmar.</p>
         <p className="w-5/6 sm:w-4/5 mx-auto mt-16">The problem : Malaria is endemic to the area which hosts a settlement of internally displaced people (IDPs).</p>

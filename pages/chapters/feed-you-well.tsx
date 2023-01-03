@@ -15,7 +15,7 @@ export default function Chapter() {
       <Head>
         <title>Feed You Well</title>
       </Head>
-      <section className="h-screen bg-[#9ac875] text-white text-lg sm:text-2xl py-16 sm:py-24">
+      <section className="h-screen bg-[#9ac875] text-white text-lg sm:text-2xl pt-16 sm:pt-24">
       <Image className="w-3/4 mx-auto" src={`/titles/${router.pathname.split('/').slice(-1)}.png`} width={876} height={162} alt=""/>
         <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
         <p className="w-5/6 sm:w-4/5 mx-auto">Nutritional Meals Ready-to-Eat for young elderly.</p>
@@ -24,6 +24,7 @@ export default function Chapter() {
         <div className="w-5/6 mx-auto flex justify-center">
           <Image className="w-full sm:w-3/5" src={`/vectors/${router.pathname.split('/').slice(-1)}.png`} width={430} height={150} alt=""/>
         </div>
+        <Image className="w-screen mt-16 sm:mt-24" src={`/covers/${router.pathname.split('/').slice(-1)}.jpg`} alt="" width={1364} height={592}/>
       </section>
       <section className="bg-[#9ac875] text-white text-lg sm:text-2xl flex flex-col items-center py-16 sm:py-24">
         <AuthorName name="Alexi"/>
@@ -34,6 +35,7 @@ export default function Chapter() {
 too soft or hard. Also, we did not know how to create a website at first. But luckily, I discovered a platform to create website free of charge and we were able to finish the website with pretty design and useful information inside. Before having a sharing in ERC, I was extremely nervous since I am quite shy that I am not used to speak in front of many people. But after several practices, it ended up quite well and I am able to interact with the elderly smoothly to create a relaxing sharing atmosphere.</p>
          <p>In my opinion, design thinking and user-centered design is gradually becoming more and more popular nowadays in terms of technology. Since many services are performing on the internet and introducing only a series of food is not enough to both this course and elderly since this is not a cooking course. So this is the reason why we choose to add a QR code on our food packages to strongly combine food and technology. Apart from technology user-centered design, I also found out that collecting comments from target users is super important. Since I do not have elderly relatives or friends, I am not familiar with their mindsets and eating habits. After the sharing in ERC, I found out young elderly have way more ideas than we expected such as they think soup is essential for a meal that I have never thought of because
 I hate soup. Also, some of them like western food like mashed potato and western soup which surprised me with their not so traditional Chinese eating habits. So, collecting comments from target users can help to enrich our products to another level and become more user friendly.</p>
+          <Image className="w-3/4 sm:w-2/5 mt-16 sm:mt-24 mx-auto" src={`/media/feed-you-well-1.png`} width={430} height={150} alt=""/>
           <p>I think the technology part in this course will be useful in my personal life because I am planning to study interaction design or immersive design for my master’s degree. Creating a website in this course and practicing myself to think in target users’ shoes built a foundation for my future study.</p>
           <p>For my team experience, I always felt tired about that since our working habits
 are totally different. I am not a deadline fighter because I would like to double or triple check my work before handing in or presentation. Yet, my groupmates are

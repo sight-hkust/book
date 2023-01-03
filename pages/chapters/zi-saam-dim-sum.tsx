@@ -15,7 +15,7 @@ export default function Chapter() {
       <Head>
         <title>Zi Saam Dim Sum</title>
       </Head>
-      <section className="h-screen bg-[#d1b205] text-white text-lg sm:text-2xl py-16 sm:py-24">
+      <section className="h-screen bg-[#d1b205] text-white text-lg sm:text-2xl pt-16 sm:pt-24">
       <Image className="w-3/4 mx-auto" src={`/titles/${router.pathname.split('/').slice(-1)}.png`} width={876} height={162} alt=""/>
         <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
         <p className="w-5/6 sm:w-4/5 mx-auto">Texture modified food (TMF) recicpes for elderly with dysphasia.</p>
@@ -24,6 +24,7 @@ export default function Chapter() {
         <div className="w-5/6 mx-auto flex justify-center">
           <Image className="w-full sm:w-3/5" src={`/vectors/${router.pathname.split('/').slice(-1)}.png`} width={430} height={150} alt=""/>
         </div>
+        <Image className="w-screen mt-16 sm:mt-24" src={`/covers/${router.pathname.split('/').slice(-1)}.png`} alt="" width={1364} height={592}/>
       </section>
       <section className="bg-[#d1b205] text-[#142a44] text-lg sm:text-2xl flex flex-col items-center py-16 sm:py-24">
         <AuthorName name="Daniel"/>

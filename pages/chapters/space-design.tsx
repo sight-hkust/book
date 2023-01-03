@@ -25,7 +25,7 @@ export default function Chapter() {
           <Image className="w-full sm:w-3/5" src={`/vectors/${router.pathname.split('/').slice(-1)}.png`} width={430} height={150} alt=""/>
         </div>
       </section>
-      <section className="h-screen bg-[#fffef7] text-[#142a44] text-lg sm:text-2xl flex flex-col items-center py-16 sm:py-24">
+      <section className="bg-[#fffef7] text-[#142a44] text-lg sm:text-2xl flex flex-col items-center py-16 sm:py-24">
         <AuthorName name="Michelle"/>
         <h2 className="font-medium text-sm sm:text-lg">SIGHT member from 2021</h2>
         <h3 className="text-sm sm:text-lg">Space Design</h3>
