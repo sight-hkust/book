@@ -16,6 +16,7 @@ export default function Chapter() {
         <title>Pinocchio</title>
       </Head>
       <section className="h-screen bg-[#f2948f] text-white text-lg sm:text-2xl py-16 sm:py-24">
+      <Image className="w-3/4 mx-auto" src={`/titles/${router.pathname.split('/').slice(-1)}.svg`} width={876} height={162} alt=""/>
         <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
         <p className="w-5/6 sm:w-4/5 mx-auto">A platform for mental wellness dedicated to HKUST students.</p>
         <p className="w-5/6 sm:w-4/5 mx-auto mt-8 sm:mt-16">The problem : Mental health is often a tabooed subject in Hong Kong, but with 1 out of 10 Hong Kongers displaying symptoms of PTSD
@@ -26,6 +27,7 @@ and the affects of COVID restrictions, the need for a safe space to discussion m
         </div>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] flex flex-col items-center py-16 sm:py-24">
+        <Image className="mx-auto max-w-sm w-2/5" src="/artworks/tiffany.png" width={644} height={662} alt=""/>
         <AuthorName name="Tiffany"/>
         <h2 className="font-medium text-sm sm:text-lg">SIGHT member in 2020</h2>
         <h3 className="text-sm sm:text-lg">Pinocchio</h3>
@@ -46,6 +48,7 @@ a lot closer (despite having only met each other virtually), and we were able to
         </article>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] text-2xl flex flex-col items-center py-16 sm:py-24">
+        <Image className="mx-auto max-w-sm w-2/5" src="/artworks/minjin.png" width={644} height={662} alt=""/>
         <AuthorName name="Minjin"/>
         <h2 className="font-medium text-sm sm:text-lg">SIGHT member in 2020</h2>
         <h3 className="text-sm sm:text-lg">Pinocchio</h3>

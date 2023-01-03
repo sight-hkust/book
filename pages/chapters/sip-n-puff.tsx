@@ -39,6 +39,7 @@ with a prototype solution using simple electronics, software and a little 3D pri
           <p>One of the most important lessons I learnt from SIGHT was an unconventional one: fail fast. When you don’t quite know how to start the project, the best way to start is to come out with as many ideas as you can, no matter how far-fetched it seems, and try them all out. Once you try them all out, you can decide which one works best. Then you can start from there by coming up with different ways to optimize it and try them out again. The term ‘fail fast’, thus, describes the rapid selection process you could use to grow your project.</p>
           <p>Looking back, SIGHT seems a million years away, but I will always recall the fun we had while working on the project and I will carry the lessons imparted on me throughout this wonderful experience.</p>
         </article>
+        <Image className="w-3/4 sm:w-3/5 mt-16 sm:mt-24" src="/artworks/henry.png" alt="" width={1080} height={744}/>
       </section>
     </Layout>
   )

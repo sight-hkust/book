@@ -83,6 +83,9 @@ and eventually come to life, and not even once did I find the teaching team tryi
           So that was the bildungsroman of me growing up in SIGHT. SIGHT has taught me to embrace spontaneity and be comfortable with finding my own path. Above all, I’ve learned much about people - how to find out what they need, how to work with them, and to appreciate the differences they could make. I hope I’ve left my mark here, but I’m sure I’ll be taking away so much more. If I ever watch Shriek again, I think Diya’s impression of the Gingerbread Man scene would be stuck in my head, whether I like it or not. If there’s one thing you should remember from this story, this is it: check your emails, don’t miss opportunities, take a leap of faith - you’ll never know where life leads you, but first you must give it a shot.
           </p>
         </article>
+        <div className="w-4/5 flex justify-center sm:justify-end">
+          <Image className="w-1/3 sm:w-1/4 mt-16 sm:mt-24 mr-0 sm:mr-32" src="/artworks/doris.png" alt="" width={1080} height={744}/>
+        </div>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] text-lg sm:text-2xl flex flex-col items-center py-16 sm:py-24">
         <AuthorName name="Diya"/>
@@ -93,6 +96,7 @@ and eventually come to life, and not even once did I find the teaching team tryi
           I can never put to words how much I appreciate what SIGHT has given to me. My journey as a SIGHT camper to that of a leader has been a memorable one. Starting from their edgy interview style I was a fan. I remember making an RC drawing car for the interview and thinking to myself “Wow, I am already an engineer”. Then on I was offered to join the Caritas project where I would be developing technologies for SEN kids. Although my initial plan for the project was different, the sudden turning of everything to online made us go through a lot of changes. My team of 6 then came up with an idea to make collaborative video games for special kids.
           </p>
           <p>It was daunting. 6 people from diverse backgrounds, none of us knowing the ABC of coding but now committed to coding games and building a console! At that point it was the supportive SIGHT staff who pushed us and believed in us and said, “Don’t worry if you don’t know how to do it, we will show you a way”. They really lived up to their words. The greatest form of support is not holding you by your pinky finger, but letting you face challenges while constantly showing you your goal. This is exactly what SIGHT did – the advisors offered us an invisible helping hand. (Special shoutout to the God-like Kris who we’d go crying to every time we got stuck)</p>
+          <Image className="mx-auto w-1/3 sm:w-1/5 mt-16 sm:mt-24" src="/artworks/diya.png" alt="" width={1080} height={744}/>
           <p>
           The first time I wrote a little code and saw a block moving across the screen, I couldn’t wait to announce my big achievement to the world. For someone who was scared to even open and touch a code, successfully finishing up 4 working games felt so surreal. One of my team’s goals was also to make a video game console specially tailored for special kids. I remember just scribbling some design ideas on my room window with a marker (my mom wasn’t so happy about it). It took us more than 5 months to reach our goal and we
 failed so many times, but somehow, it all seemed worth it when we stood in the room that day looking at kids play the games we coded with the console that we built. I was so proud of myself! I really wouldn’t have ever had the confidence to touch programming had it not been for SIGHT’s incredible staff and my lovely team. Now, I sometimes find myself making random games just for fun. Nothing seems impossible to me after this and that is when I realize that coming to HKUST was the best decision of my life.
@@ -113,6 +117,7 @@ failed so many times, but somehow, it all seemed worth it when we stood in the r
           <p>Having collaboration with SIGHT is a great step for bringing our students closer to the outside world. However, resources and facilities available now in the community are insufficient to support students for going around the city. We hope that one day more people would be concerned of SEN, or at least have better understanding
 on the challenges they are encountering, and that an inclusive community can be maintained to benefit every party in need.</p>
         </article>
+        <Image className="mx-auto w-4/5 mt-16 sm:mt-24" src="/artworks/collabox.png" alt="" width={1080} height={744}/>
       </section>
     </Layout>
   )

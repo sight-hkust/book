@@ -16,6 +16,7 @@ export default function Chapter() {
         <title>Malaria Prevention</title>
       </Head>
       <section className="h-screen bg-[#577360] text-[#020203] text-lg sm:text-2xl py-16 sm:py-24">
+        <Image className="w-3/4 mx-auto" src={`/covers/${router.pathname.split('/').slice(-1)}.svg`} width={876} height={162} alt=""/>
         <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-[#020203] rounded border-0 md:my-10"/>
         <p className="w-5/6 sm:w-4/5 mx-auto">Malaria prevention at a refugee settlement in Sadon, Myanmar.</p>
         <p className="w-5/6 sm:w-4/5 mx-auto mt-16">The problem : Malaria is endemic to the area which hosts a settlement of internally displaced people (IDPs).</p>
@@ -32,6 +33,7 @@ export default function Chapter() {
           <p className="first-letter:text-4xl">This course really pushed me out of my comfort zone to be innovative and gave me a taste of the reality of starting an initiative from scratch. I felt really intimidated at first, because I never took an engineering course in my life. Although I’m interested in it, I felt like I wasn’t equipped to do such a thing. However, this course changed my perspective where it is okay if you don’t know it all. In fact, the reality is collaboration with other people from different disciplines and skills enables you to achieve a greater cause. It’s also okay to not know all the right answers or have solutions to solve the problem, because it does take time and innovation. What I learned was that critical feedback is so valuable for our malaria project. Everytime we receive a question or when we are given new information, it pushes us to consider more things from different angles. Our project wouldn’t be where we are now if we stuck with the status quo, and didn’t receive user feedback from different expertise. In addition,
 my perspective for design thinking has changed a lot, where I realised how the initial stage is very important even though it may be intense. However, it really sets the tone for the whole project. I feel like our in-depth analysis of the situation in Myanmar, the prevention and treatment methods for malaria, and understanding our stakeholders’ needs really gave us an advantage for the whole project. When I first learned about the actual situation in the IDP camp, where they are unable to obtain treatment
 or equipment to diagnose malaria, it really hit me how this project does have the potential to impact people’s lives. It really made me tear up thinking about how people are dying and affected by malaria, but they are unable to receive treatment or any help.</p>
+          <Image className="mx-auto w-1/3 sm:w-1/6 mt-16 sm:mt-24" src="/artworks/rainbow.png" alt="" width={1080} height={744}/>
           <p>So, it gave me a greater motivation to grit through the different challenges we may face, especially after our workshop #1, where the villagers showed us how grateful they are. I just feel like it really humbled me when I realized how even though we are helping them remotely, it could still make a huge difference. Therefore, knowledge and bringing change is not bounded by physical location. However, it is important to build trusting relationships with partners who can collaborate with you in a project. In the future, I would like to pursue a career like what I am doing in this project, where I’m able to help different South East Asian countries remotely in developing self- sustaining solution to tackle sustainability issues the remote or marginalised villages may face. Therefore, everything I learned in this project was valuable for me.</p>
           <p>I’m truly grateful for my team. First of all, it is really cool how our team has diverse background in terms of ethnicity (we consist of people from Hong Kong, Korea, Brunei, and Cambodia), the discipline we specialise in (Chemical and Biological Engineering, Computer Science, and Environmental Management and Technology), and even in terms of personalities. I feel like all of us really did bring in our own flavour and uniqueness into the project as we discussed how to progress with the project. I learned a lot from all my groupmates from school of engineering, whether it’s with making the chemical aspect of the repellent or even using the software designing the mosquito chamber. Hopefully, I get to continue to learn from them and develop the engineering skills they have as well.</p>
         </article>
@@ -47,7 +49,7 @@ or equipment to diagnose malaria, it really hit me how this project does have th
           <p>Once our team gained more clarity on the situation and readjusted our approach, we managed to design a solution where we can guarantee delivery to the IDP camp. I was still skeptical about the plausibility of our solutions and whether our proposals can actually be done (i.e repellent/ pharmacognosy guide) and more importantly, would they really imprint a positive change to address the malaria situation. Everything we proposed needed to be relevant and successful; I was scared of disappointing the villagers and the partners expectations. Therefore, after the workshop when we received the feedback from the villagers, I was instilled with both relief and fulfillment. Just being able to provide meaningful support to the villagers through all their turmoil is rewarding.</p>
         </article>
       </section>
-      <section className="bg-[#fffef7] text-[#142a44] text-lg sm:text-2xl flex flex-col items-center py-16 sm:py-24">
+      <section className="bg-[#fffef7] text-[#142a44] text-lg sm:text-2xl flex flex-col items-center pt-16 sm:pt-24">
         <AuthorName name="Yanna"/>
         <h2 className="font-medium text-sm sm:text-lg">SIGHT member in 2022</h2>
         <h3 className="text-sm sm:text-lg">Malaria Prevention</h3>
@@ -57,6 +59,7 @@ or equipment to diagnose malaria, it really hit me how this project does have th
           <p>Soon, with more research, work, and meetings, we improve the toolkit, repellent, and even hold workshops with local villagers in Myanmar IDP camp. Hearing their positive feedback about the help of our workshop encourages me that what we are doing
 can really be helpful, and motivates me to continue working on the project after the semester ends.</p>
         </article>
+        <Image className="mx-auto w-1/3 sm:w-1/5 mt-16 sm:mt-24" src="/artworks/yanna.png" alt="" width={1080} height={744}/>
       </section>
       <section className="bg-[#577360] text-[#fffef7] text-lg sm:text-2xl flex flex-col items-center py-16 sm:py-24">
         <AuthorName name="Claire"/>

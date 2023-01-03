@@ -17,7 +17,7 @@ export default function Chapter() {
       <Head>
         <title>eyessistant</title>
       </Head>
-      <section className="h-screen bg-[#f0efb8] text-[#142a44] text-lg sm:text-2xl py-16 sm:py-24">
+      <section className="bg-[#f0efb8] text-[#142a44] text-lg sm:text-2xl pt-16 sm:pt-24">
       <Image className="w-3/4 sm:w-2/3 mx-auto" src={`/titles/${router.pathname.split('/').slice(-1)}.png`} width={876} height={162} alt=""/>
         <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-[#142a44] rounded border-0 md:my-10"/>
         <p className="w-5/6 sm:w-4/5 mx-auto">A low-cost VR-based eye surgery training system for eye surgeons to train up their surgical skills.</p>
@@ -26,6 +26,7 @@ export default function Chapter() {
         <div className="w-5/6 mx-auto flex justify-center">
           <Image className="w-full sm:w-3/5" src={`/vectors/${router.pathname.split('/').slice(-1)}.png`} width={430} height={150} alt=""/>
         </div>
+        <Image className="w-screen mt-16 sm:mt-24" src="/media/eyessistant-1.jpg" alt="" width={1364} height={592}/>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] text-lg sm:text-2xl flex flex-col items-center py-16 sm:py-24">
         <AuthorName name="Rubaiyat"/>
@@ -39,6 +40,7 @@ at the same time we were ideating. But at least we were moving! Prototyping bega
           <p>Our supervisors were busy advising us on the application side of things. Meanwhile, our supervising professors seemed happy enough with what we had been achieving during these early stages of development. If they were happy, then we were happy. Soon enough, we were ready to print out drafts of our final prototypes to realize
 our envisioned solutions. We thought this was a good time to schedule our second meeting with our secondary supervising professor, Prof. Roger Cheng, to gather his comment on our progress.</p>
           <p>We made our way to meet our professor that morning. Little did we know, we would be thrown right back to square one within the next hour. With our hands to our heads, my team and I were quite distraught about how we could now pass this course, let alone reach distinction grades. With this blow, we decided to hold an emergency meeting the next day as we still had to run to our respective classes for the day. With such a tight schedule and midterm exams luring in, it seemed like an impossible feat.</p>
+          <Image className="mx-auto w-1/3 sm:w-1/5 mt-16 sm:mt-24" src="/artworks/rubaiyat.png" alt="" width={1080} height={744}/>
           <p>The next day, the lab was our war ground. We began to discuss the professor’s comments and trace back to where we had gone wrong. As a freshman, working with my teammates of a similar caliber of inexperience, we were even more baffled. So we decided to step back. Instead of trying to dissect our current situation to pinpoint where we went wrong, we decided to go right back to the start and use the five whys methodology to answer our problem statement.</p>
           <p>To our utter surprise, it worked. It was a splendid eureka moment when we figured out the new root causes and were now able to better group and prioritize our problem categories. From there on, we didn’t quite have the time to change up all our solutions but instead, we innovated upon our existing solutions.</p>
           <p>The team was now confident and content with the solution. Although a little bit more time would have allowed us to produce a better product, we could now answer any question thrown at us to justify our choice of solution.</p>

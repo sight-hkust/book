@@ -16,6 +16,7 @@ export default function Chapter() {
         <title>Space design</title>
       </Head>
       <section className="h-screen bg-[#3c4041] text-white text-lg sm:text-2xl py-16 sm:py-24">
+        <Image className="w-3/4 mx-auto" src={`/titles/${router.pathname.split('/').slice(-1)}.png`} width={876} height={162} alt=""/>
         <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
         <p className="w-5/6 sm:w-4/5 mx-auto">Innovations to create spaces that help with our wellbeing.</p>
         <p className="w-5/6 sm:w-4/5 mx-auto mt-16">The problem : Space has always been a tricky issue in Hong Kong, yet the physical space around us have a direct effect on our mental and physical wellbeing.</p>

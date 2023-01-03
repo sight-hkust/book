@@ -16,7 +16,8 @@ export default function Chapter() {
       <Head>
         <title>Environmental Awareness in Sri Lanka</title>
       </Head>
-      <section className="h-screen bg-[#e2bf5c] text-[#020203] text-lg sm:text-2xl py-16 sm:py-24">
+      <section className="bg-[#e2bf5c] text-[#020203] text-lg sm:text-2xl pt-16 sm:pt-24">
+      <Image className="w-3/4 mx-auto" src={`/titles/${router.pathname.split('/').slice(-1)}.svg`} width={876} height={162} alt=""/>
         <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-[#020203] rounded border-0 md:my-10"/>
         <p className="w-5/6 sm:w-4/5 mx-auto">A plastic recycling program for an NGO serving children near Kandy, Sri Lanka.</p>
         <p className="w-5/6 sm:w-4/5 mx-auto mt-8 sm:mt-16">The problem : The TEA-Project is a children’s NGO in the Hanthana area, where the community faces challenges in poverty and plastic waste.</p>
@@ -24,6 +25,7 @@ export default function Chapter() {
         <div className="w-5/6 mx-auto flex justify-center">
           <Image className="w-full sm:w-3/5" src={`/vectors/${router.pathname.split('/').slice(-1)}.png`} width={430} height={150} alt=""/>
         </div>
+        <Image className="w-screen mt-16 sm:mt-24" src={`/covers/${router.pathname.split('/').slice(-1)}.jpg`} alt="" width={1364} height={592}/>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] text-lg sm:text-2xl flex flex-col items-center py-16 sm:py-24">
         <AuthorName name="Denise"/>

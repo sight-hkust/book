@@ -16,6 +16,7 @@ export default function Chapter() {
         <title>Feed You Well</title>
       </Head>
       <section className="h-screen bg-[#9ac875] text-white text-lg sm:text-2xl py-16 sm:py-24">
+      <Image className="w-3/4 mx-auto" src={`/titles/${router.pathname.split('/').slice(-1)}.png`} width={876} height={162} alt=""/>
         <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
         <p className="w-5/6 sm:w-4/5 mx-auto">Nutritional Meals Ready-to-Eat for young elderly.</p>
         <p className="w-5/6 sm:w-4/5 mx-auto mt-16">The problem : The young elderly might not always have the time to cook themselves and existing MREs do not hold the desired nutritional value.</p>
@@ -42,6 +43,7 @@ need to do clearly. But maybe boys are not used to being organized, they always 
 it although sometimes it ended up me doing it alone. May be the workload of our projects are quite heavy, so they sometimes choose to ignore and escape from it. Yet, I think the cooking atmospheres are quite good since we are already friends before this course. After all, I think we can have a stronger work separation and I have to have a more unyielding attitude to show that I would not help you do most of the work! But having different kinds of people in a team also have advantage that if all teammates are having very strong ideas, they may develop into numerous arguments.</p>
           <p>Lastly, from this project, I found out I am having a much better performance in project-based courses. I always performed badly in courses which have paper exams or zoom exams since I got super nervous easily that I always want to vomit and having stomachache during exams. Even I studied hard for that course, I always ended up having a really bad grade. But this course makes me understand I am not stupid at all, and my effort can somehow pay off in project-based courses.</p>
         </article>
+        <Image className="mx-auto w-1/3 sm:w-1/5 mt-16 sm:mt-24" src="/artworks/alexi.png" alt="" width={1080} height={744}/>
       </section>
     </Layout>
   )

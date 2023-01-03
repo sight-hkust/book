@@ -26,13 +26,14 @@ export default function Chapter() {
           <Image className="w-full sm:w-3/5" src={`/vectors/${router.pathname.split('/').slice(-1)}.png`} width={430} height={150} alt=""/>
         </div>
       </section>
-      <section className="bg-[#fcf37d] text-[#142a44] text-lg sm:text-2xl flex flex-col items-center py-16 sm:py-24">
+      <section className="bg-[#fcf37d] text-[#142a44] text-lg sm:text-2xl flex flex-col items-center pt-16 sm:pt-24">
         <h1 className="font-bold text-lg sm:text-2xl mb-16">Description</h1>
         <article className="text-base sm:text-xl w-5/6 sm:w-4/5 mx-auto flex flex-col space-y-10">
           <p>The viral pandemic and its accompanying pseudo-lockdowns had been two ginormous wrenches thrown into the works of secondary school students. Inspired by the plethora of organizations that stepped up by providing tutoring services, we at SIGHT also explored different ways to contribute and support schools and students. As our forte has been working with the framework of design thinking, we decided to apply this to secondary school students. Basing our program on the Designing your Life course in Stanford d.school, we set out ways to help secondary school students to explore their interests, and then leveraging these interests to try prototyping their life after secondary school life. This is to offer some light at the end of the tunnel and a focal point for their lives beyond their uniform.</p>
           <p>In the end, we are most grateful to have worked with Kowloon Sam Yuk Secondary School to bring this novel program to fruition. Thru the wonders of Miro and Zoom, we journeyed with students to discover their passions and interests. With the help
 of kind volunteers, we linked students up with professionals and experts of their interested fields to flesh out opportunities and possibilities down those paths. The program included a cameo from Dong Fong Sing of 100Most fame, who as the guest speaker encouraged students to find their interests and become experts in them.</p>
         </article>
+        <Image className="w-screen mt-16 sm:mt-24" src={`/media/trial-and-better-1.jpg`} width={430} height={150} alt=""/>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] text-lg sm:text-2xl flex flex-col items-center py-16 sm:py-24">
         <AuthorName name="Leung Wing Mui"/>
@@ -52,6 +53,7 @@ in this programme, students are able to breakthrough these difficulties and be a
         <article className="text-base sm:text-xl w-5/6 sm:w-4/5 mx-auto flex flex-col space-y-10">
           <p className="first-letter:text-2xl sm:first-letter:text-4xl">The Trial & Better class inspired us to discover our own learning areas. With so many choices in life, it is through learning that could help us find the path that suits us best. This course also enabled me to meet more people and broaden my social circle. It is all very helpful, I hope I could join other similar courses in the future.</p>
         </article>
+        <Image className="w-3/4 sm:w-1/2 mt-16 sm:mt-24" src={`/media/trial-and-better-2.jpg`} width={430} height={150} alt=""/>
       </section>
     </Layout>
   )
