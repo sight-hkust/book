@@ -26,6 +26,7 @@ export default function Chapter() {
         </div>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] flex flex-col items-center py-24">
+        <Image className="mx-auto max-w-sm w-2/5" src="/artworks/melody.png" width={644} height={662} alt=""/>
         <AuthorName name="Melody"/>
         <h2 className="font-medium text-sm sm:text-lg">SIGHT member in 2014</h2>
         <h3 className="text-sm sm:text-lg">Drug Dispensing Box</h3>
@@ -41,6 +42,7 @@ With specialization is the default in life in order to succeed, I used to think 
 is the limiting factor. I had many pursuits in my hands during my undergraduate life such as research projects, exchange, GPA, and SIGHT. I needed to invest sufficient amount of time and energy in order to ensure high quality roles and responsibilities in these pursuits; hence, maintaining study-life balance was a challenging task at that time. A short conversation with Prof. Chau during a field trip with SIGHT changed
 my perspective on things. I still remember her analogy of life as a closet with many drawers, and only the right drawer should be opened at the right time. I think this has a great impact on my life especially on my time management in specializing while diversifying my interests. I can put on many hats and invest time on things that I like while maintaining a healthy work-life balance.</p>
         </article>
+        <Image className="mx-auto w-2/3 sm:w-3/5 max-w-md" src="/artworks/ddx.png" alt="" width={918} height={856}/>
       </section>
     </Layout>
   )
