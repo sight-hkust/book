@@ -46,18 +46,35 @@ export default function Chapter() {
           <p>I participated in two weekly-long field trips (one in June 2016 and the other in June 2017), whose aim was to implement the project and see how it functions in a real- life situation. Having been fortunately equipped with a plethora of photographic evidence (as well as a number of embarrassing video clips of my mug, which I am not keen to highlight!) documenting these two events, I will thus take you readers on a pictographic journey of the early days of this “Electronic Health Record System” project...</p>
           <Image className="mx-auto w-2/5" src="/artworks/jonathan.png" width={644} height={662} alt=""/>
           <div className="flex flex-wrap justify-around">
-            <p className="w-1/2">This photo was taken in the early days of the field trip. A big part of the implementation challenge was to teach the healthcare workers how to use the mobile app, and how to set up the “EasyMed Box” (the purple contraption on the left). This office space also serves as the headquarters in which after each trip to the slum we discuss on what went well, what went awry, and how we can improve in the future.</p>
-            <p className="w-1/2">Here is a shot of one of the slums we volunteered in; at that moment we were helping to set up the so-called “triage, consultation, and pharmacy” stations. I do remember the smell being a mixture of rotting food waste and burning plastic, with
+            <p className="w-full sm:w-1/2">
+              <Image src="/media/medeasy-1.jpg" alt="" width={668} height={442}/>
+              This photo was taken in the early days of the field trip. A big part of the implementation challenge was to teach the healthcare workers how to use the mobile app, and how to set up the “EasyMed Box” (the purple contraption on the left). This office space also serves as the headquarters in which after each trip to the slum we discuss on what went well, what went awry, and how we can improve in the future.
+            </p>
+            <p className="w-full sm:w-1/2">
+              <Image src="/media/medeasy-2.jpg" alt="" width={668} height={442}/>
+              Here is a shot of one of the slums we volunteered in; at that moment we were helping to set up the so-called “triage, consultation, and pharmacy” stations. I do remember the smell being a mixture of rotting food waste and burning plastic, with
 a slight hint of sewage (very pleasant!). This just gave us a glimpse of the harsh reality of the conditions many of these people have to live in. I felt that being empathetic towards the situation in which these slum-dwellers experience daily contributes to the project’s success.</p>
-            <p className="w-1/2">When the clinic is in full force, we take turns teaming up with a healthcare worker to assist them with using the mobile app. The challenge here was to note down any potential issues with the user experience and workflow whilst ensuring they perform a smooth and efficient checkup on their patients. The sweltering Cambodian summer sun certainly did not help in this case!</p>
-            <p className="w-1/2">Since this was our first time visiting Cambodia,
+            <p className="w-full sm:w-1/2">
+              <Image src="/media/medeasy-3.jpg" alt="" width={668} height={442}/>
+              When the clinic is in full force, we take turns teaming up with a healthcare worker to assist them with using the mobile app. The challenge here was to note down any potential issues with the user experience and workflow whilst ensuring they perform a smooth and efficient checkup on their patients. The sweltering Cambodian summer sun certainly did not help in this case!</p>
+            <p className="w-full sm:w-1/2">
+              <Image src="/media/medeasy-4.jpg" alt="" width={668} height={442}/>
+              Since this was our first time visiting Cambodia,
 we treated ourselves to a day trip cycling around Cambodia’s rural areas. This is a photo of us in the middle of sampling the country’s fine cuisine; I myself am quite partial to “Amok trey”, which is pieces of fish gently poached in a delicate spicy coconut curry sauce encased in a vessel made
 out of banana leaves. Unfortunately, I do also distinctly remember afterwards being the only victim of a case of food poisoning in which I was denied the opportunity to visit the capital’s tourist destinations.</p>
-            <p className="w-1/2">Us SIGHT members were helping to carry some equipment to a slum. The healthcare workers essentially run a mobile clinic in which they drive to the slum, rather than a more typical case
+            <p className="w-full sm:w-1/2">
+              <Image src="/media/medeasy-5.jpg" alt="" width={656} height={874}/>
+              Us SIGHT members were helping to carry some equipment to a slum. The healthcare workers essentially run a mobile clinic in which they drive to the slum, rather than a more typical case
 in which the patient travels to visit the doctor. Having had a one-year opportunity to improve the project, the situation is similar here: each team member partners with a healthcare worker and tries to understand where the app works and what didn’t work so well. During the non-zero number of times a bug appeared in the app the healthcare workers were quick to switch to their old, paper-based system: it was also a hurdle to try and convince them to keep their faith in our project!</p>
-            <p className="w-1/2">This is a shot of the “pharmacy station”, which is the last station patients visit after they go through consultation. Part of the app’s features (if I remember correctly) is to document the type and dosage of medicine administered to the patient, as well as to keep a log of their current supply.</p>
-            <p className="w-1/2">This photo shows the dedication the team puts into the project. Even late into the night we are making improvements on the user experience, communicating with the backend developers on the medical volunteer’s needs, and preparing for the next day’s events. This was also the time in which we reflected on what we experienced and how we felt (I do remember “empathy” as being a key component of the design-thinking process that SIGHT advocates).</p>
-            <p className="w-1/2">I am happy to report that this time I did not suffer any stomach ailments and did manage a chance to visit some of Phnom Penh’s attractions: this is the Royal Palace of Cambodia.</p>
+            <p className="w-full sm:w-1/2">
+              <Image src="/media/medeasy-6.jpg" alt="" width={656} height={874}/>
+              This is a shot of the “pharmacy station”, which is the last station patients visit after they go through consultation. Part of the app’s features (if I remember correctly) is to document the type and dosage of medicine administered to the patient, as well as to keep a log of their current supply.</p>
+            <p className="w-full sm:w-1/2">
+              <Image src="/media/medeasy-7.jpg" alt="" width={656} height={874}/>
+              This photo shows the dedication the team puts into the project. Even late into the night we are making improvements on the user experience, communicating with the backend developers on the medical volunteer’s needs, and preparing for the next day’s events. This was also the time in which we reflected on what we experienced and how we felt (I do remember “empathy” as being a key component of the design-thinking process that SIGHT advocates).</p>
+            <p className="w-full sm:w-1/2">
+              <Image src="/media/medeasy-8.jpg" alt="" width={656} height={874}/>
+              I am happy to report that this time I did not suffer any stomach ailments and did manage a chance to visit some of Phnom Penh’s attractions: this is the Royal Palace of Cambodia.</p>
           </div>
         </article>
       </section>
@@ -84,8 +101,8 @@ led to MedEasy despite having no background in any hardware or UX or biometrics 
 the past. I have no experience totally in working on such a large-scale, cross-disciplinary project before. Students are expected to handle a lot of readings and meetings understanding of the topics before weekly meeting in the SIGHT program. Looking back, I realized I had changed a lot after joining the SIGHT program. Thanks to all the difficult tasks and challenging presentations, I learned how to think with a more flexible mindset and always stay hungry for knowledge. One should never be limited within
 their comfort zone or major field. SIGHT project requires students to work with people from different cultural or academic backgrounds and cooperate together to have an innovative idea to solve real-world problems. SIGHT has absolutely revolutionized the way I think and look at things. Before working in SIGHT, I didn’t know working with people from different backgrounds is that important since I always imagine that only groups of professionals with similar expertise can change the world. However, it is totally wrong, nowadays, most of the problems need expertise from diverse areas to cooperate and work together to solve the problems. Teamwork and an innovative mindset have become one of the most crucial skills in the 21st century. To conclude, my experience
 in SIGHT is truly amazing and unforgettable. I will never forget all my memories, be it good or bad.</p>
-          
         </article>
+        <Image className="mt-16 sm:mt-24 w-screen" src="/media/medeasy-9.jpg" alt="" width={1500} height={720}/>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] text-2xl flex flex-col items-center py-24">
         <Image className="mx-auto max-w-sm w-2/5" src="/artworks/charlie.png" width={644} height={662} alt=""/>
@@ -116,6 +133,7 @@ pi for supporting the data sync without network, and a well-design user flow of 
           <p>When all the feature goes away, when all the technology fades out, when all the business model loses meaning, I hope, my product can help someone, even if it is just a piece of small stuff or simple technology, I am hoping the impact it can make, can last as long as it exists.</p>
           <p>I told this story to the investor that day. Actually, I couldn’t remember how many times this story has been told, because SIGHT is the place that starts my whole journey on this road.</p>
         </article>
+        <Image className="w-screen mt-16 sm:mt-24" src="/media/medeasy-10.jpg" alt="" width={1500} height={1094}/>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] text-2xl flex flex-col items-center py-24">
         <AuthorName name="Dawn" />
@@ -128,10 +146,11 @@ The hands-on experience of applying technology to real-life problem inspired me 
           <p>SIGHT also showed me that interdisciplinary collaboration is the trend for the future. My current project as a Chemistry PhD student requires interdisciplinary skill from Chemistry, Physics and computer science. As a result, I often communicate and work with people from various disciplines. The experience of developing the EMRS prepared me for
 my current work for research. The EMRS requires talents from the computer science department for coding the software; mechanical and electrical engineer students to design the hardware box; business and humanity students to be the middle person and communicate with the end users; graphic designers to design the user interface. Our final EMRS product was the result of literature reviews, endless meetings, collaboration with professors and the NGO, and countless failures before we went on the right track. MedEasy couldn’t be developed without collaboration.
 </p>
+          <Image className="mx-auto w-1/3 sm:w-1/6 max-w-md" src="/artworks/dawn.png" width={644} height={662} alt=""/>
           <p>In 2018, after I returned from my exchange in Canada, I became a SIGHT leader. This experience helped me to develop leadership and communication skills that is beyond what could be learnt in a classroom setting. I mentored the new members to continue with the MedEasy project, and at the same time, fostered newly established projects in SIGHT. I truly enjoyed being a mentor, especially when I was promoting projects and ideas that could make actual positive impacts on communities. I guided the new team to when they were unsure about their direction. It was difficult to keep everyone motivated for the project. Through this experience, I learnt that leaders have to “walk- the-talk”: I had to be the leading example of keeping the work up even when the mentees felt unmotivated and dropped behind. I learnt that leadership is a balance between insisting what was right but also listening and adjusting to different opinions. I understood that the capability of one person is limited, however, an astounding product could be accomplished with the collaboration among a diverse group of specialists. Great leadership and collaboration is impossible without good communication. I learnt to express my ideas more clearly and customized for the target audience.</p>
           <p>I truly cherish my time working with SIGHT, it inspire my current career path as a researcher and I made lovely and life-long friends. I miss traveling with my blue-shirted sweaty friends. May the pandemic be over soon.</p>
         </article>
-        <Image className="mx-auto w-1/3 sm:w-1/6 max-w-md" src="/artworks/dawn.png" width={644} height={662} alt=""/>
+        <Image className="w-screen mt-16 sm:mt-24" src="/media/medeasy-11.jpg" alt="" width={1500} height={1488}/>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] text-2xl flex flex-col items-center py-24">
         <AuthorName name="Fernando" />
@@ -147,6 +166,7 @@ an impactful role in the team. As a social science student working among enginee
           <p>My journey at SIGHT did not stop at MedEasy. As a SIGHT leader, I was able to build internal connections within SIGHT and take part in the learning process of SIGHT itself. One of the most important tasks for leaders is helping new campers arrive at their own ideas without giving them away. The hardest part is letting our experience guide us, but not blind us. Initially we had a fingerprint scanner on MedEasy, but it did not work, so we had to find a replacement biometric. We decided on an iris scanner. which actually worked much better than expected and avoided many problems that would have surfaced with the fingerprint scanner. This story proves that new and untested ideas are not bad, and our existing ideas are not necessarily good. Staying open and allowing things to happen is vital in keeping our projects organic and constantly improving.</p>
           <p>Embracing spontaneity does not mean giving up on thinking entirely. The more sophisticated SIGHT is, the easier it is to be stagnant. It takes constant questioning on everything to keep us on our toes, ready to adopt something better. Is this the right way to approach the problem? Is it the best way to do it? I made a conscious effort of trying to do something different throughout the four years. They say you should leave things in a better state than you found them. I guess that had kept me going, and I think I did make a positive difference.</p>
         </article>
+        <Image className="w-screen mt-16 sm:mt-24" src="/media/medeasy-12.jpg" alt="" width={1500} height={1312}/>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] text-2xl flex flex-col items-center py-24">
         <AuthorName name="Kevin" />
@@ -164,6 +184,12 @@ the doctors: Soursdey, Sophen, and Nhoel. Thank you for allowing us to ‘bug’
 to cook Cambodian dishes, to Konnga for bringing us to taste Cambodian street food, and – apologies for starting to forget some names after all these five years! – countless others who have made our three-week stay felt like home! We also want to thank Empowering Youth in Cambodia (EYC) and Synoeun for helping to facilitate the design- thinking workshop in their school, and giving us detailed understanding about the neighborhood the school is located. And, no less important: thank you to Vaishak and Jonathan for the close-to-3-week company we had for the SIGHT Scholar 2017 program. Look forward to visiting Cambodia again (together) in the near future!</p>
         </article>
         <Image className="mx-auto w-1/3 sm:w-1/6 max-w-md" src="/artworks/kevin.png" width={644} height={662} alt=""/>
+      </section>
+      <section className="h-screen flex justify-center items-center bg-[#142a44]">
+        <Image className="w-screen" src="/media/medeasy-13.png" alt="" width={1500} height={1312}/>
+      </section>
+      <section className="h-screen flex justify-center items-center bg-[#fffef7]">
+        <Image className="w-screen" src="/covers/one-2-one.png" alt="" width={1500} height={1312}/>
       </section>
       <section className="bg-[#fffef7] text-[#142a44] text-2xl flex flex-col items-center py-24">
         <article className="text-base sm:text-xl w-5/6 sm:w-4/5 mx-auto flex flex-col space-y-10">
