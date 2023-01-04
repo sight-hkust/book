@@ -14,7 +14,7 @@ export default function Chapter() {
       <Head>
         <title>Ms. Moringa</title>
       </Head>
-      <section className="h-screen bg-[#6067ae] text-white text-lg sm:text-2xl py-16 sm:py-24">
+      <section className="bg-[#6067ae] text-white text-lg sm:text-2xl py-16 sm:py-24">
         <Image className="w-2/3 mx-auto" src={`/titles/${router.pathname.split('/').slice(-1)}.png`} width={876} height={162} alt=""/>
         <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
         <p className="w-5/6 sm:w-4/5 mx-auto">First, it all started as a water purification project in Changshun County, Guizhou, China. Now it is a social enterprise empowering local female artists to preserve their local culture.</p>
