@@ -1,9 +1,10 @@
 import React from "react";
 import Head from "next/head";
-import Layout from "../../components/Layout";
 import Image from "next/image";
 import { useRouter } from "next/router";
+import Layout from "../../components/Layout";
 import AuthorName from "../../components/AuthorName";
+import Progress from "../../components/Progress";
 
 export default function Chapter() {
 

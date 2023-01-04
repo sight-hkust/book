@@ -15,8 +15,9 @@ export default function Chapter() {
       <Head>
         <title>Lavatory Management System</title>
       </Head>
-      <section className="h-screen bg-[#e49059] text-white text-lg sm:text-2xl py-16 sm:py-24">
-        <h1 className="w-5/6 sm:w-4/5 text-left text-white sm:text-8xl text-4xl font-black mx-auto">Lavatory<br/>Management<br/>System</h1>
+      <section className="bg-[#e49059] text-white text-lg sm:text-2xl pb-16 sm:pb-24">
+        <Image className="w-screen" src={`/covers/${router.pathname.split('/').slice(-1)}.jpg`} width={1460} height={968} alt=""/>
+        <h1 className="w-5/6 sm:w-4/5 text-left text-white sm:text-8xl text-4xl font-black mx-auto mt-16 sm:mt-24">Lavatory<br/>Management<br/>System</h1>
         <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
         <p className="w-5/6 sm:w-4/5 mx-auto">An RFID system that tracks the usage of toilets at the Caritas Lok Kan School.</p>
         <p className="w-5/6 sm:w-4/5 mx-auto mt-16">The problem : Students at the Lok Kan School often suffer from conditions that affect their toileting as well as their ability to communicate that need. Therefore teachers there need to track their toileting data, such as timing, success, condition, etc.</p>

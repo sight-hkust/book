@@ -1,6 +1,7 @@
 import React, { ReactNode } from "react";
 import Link from 'next/link';
 import Image from "next/image";
+import Progress from "./Progress";
 
 interface LayoutProps {
   children: ReactNode
@@ -13,6 +14,7 @@ export default function Layout({ children, className, nextPageHref, prevPageHref
   return (
     <div className={className}>
       {children}
+      <Progress/>
       <div className='fixed bottom-12 w-full flex justify-center items-end pointer-events-auto'>
         <div className='bg-white shadow-xl border-gray-100 border-2 rounded-full sm:w-1/5 w-[200px] h-12 flex justify-between items-center px-4'>
           <Link href={prevPageHref}>
