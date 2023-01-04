@@ -37,8 +37,8 @@ export default function Chapter() {
           <p>The project nevertheless soldiered on, and upon discovering the cultural heritage of the area and how it could empower the locals there, the project focus pivoted towards preserving the local Batik art and leveraging that art to empower the local craftswomen.</p>
         </article>
         <Image className="w-3/4 sm:w-2/5 mt-16 sm:mt-24 p-2 border-2 border-solid border-[#6067ae]" src="/media/moringa-1.jpg" alt="" width={598} height={400}/>
-        <Image className="w-3/4 sm:w-2/5 mt-16 sm:mt-24 p-2 border-2 border-solid border-[#6067ae]" src="/media/moringa-1.jpg" alt="" width={598} height={400}/>
-        <Image className="w-3/4 sm:w-2/5 mt-16 sm:mt-24 p-2 border-2 border-solid border-[#6067ae]" src="/media/moringa-1.jpg" alt="" width={598} height={400}/>
+        <Image className="w-3/4 sm:w-2/5 mt-16 sm:mt-24 p-2 border-2 border-solid border-[#6067ae]" src="/media/moringa-2.jpg" alt="" width={598} height={400}/>
+        <Image className="w-3/4 sm:w-2/5 mt-16 sm:mt-24 p-2 border-2 border-solid border-[#6067ae]" src="/media/moringa-3.jpg" alt="" width={598} height={400}/>
       </section>
     </Layout>
   )
