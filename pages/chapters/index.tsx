@@ -23,14 +23,14 @@ export default function Chapters() {
               <span>Preface</span>
             </Link>
           </li>
-          <li className="my-16">
+          {/* <li className="my-16">
             <Link className="flex items-center" href="/timeline">
               <div className="bg-[#142a44] sm:w-8 sm:h-8 w-4 h-4 rounded-full mr-3 sm:mr-5"></div>
               <span>Timeline</span>
             </Link>
-          </li>
+          </li> */}
         </ul>
-        <ul className="mt-8">
+        {/* <ul className="mt-8">
           <li className="my-16">
             <Link className="flex items-center" href="#">
               <div className="bg-[#142a44] sm:w-8 sm:h-8 w-4 h-4 rounded-full mr-3 sm:mr-5"></div>
@@ -51,7 +51,7 @@ export default function Chapters() {
               <span>Design Thinking</span>
             </Link>
           </li>
-        </ul>
+        </ul> */}
       </div>
       <div className="mt-16 sm:mt-24 w-5/6 sm:w-4/5 mx-auto flex flex-row-reverse">
         <h1 className="font-bold text-2xl sm:text-4xl">Our Projects</h1>
