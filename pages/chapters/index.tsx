@@ -38,7 +38,7 @@ export default function Chapters() {
             </Link>
           </li>
           <li className="my-16">
-            <Link className="flex items-center" href="#">
+            <Link className="flex items-center" href="/the-footprint">
               <div className="bg-[#142a44] sm:w-8 sm:h-8 w-4 h-4 rounded-full mr-3 sm:mr-5"></div>
               <span>The<br/>Footprint</span>
             </Link>
