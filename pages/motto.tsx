@@ -1,7 +1,14 @@
 import React from "react";
+import Layout from "../components/Layout";
 
 export default function Motto() {
   return (
-    <div></div>
+    <Layout
+      prevPageHref="/"
+      nextPageHref="/preface"
+      className="w-full h-full text-[#142a44]">
+      <div className="hidden md:block h-screen w-screen bg-cover bg-no-repeat bg-[url('/media/motto.jpg')]"/>
+      <div className="block md:hidden h-screen w-screen bg-cover bg-no-repeat bg-[url('/media/motto_2.png')]"/>
+    </Layout>
   )
 } 
