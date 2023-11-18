@@ -1,4 +1,5 @@
 import React from 'react';
+import Head from 'next/head';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 import Layout from '../components/Layout';
@@ -129,12 +130,15 @@ export default function Timeline() {
       prevPageHref='/design-thinking'
       nextPageHref='/the-footprint'
     >
+      <Head>
+        <title>Timeline</title>
+      </Head>
       <Splide className='bg-[#007152]' options={{
         wheel: true,
         direction: 'ttb',
         height: '100vh',
         arrows: false,
-      }} aria-label="My Favorite Images">
+      }} aria-label="SIGHT Timeline">
         {
           events.map(({year, remarks}) => (
             <SplideSlide className='p-16' key={year}>
