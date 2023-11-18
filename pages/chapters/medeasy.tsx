@@ -19,7 +19,7 @@ export default function Chapter() {
         <title>MedEasy</title>
       </Head>
       <section className=" bg-[#182a46] text-white text-lg sm:text-2xl py-24">
-        <Image className="mx-auto w-4/5" src="/covers/medeasy.webp" width={1448} height={964} alt=""/>
+        <Image className="mx-auto w-4/5" src="/covers/medeasy.png" width={1448} height={964} alt=""/>
         <hr className="my-4 mx-auto w-5/6 sm:w-4/5 h-0.5 bg-white rounded border-0 md:my-10"/>
         <p className="w-5/6 sm:w-4/5 mx-auto">An electronic health record system for mobile clinics, complete with a smartphone app, a local Raspberry Pi-based server and online reporting portal.</p>
         <p className="w-5/6 sm:w-4/5 mx-auto mt-16">The problem : <strong>One-2-One Cambodia</strong> is a medical NGO that conducts mobile clinic outreach in the slums of Phnom Penh and the provinces of Cambodia. Their old way of storing patient records is via paper, which is cumbersome and susceptible to damage.</p>
