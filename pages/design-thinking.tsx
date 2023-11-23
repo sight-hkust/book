@@ -3,11 +3,11 @@ import Image from "next/image";
 import Head from "next/head";
 import Layout from "../components/Layout";
 
-export default function Motto() {
+export default function DesignThinking() {
   return (
     <Layout
-      prevPageHref="/"
-      nextPageHref="/preface"
+      prevPageHref="/motto"
+      nextPageHref="/timeline"
       className="w-screen h-screen bg-[#6D403A] flex justify-center items-center">
       {/* <div className={`w-screen h-screen fixed rounded-[10px] bg-[url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='10' ry='10' stroke='white' stroke-width='4' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='round'/%3e%3c/svg%3e")`}></div> */}
       <Head>

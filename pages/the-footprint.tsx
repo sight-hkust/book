@@ -87,7 +87,7 @@ export default function Footprint() {
   return (
     <Layout
       prevPageHref="/timeline"
-      nextPageHref="/the-footprint"
+      nextPageHref="/chapters/medeasy"
       className="w-screen md:h-screen flex flex-col md:flex-row text-[#142a44]">
         <Head>
           <title>The Footprint</title>

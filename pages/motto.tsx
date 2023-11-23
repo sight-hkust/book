@@ -5,8 +5,8 @@ import Layout from "../components/Layout";
 export default function Motto() {
   return (
     <Layout
-      prevPageHref="/"
-      nextPageHref="/preface"
+      prevPageHref="/preface"
+      nextPageHref="/design-thinking"
       className="w-full h-full text-[#142a44]">
       <Head>
         <title>Motto</title>
