@@ -92,11 +92,11 @@ export default function Footprint() {
         <Head>
           <title>The Footprint</title>
         </Head>
-        <div className="w-full md:w-1/2 bg-[#482329] h-[640px] md:h-screen bg-[url('/media/footprint.png')] bg-contain bg-no-repeat">
+        <div className="w-screen sm:w-full md:w-1/2 bg-[#482329] h-[640px] lg:h-screen bg-[url('/media/footprint.png')] bg-contain bg-no-repeat transform scale-130">
         </div>
-        <div className="w-full md:w-1/2 bg-[#fffef7] flex-col h-screen p-16">
+        <div className="w-full md:w-1/2 bg-[#fffef7] flex-col h-screen p-8 md:p-16">
           <h2 className="uppercase text-4xl font-bold text-[#B3BCB6]">the<br/><span className="text-[#482329]">footprint</span></h2>
-          <section className="flex flex-col flex-wrap h-[840px]">
+          <section className="flex flex-col flex-no-wrap md:flex-wrap h-[840px]">
             {
               regions.map(region => (
                 <RegionProjectsGroup key={region.label} label={region.label} projects={region.projects} />

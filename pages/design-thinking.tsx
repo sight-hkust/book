@@ -13,10 +13,10 @@ export default function DesignThinking() {
       <Head>
         <title>Design Thinking</title>
       </Head>
-      <Image src={'/media/design_thinking.png'} className="h-4/5 md:h-full w-auto" width={1920} height={3422} alt=""/>
-      <section className="text-[#6D403A] absolute top-60 md:top-40 w-[250px] md:w-[280px] flex flex-col items-center justify-center text-justify">
-        <h2 className="font-bold text-lg md:text-xl mb-2 md:mb-4">Description</h2>
-        <p className="text-sm md:text-base">The Design Thinking Workshop is an introduction to
+      <Image src={'/media/design_thinking.png'} className="h-full md:w-auto w-full" width={1920} height={3422} alt=""/>
+      <section className="text-[#6D403A] absolute top-20 sm:top-60 md:top-40 w-[210px] sm:w-[250px] md:w-[280px] flex flex-col items-center justify-center text-justify">
+        <h2 className="font-bold text-base sm:text-lg md:text-xl mb-2 md:mb-4">Description</h2>
+        <p className="text-xs sm:text-sm md:text-base">The Design Thinking Workshop is an introduction to
           the iterative design process. Using everyday examples,
           students break down problems, generate and then test
           ideas collaboratively. By experiencing the methodology

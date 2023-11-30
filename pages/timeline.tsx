@@ -141,23 +141,23 @@ export default function Timeline() {
       }} aria-label="SIGHT Timeline">
         {
           events.map(({year, remarks}) => (
-            <SplideSlide className='p-16' key={year}>
-              <span className='text-[#c5cac7] font-bold text-4xl'>{year}</span>
+            <SplideSlide className='p-8 md:p-16' key={year}>
+              <span className='text-[#c5cac7] font-bold text-4xl mb-4 md:mb-0'>{year}</span>
               <section className='flex items-center justify-center w-full h-full'>
-                <ul className='w-1/2 h-full'>
+                <ul className='w-full md:w-1/2 h-full mt-16'>
                   {
                     remarks.map(({ title, thumbnail }) => (
-                      <li key={title} className='flex w-full h-[320px] items-center'>
+                      <li key={title} className='flex w-full h-auto md:h-[260px] items-center my-8 md:my-12'>
                         <div className='flex flex-col items-center'>
-                          <span className='bg-[#c5cac7] w-8 h-8 rounded-full'></span>
+                          <span className='bg-[#c5cac7] w-4 md:w-8 h-4 md:h-8 rounded-full'></span>
                         </div>
                         {
                           thumbnail.length>0?(
                            <div className='ml-8'>
-                             <Image className={`w-[320px] rounded-3xl shadow-xl mb-4`} style={{objectFit: "cover"}} src={`/media/timeline/${thumbnail}`} alt={title} width={320} height={160}/> 
-                             <span className='text-[#c5cac7] text-2xl'>{title}</span>
+                             <Image className={`w-[240px] md:w-[320px] h-[120px] md:h-auto rounded-3xl shadow-xl mb-4`} style={{objectFit: "cover"}} src={`/media/timeline/${thumbnail}`} alt={title} width={320} height={160}/> 
+                             <span className='text-[#c5cac7] text-sm md:text-2xl'>{title}</span>
                            </div>
-                          ):<span className='ml-8 text-[#c5cac7] text-2xl'>{title}</span>
+                          ):<span className='ml-8 text-[#c5cac7] text-sm md:text-2xl'>{title}</span>
                         }
                       </li>
                     ))
