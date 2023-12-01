@@ -12,7 +12,7 @@ export default function Chapter() {
 
   return (
     <Layout 
-      prevPageHref="#"
+      prevPageHref="/the-footprint"
       nextPageHref="/chapters/drug-dispensing-box"
       className="w-full">
       <Head>
