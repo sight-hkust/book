@@ -119,7 +119,8 @@ export default function Attributions() {
             "Chinese Manufacturer’s Association of Hong Kong",
             "Equal Opportunities Foundation",
             "Lau Chor Tak Foundation Limited",
-            "Seal of Love Charitable Foundation University Grants Committee",
+            "Seal of Love Charitable Foundation",
+            "University Grants Committee"
           ].map(name => <dd key={name} className="sm:text-2xl text-xl">{name}</dd>)}
         </dl>
         <dl>
