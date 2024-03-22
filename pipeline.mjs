@@ -37,7 +37,9 @@ connect(
         owner: "nextjs:nodejs",
       })
       .withExposedPort(3000)
-      .withDefaultTerminalCmd(["node", "server.js"])
+      .withDefaultTerminalCmd(["node"])
+      .withDefaultArgs(["server.js"])
+
       
       await Promise.all(["latest", process.env.CI_COMMIT_SHORT_SHA].map(async tag => {
         await runtime
