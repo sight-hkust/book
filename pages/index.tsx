@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div className='w-full bg-midnight' style={{backgroundSize: '80px 80px', backgroundImage: 'linear-gradient(to right, grey 1px, transparent 1px),linear-gradient(to bottom, grey 1px, transparent 1px)'}}>
+    <div className='w-full bg-midnight h-screen' style={{backgroundSize: '80px 80px', backgroundImage: 'linear-gradient(to right, grey 1px, transparent 1px),linear-gradient(to bottom, grey 1px, transparent 1px)'}}>
       <Head>
         <title>SIGHT BOOK</title>
       </Head>
