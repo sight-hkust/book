@@ -1,16 +1,54 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+// import { LazyMotion, domAnimation, motion, AnimatePresence } from "motion/react";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+// const slideUp = {
+//   name: "Slide Up",
+//   variants: {
+//     initial: {
+//       opacity: 0,
+//       top: "100vh",
+//       scale: 0.4
+//     },
+//     animate: {
+//       opacity: 1,
+//       top: "0vh",
+//       scale: 1
+//     },
+//     exit: {
+//       opacity: 0,
+//       top: "100vh",
+//       scale: 0.4
+//     }
+//   },
+//   transition: {
+//     duration: 0.7
+//   }
+// };
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+// const slideRight = {
+//   name: "Slide Right",
+//   variants: {
+//     initial: {
+//       opacity: 0,
+//       left: "-100%",
+//       scale: 0.6
+//     },
+//     animate: {
+//       opacity: 1,
+//       left: 0,
+//       scale: 1
+//     },
+//     exit: {
+//       opacity: 0,
+//       left: "100%",
+//       scale: 0.6
+//     }
+//   },
+//   transition: {
+//     duration: 0.7
+//   }
+// };
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -24,10 +62,22 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+      <body className={`antialiased`}>
+        {/* <LazyMotion features={domAnimation}>
+          <AnimatePresence mode='popLayout' >
+            <motion.div
+              key={slideRight.name}
+              className="page-wrap"
+              initial="initial"
+              animate="animate"
+              exit="exit"
+              variants={slideRight.variants}
+              transition={slideRight.transition}
+            > */}
+              {children}
+            {/* </motion.div>
+          </AnimatePresence>
+        </LazyMotion> */}
       </body>
     </html>
   );
