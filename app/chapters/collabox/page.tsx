@@ -12,7 +12,7 @@ export default function Chapter() {
       nextPageHref="/chapters/pinocchio"
       className="w-full">
       <Head>
-        <title>Collabox</title>
+        <title>Collabox | SIGHT BOOK</title>
       </Head>
       <section className="h-screen bg-[#fffef7] text-[#ed8902] text-lg sm:text-2xl">
         <ExportedImage className="mx-auto sm:w-2/3 w-11/12" src={`/titles/collabox.png`} width={1460} height={968} alt=""/>

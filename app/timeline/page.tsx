@@ -133,7 +133,7 @@ export default function Timeline() {
       nextPageHref='/the-footprint'
     >
       <Head>
-        <title>Timeline</title>
+        <title>Timeline | SIGHT BOOK</title>
       </Head>
       <Splide className='bg-[#007152]' options={{
         wheel: true,

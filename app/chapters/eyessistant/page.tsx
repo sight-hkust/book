@@ -12,7 +12,7 @@ export default function Chapter() {
       nextPageHref="/chapters/pace-it"
       className="w-full">
       <Head>
-        <title>eyessistant</title>
+        <title>eyessistant | SIGHT BOOK</title>
       </Head>
       <section className="bg-[#f0efb8] text-[#142a44] text-lg sm:text-2xl pt-16 sm:pt-24">
       <ExportedImage className="w-3/4 sm:w-2/3 mx-auto" src={`/titles/eyessistant.png`} width={876} height={162} alt=""/>

@@ -12,7 +12,7 @@ export default function Chapter() {
       prevPageHref="/chapters/malaria-prevention"
       className="w-full">
       <Head>
-        <title>Environmental Awareness in Sri Lanka</title>
+        <title>Environmental Awareness in Sri Lanka | SIGHT BOOK</title>
       </Head>
       <section className="bg-[#e2bf5c] text-[#020203] text-lg sm:text-2xl pt-16 sm:pt-24">
       <ExportedImage className="w-3/4 mx-auto" src={`/titles/environmental-awareness-in-sri-lanka.svg`} width={876} height={162} alt=""/>

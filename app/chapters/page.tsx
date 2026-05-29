@@ -11,7 +11,7 @@ export default function Chapters() {
       nextPageHref="/preface"
       className="bg-[#fffef7] w-full h-full text-[#142a44] pt-16 sm:pt-24">
       <Head>
-        <title>Chapters</title>
+        <title>Chapters | SIGHT BOOK</title>
       </Head>
       <div className="w-5/6 sm:w-4/5 mx-auto">
         <h1 className="uppercase font-bold text-2xl sm:text-4xl">index</h1>

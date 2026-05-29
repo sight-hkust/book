@@ -11,7 +11,7 @@ export default function Chapter() {
       nextPageHref="/chapters/softkeyboard"
       className="w-full">
       <Head>
-        <title>Reducing Digital Dependency Among Children</title>
+        <title>Reducing Digital Dependency Among Children | SIGHT BOOK</title>
       </Head>
       <section className="h-screen bg-[#893136] text-white text-lg sm:text-2xl py-16 sm:py-24">
         <h1 className="w-5/6 sm:w-4/5 text-left text-white sm:text-8xl text-4xl font-black mx-auto">Reducing digital<br/>dependency<br/>among children</h1>

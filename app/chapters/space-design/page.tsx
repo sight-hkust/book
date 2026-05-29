@@ -12,7 +12,7 @@ export default function Chapter() {
       nextPageHref="/chapters/feed-you-well"
       className="w-full">
       <Head>
-        <title>Space design</title>
+        <title>Space design | SIGHT BOOK</title>
       </Head>
       <section className="bg-[#3c4041] text-white text-lg sm:text-2xl py-16 sm:py-24">
         <ExportedImage className="w-3/4 mx-auto" src={`/titles/space-design.png`} width={876} height={162} alt=""/>

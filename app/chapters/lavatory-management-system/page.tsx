@@ -12,7 +12,7 @@ export default function Chapter() {
       nextPageHref="/chapters/hand-hygiene-and-soap-production"
       className="w-full">
       <Head>
-        <title>Lavatory Management System</title>
+        <title>Lavatory Management System | SIGHT BOOK</title>
       </Head>
       <section className="bg-[#e49059] text-white text-lg sm:text-2xl pb-16 sm:pb-24">
         <ExportedImage className="w-screen" src={`/covers/lavatory-management-system.jpg`} width={1460} height={968} alt=""/>

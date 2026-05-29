@@ -12,7 +12,7 @@ export default function Chapter() {
       nextPageHref="/behind-the-scene"
       className="w-full">
       <Head>
-        <title>Trial & Better</title>
+        <title>Trial & Better | SIGHT BOOK</title>
       </Head>
       <ExportedImage className="w-screen" src={`/covers/trial-and-better.png`} width={1460} height={968} alt=""/>
       <section className="h-screen bg-[#fffef7] text-[#142a44] text-lg sm:text-2xl py-16 sm:py-24">

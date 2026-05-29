@@ -12,7 +12,7 @@ export default function Chapter() {
       nextPageHref="/chapters/space-design"
       className="w-full">
       <Head>
-        <title>Pinocchio</title>
+        <title>Pinocchio | SIGHT BOOK</title>
       </Head>
       <section className="h-screen bg-[#f2948f] text-white text-lg sm:text-2xl py-16 sm:py-24">
       <ExportedImage className="w-3/4 mx-auto" src={`/titles/pinocchio.svg`} width={876} height={162} alt=""/>

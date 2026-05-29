@@ -11,7 +11,7 @@ export default function Chapter() {
       nextPageHref="/chapters/eyessistant"
       className="w-full">
       <Head>
-        <title>Hand Hygiene and Soap Production</title>
+        <title>Hand Hygiene and Soap Production | SIGHT BOOK</title>
       </Head>
       <section className="bg-[#ebc01c] text-white text-lg sm:text-2xl py-16 sm:py-24">
         <ExportedImage className="w-3/4 sm:w-2/3 mx-auto" src={`/titles/hand-hygiene-and-soap-production.png`} width={876} height={162} alt=""/>

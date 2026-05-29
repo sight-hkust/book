@@ -91,7 +91,7 @@ export default function Footprint() {
       nextPageHref="/chapters/medeasy"
       className="w-screen md:h-screen flex flex-col md:flex-row text-[#142a44]">
         <Head>
-          <title>The Footprint</title>
+          <title>The Footprint | SIGHT BOOK</title>
         </Head>
         <div className="w-screen sm:w-full md:w-1/2 bg-[#482329] h-[640px] lg:h-screen bg-[url('/media/footprint.png')] bg-contain bg-no-repeat transform scale-130">
         </div>

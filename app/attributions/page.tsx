@@ -10,7 +10,7 @@ export default function Attributions() {
       nextPageHref="#"
       className="w-full bg-black text-white pt-24">
       <Head>
-        <title>Thanks & Credits</title>
+        <title>Thanks & Credits | SIGHT BOOK</title>
       </Head>
       <h1 className="font-bold sm:text-6xl text-3xl ml-12">Thanks & Credits</h1>
       <section className="w-4/5 mx-auto py-24 flex flex-col space-y-16">

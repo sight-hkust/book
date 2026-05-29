@@ -12,7 +12,7 @@ export default function DesignThinking() {
       className="w-screen h-screen bg-[#6D403A] flex justify-center items-center">
       {/* <div className={`w-screen h-screen fixed rounded-[10px] bg-[url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='10' ry='10' stroke='white' stroke-width='4' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='round'/%3e%3c/svg%3e")`}></div> */}
       <Head>
-        <title>Design Thinking</title>
+        <title>Design Thinking | SIGHT BOOK</title>
       </Head>
       <ExportedImage src={'/media/design_thinking.png'} className="h-full md:w-auto w-full" width={1920} height={3422} alt=""/>
       <section className="text-[#6D403A] absolute top-20 sm:top-60 md:top-40 w-[210px] sm:w-[250px] md:w-[280px] flex flex-col items-center justify-center text-justify">

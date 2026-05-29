@@ -12,7 +12,7 @@ export default function Chapter() {
       nextPageHref="/chapters/sightseeing"
       className="w-full">
       <Head>
-        <title>Dr. Level Up</title>
+        <title>Dr. Level Up | SIGHT BOOK</title>
       </Head>
       <section className="bg-[#accb41] text-[#020203] text-lg sm:text-2xl pt-16 sm:pt-24 flex flex-col justify-between">
         <ExportedImage className="w-2/3 mx-auto" src={`/titles/dr-level-up.png`} width={876} height={162} alt=""/>

@@ -11,7 +11,7 @@ export default function Chapter() {
       nextPageHref="/epilogue"
       className="w-full">
       <Head>
-        <title>Behind the Scene</title>
+        <title>Behind the Scene | SIGHT BOOK</title>
       </Head>
       <section className="h-screen bg-[#fffef7] text-[#892b2b] text-2xl py-24 flex flex-col justify-center sm:px-16 px-8">
         <h1 className="text-5xl font-bold">&ldquo;</h1>

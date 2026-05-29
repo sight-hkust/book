@@ -12,7 +12,7 @@ export default function Chapter() {
       nextPageHref="/chapters/dr-level-up"
       className="w-full">
       <Head>
-        <title>Sip-n-Puff</title>
+        <title>Sip-n-Puff | SIGHT BOOK</title>
       </Head>
       <ExportedImage className="w-screen" src={`/covers/sip-n-puff.png`} width={1460} height={968} alt=""/>
       <section className="h-screen bg-[#f0833f] text-[#132a44] text-lg sm:text-2xl py-16 sm:py-24">

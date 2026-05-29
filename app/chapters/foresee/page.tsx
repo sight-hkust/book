@@ -12,7 +12,7 @@ export default function Chapter() {
       nextPageHref="/chapters/reducing-digital-dependency-among-children"
       className="w-full">
       <Head>
-        <title>ForeSee</title>
+        <title>ForeSee | SIGHT BOOK</title>
       </Head>
       <section className="bg-[#65b4e5] text-white text-lg sm:text-2xl py-16 sm:py-24">
         <ExportedImage className="w-5/6 mx-auto" src={`/covers/foresee.png`} width={1460} height={968} alt=""/>

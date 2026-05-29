@@ -11,7 +11,7 @@ export default function Chapter() {
       nextPageHref="/chapters/collabox"
       className="w-full">
       <Head>
-        <title>Pace It</title>
+        <title>Pace It | SIGHT BOOK</title>
       </Head>
       <section className="h-screen bg-[#1f2549] text-white text-lg sm:text-2xl py-16 sm:py-24">
         <ExportedImage className="w-3/4 mx-auto" src={`/titles/pace-it.svg`} width={876} height={162} alt=""/>

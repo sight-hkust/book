@@ -12,7 +12,7 @@ export default function Chapter() {
       nextPageHref="/chapters/diabetic-retinopathy-detection"
       className="w-full">
       <Head>
-        <title>Drug Dispensing Box</title>
+        <title>Drug Dispensing Box | SIGHT BOOK</title>
       </Head>
       <ExportedImage className="w-screen bg-[#fffef7]" src={`/covers/drug-dispensing-box.png`} width={1460} height={968} alt=""/>
       <section className="h-screen bg-[#ea5545] text-white text-lg sm:text-2xl py-16 sm:py-24">

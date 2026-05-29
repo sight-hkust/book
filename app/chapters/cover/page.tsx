@@ -9,7 +9,7 @@ export default function Cover() {
       nextPageHref="/chapters/medeasy"
       className="w-full">
       <Head>
-        <title>Our Projects</title>
+        <title>Our Projects | SIGHT BOOK</title>
       </Head>
       <div className="flex flex-row md:flex-col w-full h-full">
         

@@ -12,7 +12,7 @@ export default function Chapter() {
       nextPageHref="/chapters/environmental-awareness-in-sri-lanka"
       className="w-full">
       <Head>
-        <title>Malaria Prevention</title>
+        <title>Malaria Prevention | SIGHT BOOK</title>
       </Head>
       <section className="h-screen bg-[#577360] text-[#020203] text-lg sm:text-2xl py-16 sm:py-24">
         <ExportedImage className="w-3/4 mx-auto" src={`/covers/malaria-prevention.png`} width={876} height={162} alt=""/>

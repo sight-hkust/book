@@ -12,7 +12,7 @@ export default function Chapter() {
       nextPageHref="/chapters/lavatory-management-system"
       className="w-full">
       <Head>
-        <title>SoftKeyboard</title>
+        <title>SoftKeyboard | SIGHT BOOK</title>
       </Head>
       <section className="bg-[#647ebe] text-white text-lg sm:text-2xl pt-16 sm:pt-24">
       <h1 className="text-[#647ebe] sm:text-8xl text-4xl font-black mx-auto text-center" style={{WebkitTextStroke: '2px #fff'}}>Softkeyboard</h1>

@@ -10,7 +10,7 @@ export default function Motto() {
       nextPageHref="/design-thinking"
       className="w-full h-full text-[#142a44]">
       <Head>
-        <title>Motto</title>
+        <title>Motto | SIGHT BOOK</title>
       </Head>
       <div className="hidden md:block h-screen w-screen bg-cover bg-no-repeat bg-[url('/media/motto.jpg')]"/>
       <div className="block md:hidden h-screen w-screen bg-cover bg-no-repeat bg-[url('/media/motto_2.png')]"/>

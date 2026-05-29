@@ -10,7 +10,7 @@ export default function Epilogue() {
       nextPageHref='/attributions'
       className='w-full bg-[#fffef7] text-[#142a44]'>
       <Head>
-        <title>Epilogue</title>
+        <title>Epilogue | SIGHT BOOK</title>
       </Head>
       <section className='h-screen flex items-center sm:px-16 px-8'>
         <div className='flex items-center'>

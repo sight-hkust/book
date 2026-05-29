@@ -11,7 +11,7 @@ export default function Chapter() {
       nextPageHref="/chapters/sip-n-puff"
       className="w-full">
       <Head>
-        <title>Ms. Moringa</title>
+        <title>Ms. Moringa | SIGHT BOOK</title>
       </Head>
       <section className="bg-[#6067ae] text-white text-lg sm:text-2xl py-16 sm:py-24">
         <ExportedImage className="w-2/3 mx-auto" src={`/titles/moringa.png`} width={876} height={162} alt=""/>

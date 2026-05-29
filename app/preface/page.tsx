@@ -10,7 +10,7 @@ export default function Preface() {
       nextPageHref="/motto"
       className="bg-[#fffef7] w-full h-full text-[#142a44]">
       <Head>
-        <title>Preface</title>
+        <title>Preface | SIGHT BOOK</title>
       </Head>
       <section className="w-full flex flex-col items-center justify-center my-24">
         <h1 className="sm:text-6xl text-3xl sm:mb-8 mb-4">Preface</h1>

@@ -14,7 +14,7 @@ export default function Chapter() {
       nextPageHref="/chapters/drug-dispensing-box"
       className="w-full">
       <Head>
-        <title>MedEasy</title>
+        <title>MedEasy | SIGHT BOOK</title>
       </Head>
       <section className=" bg-[#182a46] text-white text-lg sm:text-2xl py-24">
         <ExportedImage className="mx-auto w-4/5" src="/covers/medeasy.png" width={1448} height={964} alt=""/>

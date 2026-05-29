@@ -12,7 +12,7 @@ export default function Chapter() {
       nextPageHref="/chapters/zi-saam-dim-sum"
       className="w-full">
       <Head>
-        <title>Feed You Well</title>
+        <title>Feed You Well | SIGHT BOOK</title>
       </Head>
       <section className="h-screen bg-[#9ac875] text-white text-lg sm:text-2xl pt-16 sm:pt-24">
       <ExportedImage className="w-3/4 mx-auto" src={`/titles/feed-you-well.png`} width={876} height={162} alt=""/>

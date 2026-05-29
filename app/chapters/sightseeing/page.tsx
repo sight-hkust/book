@@ -11,7 +11,7 @@ export default function Chapter() {
       nextPageHref="/chapters/foresee"
       className="w-full">
       <Head>
-        <title>SightSeeing</title>
+        <title>SightSeeing | SIGHT BOOK</title>
       </Head>
       <section className="bg-[#375ba7] text-white text-lg sm:text-2xl py-16 sm:py-24">
         <h1 className="text-[#375ba7] sm:text-8xl text-4xl font-black mx-auto text-center" style={{WebkitTextStroke: '2px #fff'}}>SightSeeing</h1>

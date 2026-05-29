@@ -12,7 +12,7 @@ export default function Chapter() {
       nextPageHref="/chapters/malaria-prevention"
       className="w-full">
       <Head>
-        <title>Zi Saam Dim Sum</title>
+        <title>Zi Saam Dim Sum | SIGHT BOOK</title>
       </Head>
       <section className="h-screen bg-[#d1b205] text-white text-lg sm:text-2xl pt-16 sm:pt-24">
       <ExportedImage className="w-3/4 mx-auto" src={`/titles/zi-saam-dim-sum.png`} width={876} height={162} alt=""/>

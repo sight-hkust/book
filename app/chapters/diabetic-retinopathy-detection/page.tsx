@@ -12,7 +12,7 @@ export default function Chapter() {
       nextPageHref="/chapters/moringa"
       className="w-full">
       <Head>
-        <title>Diabetic Retinopathy Detection</title>
+        <title>Diabetic Retinopathy Detection | SIGHT BOOK</title>
       </Head>
       <ExportedImage className="w-screen" src={`/covers/diabetic-retinopathy-detection.png`} width={1500} height={1320} alt=""/>
       <section className="h-screen bg-[#fffef7] text-[#c12239] text-lg sm:text-2xl py-16 sm:py-24">
