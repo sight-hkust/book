@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useSyncExternalStore, useState } from "react";
 import { pageDirection } from "../components/nav-direction";
 import PageCurl from "../components/PageCurl";
 
@@ -15,11 +15,10 @@ export default function Template({
   children: React.ReactNode;
 }) {
   const navigate = hasNavigated;
-  const [mounted, setMounted] = useState(false);
+  const mounted = useSyncExternalStore(() => () => {}, () => true, () => false);
   const [curling, setCurling] = useState(navigate);
   useEffect(() => {
     hasNavigated = true;
-    setMounted(true);
   }, []);
 
   const forward = pageDirection() >= 0;

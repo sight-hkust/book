@@ -1,5 +1,5 @@
 "use client";
-import React, { ReactNode, useEffect, useState } from "react";
+import React, { ReactNode, useSyncExternalStore } from "react";
 import { createPortal } from "react-dom";
 import Link from "next/link";
 import ExportedImage from "next-image-export-optimizer";
@@ -21,8 +21,9 @@ export default function Layout({
   prevPageHref,
   disableProgress = false,
 }: LayoutProps) {
-  const [mounted, setMounted] = useState(false);
-  useEffect(() => setMounted(true), []);
+  // Client-only flag so the portal (which needs document.body) never runs
+  // during SSR; useSyncExternalStore avoids setState-in-effect.
+  const mounted = useSyncExternalStore(() => () => {}, () => true, () => false);
 
   // Fixed chrome is portaled to <body> so it is never trapped inside the 3D
   // page-turn wrapper: a transformed/perspective ancestor would otherwise turn
