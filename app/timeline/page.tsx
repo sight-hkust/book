@@ -1,5 +1,4 @@
 'use client';
-import React from 'react';
 import Head from 'next/head';
 //@ts-expect-error lack of types
 import { Splide, SplideSlide } from "@splidejs/react-splide"

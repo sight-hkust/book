@@ -1,5 +1,5 @@
 "use client";
-import React, { ReactNode, useSyncExternalStore } from "react";
+import { type ReactNode, useSyncExternalStore } from "react";
 import { createPortal } from "react-dom";
 import Link from "next/link";
 import ExportedImage from "next-image-export-optimizer";

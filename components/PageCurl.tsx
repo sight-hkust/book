@@ -13,7 +13,7 @@ import { createPortal } from "react-dom";
 
 const DURATION = 750;
 const PAPER = "#fffef7";
-const ease = (t: number) => (t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2);
+const ease = (t: number) => (t < 0.5 ? 4 * t * t * t : 1 - (-2 * t + 2) ** 3 / 2);
 
 export default function PageCurl({
   forward,
