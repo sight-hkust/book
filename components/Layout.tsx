@@ -1,10 +1,11 @@
 "use client";
-import { type ReactNode, useSyncExternalStore } from "react";
+import { type ReactNode, useEffect, useSyncExternalStore } from "react";
 import { createPortal } from "react-dom";
 import Link from "next/link";
 import ExportedImage from "next-image-export-optimizer";
 import Progress from "./Progress";
 import { setPageDirection } from "./nav-direction";
+import { prefetchRoute } from "./prefetch";
 
 interface LayoutProps {
   children: ReactNode;
@@ -24,6 +25,13 @@ export default function Layout({
   // Client-only flag so the portal (which needs document.body) never runs
   // during SSR; useSyncExternalStore avoids setState-in-effect.
   const mounted = useSyncExternalStore(() => () => {}, () => true, () => false);
+  // Prefetch the neighbouring chapters so the turn reveals an already-loaded
+  // page: fetches their HTML (pre-compiles in dev, caches in prod) and warms
+  // their images.
+  useEffect(() => {
+    prefetchRoute(nextPageHref);
+    prefetchRoute(prevPageHref);
+  }, [nextPageHref, prevPageHref]);
 
   // Fixed chrome is portaled to <body> so it is never trapped inside the 3D
   // page-turn wrapper: a transformed/perspective ancestor would otherwise turn
