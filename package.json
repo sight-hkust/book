@@ -12,22 +12,22 @@
   },
   "dependencies": {
     "@splidejs/react-splide": "^0.7.12",
-    "motion": "^13.0.0",
-    "next": "^16.3.0",
-    "next-image-export-optimizer": "^1.19.0",
-    "react": "^19.2.8",
-    "react-dom": "^19.2.8"
+    "motion": "^14.2.0",
+    "next": "^16.4.0",
+    "next-image-export-optimizer": "^1.21.1",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.5.7",
+    "@biomejs/biome": "^2.5.15",
     "@tailwindcss/postcss": "^4",
-    "@types/node": "^26.2.0",
+    "@types/node": "^26.6.5",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^7.0.2"
   },
   "overrides": {
-    "postcss": "^8.5.10"
+    "postcss": "^8.5.30"
   }
 }
